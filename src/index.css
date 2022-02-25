@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1vh;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  font-weight: bolder;
+}
+
+footer {
+  position: fixed;
+  bottom: 0; 
+  text-align: center;
+}
+
+.top-header h1 {
+  font-size: 3vh;
+}
+
+.top-header h2 {
+  font-size: 2vh;
+  font-style: italic;
+  margin-left: 1vh;
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+/* contact form styles */
+
+.contact {
+  display: flex;
+}
+
+.contact label {
+  margin: 1vh;
+}
+
+/* resume styles */
+
+.skills ul{
+  list-style: none;
+  margin: none;
+  padding: none;
 }
