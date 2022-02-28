@@ -27,7 +27,7 @@ const Header = () => {
     const currentLocation = useLocation().pathname;  
 
     return(
-        <header className="d-flex flex-column justify-content-between">
+        <header className="d-flex justify-content-between">
             <span className="top-header d-flex flex-row align-items-baseline p-2">
                 <h1>
                 Sihaya Harris
