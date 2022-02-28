@@ -1,7 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 
 const Header = () => {
+    const [tabSelected, setTabSelected]  = useState("About");
+    const params = useParams();
+    console.log(params)
     return(
         <header className="d-flex flex-row justify-content-between">
             <span className="top-header d-flex flex-row align-items-baseline p-2">
@@ -11,7 +14,7 @@ const Header = () => {
                 <h2>web developer</h2>
                     
             </span>
-            <nav className="p-1 d-flex flex-row justify-content-sm-around">
+            <nav className="p-0 d-flex flex-row justify-content-sm-around">
                 <Link to="/portfolio" className="">Portfolio</Link>    
                 
                 <Link to="/">About</Link>

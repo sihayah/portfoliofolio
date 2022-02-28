@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,6 +21,7 @@ header {
   background-color: #000;
   color: #fff;
   width: 100%;
+  padding-right: 1vh;
 }
 
 header a {
@@ -33,6 +35,10 @@ header a:hover {
   color: #000;
   background-color: #fff;
   font-weight: bolder;
+}
+
+nav {
+  border-top: solid #000 5px;
 }
 
 footer {
@@ -55,6 +61,35 @@ footer {
   margin-top: 10vh;
 }
 
+
+/* about styles */
+.smiley {
+  margin-top: 8vh;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes spin {
+  from {
+      transform:rotateZ(0);
+  }
+  to {
+      transform:rotateZ(360deg);
+  }
+}
+
+/* portfolio styles */
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img-container img {
+  width: 50%;
+  padding: 1vh;
+}
+
 /* contact form styles */
 
 .contact {
@@ -71,4 +106,5 @@ footer {
   list-style: none;
   margin: none;
   padding: none;
+  min-width: 50vh;
 }
