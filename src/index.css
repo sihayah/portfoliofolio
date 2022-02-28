@@ -28,13 +28,21 @@ header a {
   text-decoration: none;
   color: #fff;
   padding: 1vh;
+  min-width: 15vh;
 }
 
 header a:hover {
-  text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.nav-active {
   color: #000;
   background-color: #fff;
-  font-weight: bolder;
+}
+
+.nav-active:hover {
+  color: #000;
 }
 
 nav {
@@ -60,6 +68,7 @@ footer {
 .container {
   margin-top: 10vh;
 }
+
 
 
 /* about styles */
@@ -98,6 +107,10 @@ footer {
 
 .contact label {
   margin: 1vh;
+}
+
+.contact-btn {
+  margin-top: 3vh;
 }
 
 /* resume styles */

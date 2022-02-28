@@ -1,10 +1,31 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
-    const [tabSelected, setTabSelected]  = useState("About");
-    const params = useParams();
-    console.log(params)
+    const tabs = [
+        {
+            title: "Portfolio",
+            name: "portfolio",
+            location: "/portfolio"
+        },
+        {
+            title: "About",
+            name: "about",
+            location: "/"
+        },
+        {
+            title: "Contact",
+            name: "contact",
+            location: "/contact"
+        },
+        {
+            title: "Resume",
+            name: "resume",
+            location: "/resume"
+        }
+    ];
+    const currentLocation = useLocation().pathname;  
+
     return(
         <header className="d-flex flex-row justify-content-between">
             <span className="top-header d-flex flex-row align-items-baseline p-2">
@@ -14,12 +35,18 @@ const Header = () => {
                 <h2>web developer</h2>
                     
             </span>
-            <nav className="p-0 d-flex flex-row justify-content-sm-around">
-                <Link to="/portfolio" className="">Portfolio</Link>    
-                
-                <Link to="/">About</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/resume">Resume</Link>
+            <nav className="top-nav p-0 d-flex flex-row justify-content-sm-around">
+                {tabs.map((tab) => (
+                    <Link to={tab.location}
+                        className=
+                            {`link ${currentLocation === tab.location && 'nav-active'}`}
+                        key={tab.name}
+                        >
+                        {tab.title}
+                    </Link>                      
+                ))}
+  
+
             </nav>
         </header>
     )    
