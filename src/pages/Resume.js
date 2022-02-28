@@ -8,7 +8,7 @@ const Resume = () => {
                 
                 <a href="../../Resume.pdf">
                     download my resume here:
-                    <img src={pdfIcon} /></a>
+                    <img src={pdfIcon} alt="pdf icon"/></a>
             </span>
             <span className="skills p-2">
 
