@@ -40,20 +40,20 @@ const Portfolio = () => {
         },
     ];
     return (
-        <div className="img-container d-flex flex-row">
+        <section className="portfolio-container d-flex flex-row">
             {projects.map ((project) => (
                 <div className="project-container d-flex flex-column" key={project.title}>
                     <img src={require(`../assets/landings/${project.file}`)} alt={project.title} className="align-self-center"
                     ></img>
                     <h4>{project.title}</h4>
-                    <span>
+                    <span id="project-links">
                         <a href={project.repo}>REPO</a>
                         <span> / </span>
                         <a href={project.deployment}>DEPLOYMENT</a>     
                     </span>                   
                 </div>
             ))}
-        </div>
+        </section>
        
     )
 };

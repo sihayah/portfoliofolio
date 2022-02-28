@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-100 mt-auto bg-dark p-1 text-white d-flex flex-row justify-content-sm-around">
+        <footer className="w-100 mt-auto bg-dark p-1 text-white d-flex flex-row bottom-nav">
             <a href="https://github.com/sihayah" className="badge badge-pill badge-dark">
                 GitHub
             </a>

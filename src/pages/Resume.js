@@ -3,18 +3,18 @@ import pdfIcon from '../assets/pdf-icon.png'
 
 const Resume = () => {
     return (
-        <div className="d-flex flex-row align-items-center">
-            <span>
-                
+        <section>
+            <div id="download-here">
+                <img src={pdfIcon} alt="pdf icon" id="pdf-icon" />                
                 <a href="../../Resume.pdf">
-                    download my resume here:
-                    <img src={pdfIcon} alt="pdf icon"/></a>
-            </span>
-            <span className="skills p-2">
+                    download my resume here
+                </a>
+            </div>
+            <div className="skills">
 
                 <ul>                
                     <h4>
-                        [skills]     
+                        [my skills]     
                     </h4>   
                     <li>HTML5</li>
                     <li>CSS</li>
@@ -30,8 +30,8 @@ const Resume = () => {
                     <li>GraphQL</li>
                     <li>Agile Methodologies</li>
                 </ul>    
-            </span>     
-        </div>
+            </div>     
+        </section>
 
     )
 };

@@ -17,18 +17,20 @@ code {
     monospace;
 }
 
+/* header styles */
+
 header {
   background-color: #000;
   color: #fff;
   width: 100%;
-  padding-right: 1vh;
+
 }
 
 header a {
   text-decoration: none;
   color: #fff;
   padding: 1vh;
-  min-width: 15vh;
+  min-width: 10vh;
 }
 
 header a:hover {
@@ -47,12 +49,7 @@ header a:hover {
 
 nav {
   border-top: solid #000 5px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0; 
-  text-align: center;
+  align-self: center;
 }
 
 .top-header h1 {
@@ -69,11 +66,23 @@ footer {
   margin-top: 10vh;
 }
 
+/* footer styles */
 
+footer {
+  position: fixed;
+  bottom: 0; 
+  text-align: center;
+}
+
+.bottom-nav {
+  justify-content: space-evenly;
+}
 
 /* about styles */
 .smiley {
   margin-top: 8vh;
+  width: 30vh;
+  align-self: center;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
@@ -89,15 +98,24 @@ footer {
 }
 
 /* portfolio styles */
-.img-container {
+.portfolio-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.img-container img {
+
+.portfolio-container img {
   width: 50%;
-  padding: 1vh;
 }
+  
+.project-container {
+  margin-bottom: 6vh;
+}
+
+#project-links {
+  margin-top: -1vh;
+}
+
 
 /* contact form styles */
 
@@ -115,9 +133,31 @@ footer {
 
 /* resume styles */
 
+#pdf-icon {
+  width: 10%;
+}
+
+#download-here {
+  padding-bottom: 10vh;
+}
+
+.skills {
+  align-content: center;
+}
+
 .skills ul{
   list-style: none;
   margin: none;
   padding: none;
-  min-width: 50vh;
+}
+
+@media screen and (min-width: 800px) {
+  #intro {
+    max-width: 60vh;
+    align-self: center;
+  }
+  #form-wrapper {
+    width: 80vh;
+    align-self: center;
+  }
 }

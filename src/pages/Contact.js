@@ -30,36 +30,39 @@ const Contact = () => {
         e.preventDefault();
     }
     return (
-        <>
-            <p className="mb-3">
-                You can contact me here...
-            </p>
+        <section id="contact" className="d-flex flex-column">
+            <div id="form-wrapper">
+                <p className="mb-3">
+                    You can contact me here...
+                </p>
 
-            <form className="d-flex flex-column contact" onSubmit={handleSubmit}>
-                    <label htmlFor="name">
-                        Name:
+                <form className="d-flex flex-column contact" onSubmit={handleSubmit}>
+                        <label htmlFor="name">
+                            Name:
+                            </label>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+
+                        <label htmlFor="email">
+                            Email:
                         </label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
 
-                    <label htmlFor="email">
-                        Email:
-                    </label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                        <label htmlFor="message">
+                            Message:
+                        </label>
+                        <textarea name="message" defaultValue={message} onBlur={handleChange}/>  
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text danger">
+                                    {errorMessage}
+                                </p>
+                            </div>  
+                        )}
+                        <button type="submit" className="btn btn-outline-dark contact-btn">Submit</button>
+                </form>
+            </div>
+        </section>
 
-                    <label htmlFor="message">
-                        Message:
-                    </label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange}/>  
-                    {errorMessage && (
-                        <div>
-                            <p className="error-text danger">
-                                {errorMessage}
-                            </p>
-                        </div>  
-                    )}
-                    <button type="submit" className="btn btn-outline-dark contact-btn">Submit</button>
-            </form>
-        </>
     )
 };
 
