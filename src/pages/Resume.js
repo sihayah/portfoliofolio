@@ -1,13 +1,16 @@
 import React from 'react';
+import pdfIcon from '../assets/pdf-icon.png'
 
 const Resume = () => {
     return (
-        <div className="row">
-            <span className="col">
-                download my resume here:
-                <a href="../../Resume.pdf">REZ</a>
+        <div className="d-flex flex-row align-items-center">
+            <span>
+                
+                <a href="../../Resume.pdf">
+                    download my resume here:
+                    <img src={pdfIcon} /></a>
             </span>
-            <span className="skills col p-2">
+            <span className="skills p-2">
 
                 <ul>                
                     <h4>
