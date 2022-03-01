@@ -119,6 +119,14 @@ footer {
 
 /* contact form styles */
 
+input {
+  padding: 1vh;
+}
+
+textarea {
+  padding: 1vh;
+}
+
 .contact {
   display: flex;
 }
