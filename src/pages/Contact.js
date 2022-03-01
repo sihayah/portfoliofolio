@@ -36,7 +36,7 @@ const Contact = () => {
                     You can contact me here...
                 </p>
 
-                <form className="d-flex flex-column contact" onSubmit={handleSubmit}>
+                <form action-="mailto:sihayaharris@gmail.com" className="d-flex flex-column contact" onSubmit={handleSubmit}>
                         <label htmlFor="name">
                             Name:
                             </label>
