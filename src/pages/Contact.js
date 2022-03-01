@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
     const [errorMessage, setErrorMessage] = useState("");
+    const [submitted, setSubmitted] = useState("");
     const { name, email, message } = formState;
 
     const handleChange = (e) => {
@@ -26,21 +28,31 @@ const Contact = () => {
             setFormState({...formState, [e.target.name]: e.target.value})
         }
     }
-    const handleSubmit = (e) => {
+    const form = useRef();
+    const sendEmail = e => {
         e.preventDefault();
-    }
+
+            emailjs.sendForm('service_cwczzz1', 'template_v7s5abl',form.current, 'I0lKIie4IjqLZ7jBz')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            setSubmitted("Your message has been sent!")
+    };
+
     return (
-        <section id="contact" className="d-flex flex-column">
+        <section id="contact">
             <div id="form-wrapper">
                 <p className="mb-3">
                     You can contact me here...
                 </p>
 
-                <form action-="mailto:sihayaharris@gmail.com" className="d-flex flex-column contact" onSubmit={handleSubmit}>
+                <form ref={form} onSubmit={sendEmail}>
                         <label htmlFor="name">
                             Name:
                             </label>
-                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                        <input type="text" name="from_name" defaultValue={name} onBlur={handleChange} />
 
                         <label htmlFor="email">
                             Email:
@@ -58,7 +70,14 @@ const Contact = () => {
                                 </p>
                             </div>  
                         )}
-                        <button type="submit" className="btn btn-outline-dark contact-btn">Submit</button>
+                        <button type="submit" value="submit" className="btn btn-outline-dark contact-btn">Submit</button>
+                        {submitted && (
+                            <div>
+                                <p>
+                                    {submitted}
+                                </p>
+                            </div>
+                        )}
                 </form>
             </div>
         </section>
