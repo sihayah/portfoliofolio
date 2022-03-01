@@ -70,7 +70,7 @@ const Contact = () => {
                                 </p>
                             </div>  
                         )}
-                        <button type="submit" value="submit" className="btn btn-outline-dark contact-btn">Submit</button>
+                        <button type="submit" value="submit" className="contact-btn">Submit</button>
                         {submitted && (
                             <div>
                                 <p>

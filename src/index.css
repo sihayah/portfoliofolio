@@ -1,3 +1,7 @@
+:root {
+  --warm-grey: #75695E;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,35 +24,34 @@ code {
 /* header styles */
 
 header {
-  background-color: #000;
   flex-direction: column;
-  color: #fff;
   width: 100%;
-
+  border-bottom: 1px solid var(--warm-grey);
 }
 
 header a {
   text-decoration: none;
-  color: #fff;
-  padding: 1vh;
+  color: var(--warm-grey);
+  padding: .75vh 1vh;
   min-width: 10vh;
 }
 
-header a:hover {
-  color: #FFD4CA;
-}
-
 .nav-active {
-  color: #000;
+  color: var(--warm-grey);
   background-color: #fff;
+  border-top: 1px solid var(--warm-grey);
+  border-left: 1px solid var(--warm-grey);
+  border-right: 1px solid var(--warm-grey);
+  border-bottom: 1px solid #fff;
+  border-radius: 1vh 1vh 0 0;
+  transform: translateY(1px);
 }
 
 .nav-active:hover {
-  color: #000;
+  color: var(--warm-grey);
 }
 
 nav {
-  border-top: solid #000 5px;
   align-self: center;
 }
 
@@ -105,38 +108,64 @@ footer {
 }
 
 .portfolio-container img {
-  width: 50%;
+  max-width: 48vh;
 }
   
 .project-container {
   margin-bottom: 6vh;
+  max-width: 50vh;
+ padding: 1vh;
+
+}
+
+.project-container p {
+  text-align:justify;
 }
 
 #project-links {
-  margin-top: -1vh;
+  margin-top: -1.5vh;
 }
 
 
 /* contact form styles */
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  margin: 0 2vh;
+}
+
 input {
   padding: 1vh;
+  border-radius: 1vh;
+  border: 1px solid var(--warm-grey);
 }
 
 textarea {
   padding: 1vh;
-}
-
-.contact {
-  display: flex;
-}
-
-.contact label {
-  margin: 1vh;
+  border-radius: 1vh;
+  border: 1px solid var(--warm-grey);
 }
 
 .contact-btn {
-  margin-top: 3vh;
+  padding: .5vh;
+  background-color: #fff;
+  border-radius: 1vh;
+  border: 2px solid var(--warm-grey);
+}
+
+.contact-btn:hover {
+  background-color: var(--warm-grey);
+  color: #fff;
+}
+
+#form-wrapper {
+  border: 1px solid var(--warm-grey);
+  border-radius: 1vh;
+  padding: 4vh;
+  max-width: 90vh;
+  align-self: center;
 }
 
 /* resume styles */
@@ -170,13 +199,12 @@ textarea {
     margin-right: 3vh;
   }
 
-  #intro {
-    max-width: 70vh;
-    align-self: center;
+  .nav-active {
+    transform: translateY(4px);
   }
 
-  #form-wrapper {
-    width: 80vh;
+  #intro {
+    max-width: 70vh;
     align-self: center;
   }
 
@@ -202,6 +230,4 @@ textarea {
     align-items: center;
     margin-right: 30vh;
   }
-
-
 }
