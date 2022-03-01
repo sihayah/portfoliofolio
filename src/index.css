@@ -35,8 +35,7 @@ header a {
 }
 
 header a:hover {
-  font-weight: bolder;
-  color: #fff;
+  color: #FFD4CA;
 }
 
 .nav-active {
