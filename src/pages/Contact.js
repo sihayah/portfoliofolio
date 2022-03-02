@@ -3,7 +3,12 @@ import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const [formState, setFormState] = useState({ name: "", email: "", message: "" });
+    const initialState = {
+        name: "", 
+        email: "", 
+        message: ""    
+    };
+    const [formState, setFormState] = useState(initialState);
     const [errorMessage, setErrorMessage] = useState("");
     const [submitted, setSubmitted] = useState("");
     const { name, email, message } = formState;
@@ -29,6 +34,7 @@ const Contact = () => {
         }
     }
     const form = useRef();
+
     const sendEmail = e => {
         e.preventDefault();
 
@@ -41,6 +47,7 @@ const Contact = () => {
             setSubmitted("Your message has been sent!")
     };
 
+            
     return (
         <section id="contact">
             <div id="form-wrapper">

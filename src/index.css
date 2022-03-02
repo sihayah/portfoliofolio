@@ -84,12 +84,12 @@ footer {
 /* about styles */
 .smiley {
   margin-top: 8vh;
-  width: 30vh;
   align-self: center;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+  z-index: 666;
 }
 @keyframes spin {
   from {
@@ -153,6 +153,7 @@ textarea {
   background-color: #fff;
   border-radius: 1vh;
   border: 2px solid var(--warm-grey);
+  margin-top: 2vh;
 }
 
 .contact-btn:hover {
