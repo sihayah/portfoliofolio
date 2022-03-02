@@ -33,14 +33,14 @@ header {
   border-bottom: 1px solid var(--warm-grey);
 }
 
-header a {
+ header a {
   text-decoration: none;
   color: var(--warm-grey);
   padding: .75vh 1vh;
   min-width: 10vh;
 }
 
-header a:hover {
+ header a:hover {
   color: var(--pop);
 }
 
@@ -247,7 +247,7 @@ textarea {
   }
 
   .nav-active {
-    transform: translateY(4px);
+    transform: translateY(6px);
   }
 
   .about {
