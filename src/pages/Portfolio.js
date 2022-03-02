@@ -3,6 +3,13 @@ import React from 'react';
 const Portfolio = () => {
     const projects = [
         {
+            title: "Budget Tracker",
+            file: "budget-tracker.png",
+            repo: "https://github.com/sihayah/budget-tracker",
+            deployment: "https://blooming-plains-15476.herokuapp.com/",
+            description: "This app allows the user to input and graph income and expenses. User data persists, and offline functionality allows the user to input transactions even without an internet connection."
+        },
+        {
             title: "Pet Project",
             file: "pet-project.PNG",
             repo: "https://github.com/mkohn4/pet-project",
@@ -36,13 +43,6 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/coding-quiz",
             deployment: "https://github.com/sihayah/coding-quiz/deployments/activity_log?environment=github-pages",
             description: "In this quiz app,the user is prompted to start quiz via a button. Then a series of questions are posed. Upon answering, user can see whether their answer was correct or incorrect. Each correct answer adds a point to the users score. When the timer runs out, the user is can submit their initials into a form to save their highscore."
-        },
-        {
-            title: "Budget Tracker",
-            file: "budget-tracker.png",
-            repo: "https://github.com/sihayah/budget-tracker",
-            deployment: "https://blooming-plains-15476.herokuapp.com/",
-            description: "This app allows the user to input and graph income and expenses. User data persists, and offline functionality allows the user to input transactions even without an internet connection."
         },
     ];
     return (

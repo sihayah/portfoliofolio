@@ -1,7 +1,6 @@
 import './App.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NoMatch from 'react-router-nomatch';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 

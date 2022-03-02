@@ -28,11 +28,11 @@ const Header = () => {
 
     return(
         <header className="d-flex justify-content-between">
-            <span className="top-header d-flex flex-row align-items-baseline p-2">
+            <span className="top d-flex flex-row align-items-baseline p-2">
                 <h1>
-                Sihaya Harris
+                    Sihaya Harris
                 </h1>
-                <h2>web developer</h2>
+                <h2>/ web developer</h2>
                     
             </span>
             <nav className="top-nav p-0 d-flex flex-row justify-content-sm-around flex-wrap">

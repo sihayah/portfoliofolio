@@ -1,10 +1,14 @@
 :root {
   --warm-grey: #75695E;
+  --warm-grey-lt: #B5A291;
+  --pop: #cf0107;
+  --golden-touch: #eda800;
 }
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'neue helvetica', Helvetica, sans-serif;
 }
 
 body {
@@ -36,8 +40,12 @@ header a {
   min-width: 10vh;
 }
 
+header a:hover {
+  color: var(--pop);
+}
+
 .nav-active {
-  color: var(--warm-grey);
+  color: var(--warm-grey-lt);
   background-color: #fff;
   border-top: 1px solid var(--warm-grey);
   border-left: 1px solid var(--warm-grey);
@@ -55,14 +63,17 @@ nav {
   align-self: center;
 }
 
-.top-header h1 {
+.top h1 {
   font-size: 3vh;
+  font-weight: bold;
+  color: var(--pop);
 }
 
-.top-header h2 {
-  font-size: 2vh;
-  font-style: italic;
+.top h2 {
+  font-size: 3vh;
+  font-weight: light;
   margin-left: 1vh;
+  color: var(--warm-grey);
 }
 
 .container {
@@ -74,14 +85,36 @@ nav {
 footer {
   position: fixed;
   bottom: 0; 
+  border-top: .5px dotted #515151;
   text-align: center;
 }
 
 .bottom-nav {
   justify-content: space-evenly;
+  font-size: 5vh;
 }
 
+/* .bottom-nav a {
+  color: var(--golden-touch);
+} */
+
 /* about styles */
+.about {
+  width: 70vh;
+}
+
+.about h3 {
+  text-align: justify;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.highlight {
+  color: var(--pop);
+}
+
 .smiley {
   margin-top: 8vh;
   align-self: center;
@@ -124,6 +157,11 @@ footer {
 
 #project-links {
   margin-top: -1.5vh;
+  color: var(--pop);
+}
+
+#project-links a {
+  color: var(--pop);
 }
 
 
@@ -179,6 +217,10 @@ textarea {
   padding-bottom: 10vh;
 }
 
+#download-here a {
+  color: var(--pop);
+}
+
 .skills {
   align-content: center;
 }
@@ -200,8 +242,25 @@ textarea {
     margin-right: 3vh;
   }
 
+  header nav {
+    margin-left: 30vh;
+  }
+
   .nav-active {
     transform: translateY(4px);
+  }
+
+  .about {
+    float: left;
+    position: relative;
+    left: 25%;
+  }
+
+  #contact {
+    float: left;
+    position: relative;
+    left: 25%;
+    width: 70vh;
   }
 
   #intro {

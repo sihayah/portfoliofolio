@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { validateEmail } from '../utils/helpers';
+import {  } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -14,7 +14,7 @@ const Contact = () => {
     const { name, email, message } = formState;
 
     const handleChange = (e) => {
-        const isValid = validateEmail(e.target.value)
+        const isValid = (e.target.value)
         if (e.target.name === 'email') {
             if (!isValid) {
                 setErrorMessage('This email is invalid')
