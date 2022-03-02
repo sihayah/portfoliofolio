@@ -27,7 +27,7 @@ const Header = () => {
     const currentLocation = useLocation().pathname;  
 
     return(
-        <header className="d-flex justify-content-between">
+        <header>
             <Link to="/">
                 <span className="top d-flex flex-row align-items-baseline p-2">
                     <h1>
@@ -36,7 +36,7 @@ const Header = () => {
                     <h2>/ web developer</h2>
                 </span>
             </Link>
-            <nav className="top-nav p-0 d-flex flex-row justify-content-sm-around flex-wrap">
+            <nav className="top-nav">
                 {tabs.map((tab) => (
                     <Link to={tab.location}
                         className=

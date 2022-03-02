@@ -52,7 +52,6 @@ header {
   border-right: 1px solid var(--warm-grey);
   border-bottom: 1px solid #fff;
   border-radius: 1vh 1vh 0 0;
-  transform: translateY(1px);
 }
 
 .nav-active:hover {
@@ -64,13 +63,16 @@ nav {
 }
 
 .top h1 {
-  font-size: 3vh;
+  font-size: 2vh;
   font-weight: bold;
   color: var(--pop);
 }
+.top h1:hover {
+  color: var(--golden-touch);
+}
 
 .top h2 {
-  font-size: 3vh;
+  font-size: 2vh;
   font-weight: light;
   margin-left: 1vh;
   color: var(--warm-grey);
@@ -94,13 +96,14 @@ footer {
   font-size: 5vh;
 }
 
-/* .bottom-nav a {
+.bottom-nav a:hover {
   color: var(--golden-touch);
-} */
+}
 
 /* about styles */
 .about {
-  width: 70vh;
+  width: 40vh;
+  margin-left: 1vh;
 }
 
 .about h3 {
@@ -134,20 +137,36 @@ footer {
 }
 
 /* portfolio styles */
+
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 3vh 0;
 }
 
 .portfolio-container img {
-  max-width: 48vh;
+  max-width: 40vh;
+}
+
+#table-of-contents {
+  color: var(--pop);
+  text-align: left;
+}
+
+#table-of-contents ul {
+  list-style: lower-greek;
+  margin-left: 2vh;
+}
+
+#table-of-contents li:hover {
+  color: var(--golden-touch);
 }
   
 .project-container {
-  margin-bottom: 6vh;
+  margin-bottom: 4vh;
   max-width: 50vh;
- padding: 1vh;
+  padding: 1vh;
 
 }
 
@@ -156,12 +175,15 @@ footer {
 }
 
 #project-links {
-  margin-top: -1.5vh;
+  margin-top: -1vh;
   color: var(--pop);
 }
 
 #project-links a {
   color: var(--pop);
+}
+#project-links a:hover {
+  color: var(--golden-touch);
 }
 
 
@@ -231,7 +253,7 @@ textarea {
   padding: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   header {
     flex-direction: row;
   }
@@ -246,14 +268,31 @@ textarea {
     margin-left: 30vh;
   }
 
+  .top h1, .top h2{
+    font-size: 4vh;
+  }
+
   .nav-active {
     transform: translateY(6px);
   }
 
   .about {
+    width: 70vh;
     float: left;
     position: relative;
     left: 25%;
+  }
+
+  .portfolio {
+    display: flex;
+  }
+  #table-of-contents {
+    position: fixed;
+    transform: translateX(-3vh);
+  }
+
+  .project-container {
+    margin-left: 24vh;
   }
 
   #contact {

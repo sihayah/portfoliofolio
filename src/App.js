@@ -1,6 +1,8 @@
 import './App.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
+
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 
@@ -11,9 +13,11 @@ import Resume from '../src/pages/Resume';
 import NotFound from './pages/NotFound';
 
 function App() {
+
   return (
     <Router>
       <div className="App">
+        
         <Header />
 
         <div className="container"> 
