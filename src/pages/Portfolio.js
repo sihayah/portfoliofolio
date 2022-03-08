@@ -65,19 +65,30 @@ const Portfolio = () => {
                                     spy={true}
                                     to={project.id}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={-180}
                                     duration={500}
                                 >
                                     {project.title}
                                 </Link>
                             </li>
                 ))}                            
-                        </ul>                        
+                        </ul>
+                        <span id="back-to-top">
+                            <Link
+                                activeClass="active"
+                                spy={true}
+                                to="header"
+                                smooth={true}
+                                duraction={100}
+                                >
+                                Back to top
+                            </Link>
+                        </span>  
                     </div>
-                <div className="portfolio-container d-flex flex-row flex-wrap">
+                <div className="portfolio-container">
                     {projects.map ((project) => (
                         <div className="project-container d-flex flex-column" key={project.title}>
-                            <img id={project.id} src={require(`../assets/landings/${project.file}`)} alt={project.title} className="align-self-center"
+                            <img id={project.id} src={require(`../assets/landings/${project.file}`)} alt={project.title} className=" project-img align-self-center"
                             ></img>
                             <h4>{project.title}</h4>
                             <span id="project-links">
@@ -89,6 +100,7 @@ const Portfolio = () => {
                         </div>
                     ))}    
                 </div>
+             
         </section>
        
     )

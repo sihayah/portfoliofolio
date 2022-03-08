@@ -4,7 +4,7 @@ import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-
 
 const Footer = () => {
     return (
-        <footer className="w-100 mt-auto bg-dark text-white d-flex flex-row bottom-nav">
+        <footer className="w-100 mt-auto text-white d-flex flex-row bottom-nav">
             <a href="https://github.com/sihayah" className="badge badge-pill badge-dark">
             <FontAwesomeIcon icon={ faGithub } />
             </a>

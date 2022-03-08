@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons'
+
 
 const Header = () => {
     const tabs = [
@@ -27,13 +30,15 @@ const Header = () => {
     const currentLocation = useLocation().pathname;  
 
     return(
-        <header>
+        <header id="header">
             <Link to="/">
-                <span className="top d-flex flex-row align-items-baseline p-2">
+                
+                <span className="top d-flex flex-column align-items-baseline">
                     <h1>
-                        Sihaya Harris
+                    <FontAwesomeIcon icon={ faUserAstronaut } />
+                     <span></span>Sihaya Harris
                     </h1>
-                    <h2>/ web developer</h2>
+                    <h2>web developer</h2>
                 </span>
             </Link>
             <nav className="top-nav">

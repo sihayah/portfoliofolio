@@ -1,17 +1,17 @@
 import React from 'react';
-import smiley from '../assets/smiley.png'
+import portrait from '../assets/pink_portrait.png';
 
 
 const About = () => {
     return (
-        <section className="about d-flex flex-column">
-            <h3>
-                Hello, there, I'm Sihaya Harris
-            </h3>
-            <p className="intro">
-            a dynamic <span className="highlight">full-stack web developer</span> with a background in art & design. I am <span className="highlight">experienced in MERN stack</span>. I am based out of Brooklyn, and I'm <span className="highlight">currently seeking out my next endeavor</span>.
-            </p>
-            <img alt="smiley" className="smiley" src={smiley}/>
+        <section className="about">
+            <img alt="portrait" className="smiley" src={portrait}/>
+            <div className="intro">   
+                <p>
+                Hello, there. I'm Sihaya Harris
+                a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
+                </p>                           
+            </div>
         </section>
     )
 };
