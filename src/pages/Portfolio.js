@@ -4,6 +4,14 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 const Portfolio = () => {
     const projects = [
         {
+            title: "QRad",
+            file: "qrad_landing.png",
+            repo: "https://github.com/sihayah/project-3-group-a",
+            deployment: "https://salty-wave-44811.herokuapp.com/",
+            description: "This app allows users to generate a digital business card with a QR code they can share from the profile, and add other business cards to a contact list.",
+            id: "QRad"
+        },
+        {
             title: "Budget Tracker",
             file: "budget-tracker.png",
             repo: "https://github.com/sihayah/budget-tracker",
