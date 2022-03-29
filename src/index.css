@@ -1,8 +1,9 @@
 :root {
   --warm-grey: #807E75;
   --warm-grey-lt: #BFBDB0;
-  --pop: #D74045;
+  --pop: #dd6b85;
   --golden-touch: #eda800;
+  --hot-pink: #dd6b85;
   --dark: #292C33;
 }
 
@@ -55,7 +56,7 @@ header:hover {
 }
 
  header a:hover {
-  color: var(--golden-touch);
+  color: var(--hot-pink);
 }
 
 .nav-active {
@@ -83,7 +84,7 @@ nav {
   opacity: 80%;
 }
 .top h1:hover {
-  color: var(--golden-touch);
+  color: var(--hot-pink);
 }
 
 .top h2 {
@@ -262,6 +263,9 @@ textarea {
 
 #download-here a {
   color: var(--pop);
+}
+#download-here a:hover {
+  color: var(--golden-touch);
 }
 
 .skills {
