@@ -1,5 +1,7 @@
 import React from 'react';
 import pdfIcon from '../assets/pdf-icon.png'
+import { Link } from 'react-router-dom';
+import pdf from '../assets/files/resume.pdf'
 
 const Resume = () => {
     return (
@@ -7,9 +9,9 @@ const Resume = () => {
             <div id="resume">
                 <div id="download-here">
                     <img src={pdfIcon} alt="pdf icon" id="pdf-icon" />                
-                    <a href="../../Resume.pdf">
+                    <Link to ={pdf} target="_blank" download>
                         download my resume here
-                    </a>
+                    </Link>
                 </div>
                 <div className="skills">
 
