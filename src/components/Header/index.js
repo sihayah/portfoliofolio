@@ -1,33 +1,11 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons'
+import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
+import Nav from '../Nav';
 
 
 const Header = () => {
-    const tabs = [
-        {
-            title: "Portfolio",
-            name: "portfolio",
-            location: "/portfolio"
-        },
-        {
-            title: "About",
-            name: "about",
-            location: "/"
-        },
-        {
-            title: "Contact",
-            name: "contact",
-            location: "/contact"
-        },
-        {
-            title: "Resume",
-            name: "resume",
-            location: "/resume"
-        }
-    ];
-    const currentLocation = useLocation().pathname;  
 
     return(
         <header id="header">
@@ -41,19 +19,7 @@ const Header = () => {
                     <h2>web developer</h2>
                 </span>
             </Link>
-            <nav className="top-nav">
-                {tabs.map((tab) => (
-                    <Link to={tab.location}
-                        className=
-                            {`link ${currentLocation === tab.location && 'nav-active'}`}
-                        key={tab.name}
-                        >
-                        {tab.title}
-                    </Link>                      
-                ))}
-  
-
-            </nav>
+            <Nav />
         </header>
     )    
 }
