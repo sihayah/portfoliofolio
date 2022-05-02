@@ -6,18 +6,18 @@ header {
     top: 0;
     flex-direction: column;
     width: 100%;
-    background-color: #000;
-    background-image: url('/src/assets/crumpled.webp');
+    background-color: #fff;
+    background-image: url('/src/assets/clouds.webp');
     background-size: cover;
-    opacity: 80%;
-    border-bottom: 2px solid var(--golden-touch);
+    opacity: 60%;
+    border-bottom: 3px solid var(--creamy);
   }
   
    header a {
     text-decoration: none;
     padding: .75vh 1vh;
     min-width: 10vh;
-    color: var(--plum);
+    color: var(--dark-orange);
   }
   
    header a:hover {
@@ -27,10 +27,10 @@ header {
   .nav-active {
     color: var(--golden-touch);
     background-color: #fff;
-    border-radius: 1vh 1vh 0 0;
-    border-top: 2px solid var(--golden-touch);
-    border-right: 2px solid var(--golden-touch);
-    border-left: 2px solid var(--golden-touch);
+    border-radius: 2vh 2vh 0 0;
+    border-top: 3px solid var(--creamy);
+    border-right: 3px solid var(--creamy);
+    border-left: 3px solid var(--creamy);
   }
 
   .nav-active:hover {
