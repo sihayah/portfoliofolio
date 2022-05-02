@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
-import ContactForm from '../components/ContactForm';
+import ContactForm from '../../components/ContactForm';
+import '../Contact/style.css';
 
 const Contact = () => {
 

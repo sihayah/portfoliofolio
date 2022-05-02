@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import '../Portfolio/style.css';
 
 const Portfolio = () => {
     const projects = [
@@ -96,7 +97,7 @@ const Portfolio = () => {
                 <div className="portfolio-container">
                     {projects.map ((project) => (
                         <div className="project-container d-flex flex-column" key={project.title}>
-                            <img id={project.id} src={require(`../assets/landings/${project.file}`)} alt={project.title} className=" project-img align-self-center"
+                            <img id={project.id} src={require(`../../assets/landings/${project.file}`)} alt={project.title} className=" project-img align-self-center"
                             ></img>
                             <h4>{project.title}</h4>
                             <span id="project-links">

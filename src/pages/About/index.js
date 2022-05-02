@@ -1,5 +1,6 @@
 import React from 'react';
-import portrait from '../assets/pink_portrait.png';
+import portrait from '../../assets/pink_portrait.png';
+import '../About/style.css';
 
 
 const About = () => {

@@ -1,0 +1,56 @@
+/* resume styles */
+
+#pdf-icon {
+    width: 10%;
+  }
+  
+  #download-here {
+    margin-bottom: 10vh;
+    padding: 8vh 1vh;  
+    border-radius: 50%;
+  }
+  
+  #download-here a {
+    color: var(--pop);
+  }
+  #download-here a:hover {
+    color: var(--golden-touch);
+  }
+  
+  .skills {
+    align-content: center;
+  }
+  
+  .skills ul{
+    list-style: none;
+    margin-bottom: 15vh;
+    padding: none;
+  
+  }
+
+@media screen and (min-width: 700px) {
+
+    #resume-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+    
+      #resume {
+        align-self: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+  #pdf-icon {
+    width: 40%;
+  }
+
+  #download-here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30vh;
+  }
+    
+}

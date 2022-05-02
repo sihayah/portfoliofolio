@@ -1,0 +1,41 @@
+/* about styles */
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .about h3 {
+    text-align: left;
+    font-size: 3vh;
+  }
+  
+  .intro {
+  font-size: 3vh;
+  padding: 6vh;
+  }
+  
+  .intro p{
+    text-align: justify;
+  }
+
+  .smiley {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    padding: 2vh;
+    border: 1px double var(--dark);
+  }
+
+  @media screen and (min-width: 1200) {
+    .about {
+        flex-direction: row;
+        gap: 10vh;
+      }
+
+    .intro {
+      max-width: 80vh;
+      align-self: center;
+    }
+  }

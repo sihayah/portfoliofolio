@@ -1,7 +1,8 @@
 import React from 'react';
-import pdfIcon from '../assets/pdf-icon.png'
+import pdfIcon from '../../assets/pdf-icon.png'
 import { Link } from 'react-router-dom';
-import pdf from '../assets/files/resume.pdf'
+import pdf from '../../assets/files/resume.pdf';
+import '../Resume/style.css';
 
 const Resume = () => {
     return (
