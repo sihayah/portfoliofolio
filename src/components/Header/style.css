@@ -1,0 +1,88 @@
+
+/* header styles */
+
+header {
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    background-image: url('/src/assets/crumpled.webp');
+    background-size: cover;
+    opacity: 80%;
+    border-bottom: 2px solid var(--golden-touch);
+  }
+  
+   header a {
+    text-decoration: none;
+    padding: .75vh 1vh;
+    min-width: 10vh;
+    color: var(--plum);
+  }
+  
+   header a:hover {
+    color: var(--pop);
+  }
+  
+  .nav-active {
+    color: var(--golden-touch);
+    background-color: #fff;
+    border-radius: 1vh 1vh 0 0;
+    border-top: 2px solid var(--golden-touch);
+    border-right: 2px solid var(--golden-touch);
+    border-left: 2px solid var(--golden-touch);
+  }
+
+  .nav-active:hover {
+    color: var(--golden-touch);
+  }
+  
+  nav {
+    align-self: center;
+  }
+  
+  .top {
+    margin-bottom: -7vh;
+  }
+  
+  .top h1 {
+    font-size: 4vh;
+    font-weight: bold;
+    padding-left: 3vh;
+    opacity: 80%;
+  }
+  .top h1:hover {
+    color: var(--hot-pink);
+  }
+  
+  .top h2 {
+    font-size: 4vh;
+    font-weight: light;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    padding-left: 2vh;
+    transform: translateY(-2vh);
+  }
+
+
+  @media screen and (min-width: 700px) {
+    
+    header {
+      flex-direction: row;
+    }
+  
+    header a {
+      margin-bottom: -1vh;
+      padding-left: 1vh;
+      margin-right: 3vh;
+    }
+  
+    header nav {
+      margin-left: 30vh;
+    }
+  
+    .nav-active {
+      transform: translateY(6px);
+    }
+    
+  }

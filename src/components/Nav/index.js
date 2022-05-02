@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import '../Nav/style.css';
 
 const Nav = () => {
 
@@ -28,17 +31,22 @@ const Nav = () => {
     const currentLocation = useLocation().pathname;  
 
     return(
-        <nav className="top-nav">
-        {tabs.map((tab) => (
-            <Link to={tab.location}
-                className=
-                    {`link ${currentLocation === tab.location && 'nav-active'}`}
-                key={tab.name}
-                >
-                {tab.title}
-            </Link>                      
-        ))}
-    </nav>
+        <>
+            <FontAwesomeIcon className="hamburger" icon={ faBars } />
+            <nav className="top-nav">
+            
+            {tabs.map((tab) => (
+                <Link to={tab.location}
+                    className=
+                        {`link ${currentLocation === tab.location && 'nav-active'}`}
+                    key={tab.name}
+                    >
+                    {tab.title}
+                </Link>                      
+            ))}
+            </nav>        
+        </>
+
     )
 }
 

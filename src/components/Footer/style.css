@@ -1,0 +1,18 @@
+/* footer styles */
+
+footer {
+    position: fixed;
+    bottom: -.2vh; 
+    text-align: center;
+    background-color: var(--dark);
+    opacity: 80%;
+  }
+  
+  .bottom-nav {
+    justify-content: space-evenly;
+    font-size: 5vh;
+  }
+  
+  .bottom-nav a:hover {
+    color: var(--golden-touch);
+  }
