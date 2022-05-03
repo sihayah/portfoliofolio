@@ -69,20 +69,20 @@ const Portfolio = () => {
                     <div id="table-of-contents">
                         <h4>Projects</h4>
                         <ul>
-                {projects.map(project => (                            
-                            <li key={project.id}>
-                                <Link
-                                    activeClass="active"
-                                    spy={true}
-                                    to={project.id}
-                                    smooth={true}
-                                    offset={-180}
-                                    duration={500}
-                                >
-                                    {project.title}
-                                </Link>
-                            </li>
-                ))}                            
+                            {projects.map(project => (                            
+                                        <li key={project.id}>
+                                            <Link
+                                                activeClass="active"
+                                                spy={true}
+                                                to={project.id}
+                                                smooth={true}
+                                                offset={-180}
+                                                duration={500}
+                                            >
+                                                {project.title}
+                                            </Link>
+                                        </li>
+                            ))}                            
                         </ul>
                         <div className= 'lg-format-scroll-top'>
                             <ScrollTop />     

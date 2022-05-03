@@ -5,55 +5,54 @@
 .active:hover {
   color: var(--golden-touch);
 }
+  
+#table-of-contents ul {
+  list-style: lower-greek;
+
+}
+
+#table-of-contents li:hover {
+  color: var(--golden-touch);
+}
 
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .portfolio-container img {
-    max-width: 40vh;
-  }
+.portfolio-container img {
+  max-width: 40vh;
+}
+
+#table-of-contents {
+  color: var(--dark-orange);
+  text-align: left;
+}
+
+.project-container {
+  margin-bottom: 7vh;
+  max-width: 50vh;
+  padding: 3vh 2vh 1vh 4vh;
+}
+
+.project-container p {
+  text-align:justify;
+}
   
-  #table-of-contents {
-    color: var(--dark-orange);
-    text-align: left;
-  }
-  
-  #table-of-contents ul {
-    list-style: lower-greek;
-  
-  }
-  
-  #table-of-contents li:hover {
-    color: var(--golden-touch);
-  }
-    
-  .project-container {
-    margin-bottom: 7vh;
-    max-width: 50vh;
-    padding: 3vh 2vh 1vh 2vh;
-    border-radius: 1vh;
-  }
-  
-  .project-container p {
-    text-align:justify;
-  }
-  
-  #project-links {
-    margin-top: -1vh;
-  }
-  
-  #project-links a {
-    color: var(--dark-orange);
-  }
-  #project-links a:hover {
-    color: var(--golden-touch);
-  }
-  
-  .lg-format-scroll-top {
-    display: none;
-  }
+#project-links {
+  margin-top: -1vh;
+}
+
+#project-links a {
+  color: var(--dark-orange);
+}
+#project-links a:hover {
+  color: var(--golden-touch);
+}
+
+.lg-format-scroll-top {
+  display: none;
+}
 
 @media screen and (min-width: 700px) {
 
@@ -67,9 +66,12 @@
       position: fixed;
       transform: translateX(-4vh);
     }
+
+    .portfolio-container {
+      margin-left: 38vh;
+    }
   
     .project-container {
-      margin-left: 32vh;
       flex-direction: row;
       flex-wrap: wrap;
     }
@@ -83,4 +85,16 @@
       display: none;
     }
   
+  }
+
+  @media screen and (min-width: 1200px) {
+    #table-of-contents {
+      transform: translateX(-4vh);
+    }
+    .portfolio-container {
+      margin-left: 24vh;
+    }
+    .project-container {
+      margin-left: 14vh;
+    }
   }
