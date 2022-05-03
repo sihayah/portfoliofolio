@@ -1,0 +1,6 @@
+button {
+    background-color: #fff;
+    border: none;
+    color: var(--dark-orange);
+    padding-bottom: 8vh;
+}

@@ -1,4 +1,10 @@
-/* portfolio styles */
+.active {
+  color: var(--golden-touch);
+}
+
+.active:hover {
+  color: var(--golden-touch);
+}
 
 .portfolio-container {
     display: flex;
@@ -10,7 +16,7 @@
   }
   
   #table-of-contents {
-    color: var(--pop);
+    color: var(--dark-orange);
     text-align: left;
   }
   
@@ -36,11 +42,10 @@
   
   #project-links {
     margin-top: -1vh;
-    color: var(--pop);
   }
   
   #project-links a {
-    color: var(--pop);
+    color: var(--dark-orange);
   }
   #project-links a:hover {
     color: var(--golden-touch);

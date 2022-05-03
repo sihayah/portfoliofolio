@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import ScrollTop from '../../components/ScrollTop';
 import '../Portfolio/style.css';
+
 
 const Portfolio = () => {
     const projects = [
@@ -82,17 +84,6 @@ const Portfolio = () => {
                             </li>
                 ))}                            
                         </ul>
-                        <span id="back-to-top">
-                            <Link
-                                activeClass="active"
-                                spy={true}
-                                to="header"
-                                smooth={true}
-                                duraction={100}
-                                >
-                                Back to top
-                            </Link>
-                        </span>  
                     </div>
                 <div className="portfolio-container">
                     {projects.map ((project) => (
@@ -109,6 +100,8 @@ const Portfolio = () => {
                         </div>
                     ))}    
                 </div>
+
+                <ScrollTop />
              
         </section>
        
