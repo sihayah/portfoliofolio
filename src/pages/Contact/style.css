@@ -10,13 +10,13 @@ form {
   input {
     padding: .5vh;
     border-radius: 1vh;
-    border: 1px solid var(--warm-grey);
+    border: 1px solid var(--dark-orange);
   }
   
   textarea {
     padding: .5vh;
     border-radius: 1vh;
-    border: 1px solid var(--warm-grey);
+    border: 1px solid var(--dark-orange);
   }
   
   .contact-btn {

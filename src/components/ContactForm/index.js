@@ -22,14 +22,21 @@ const ContactForm = () => {
             } else {
                 setErrorMessage('')
             }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`)
-                console.log(errorMessage)
+        } 
+        if (e.target.name === 'from_name') {
+            if (!isValid) {
+                setErrorMessage('Name is required.')
             } else {
                 setErrorMessage('')
             }
-        }
+        } 
+        else if (e.target.name === 'message') {
+            if (!isValid) {
+                setErrorMessage('Message is required.')
+            } else {
+                setErrorMessage('')
+            }
+        } 
         if (!errorMessage) {
             setFormState({...formState, [e.target.name]: e.target.value})
         }
@@ -72,7 +79,7 @@ const ContactForm = () => {
                 </p>
             </div>  
         )}
-        <button type="submit" value="submit" onChange={handleChange} className="contact-btn">Submit</button>
+        <button type="submit" value="submit" onBlur={handleChange} className="contact-btn">Submit</button>
         {submitted && (
             <div>
                 <p>
