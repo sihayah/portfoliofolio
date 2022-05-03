@@ -51,7 +51,7 @@
     color: var(--golden-touch);
   }
   
-  #back-to-top {
+  .lg-format-scroll-top {
     display: none;
   }
 
@@ -73,10 +73,14 @@
       flex-direction: row;
       flex-wrap: wrap;
     }
-  
-    #back-to-top {
-      display: block;
-      padding-top: 24vh;
+
+    .lg-format-scroll-top {
+      margin-top: 34vh;
+      display: inline-block;
+    }
+
+    .mobile-scroll-top {
+      display: none;
     }
   
   }

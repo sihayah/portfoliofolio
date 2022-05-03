@@ -84,6 +84,10 @@ const Portfolio = () => {
                             </li>
                 ))}                            
                         </ul>
+                        <div className= 'lg-format-scroll-top'>
+                            <ScrollTop />     
+                        </div>
+                        
                     </div>
                 <div className="portfolio-container">
                     {projects.map ((project) => (
@@ -100,8 +104,10 @@ const Portfolio = () => {
                         </div>
                     ))}    
                 </div>
-
-                <ScrollTop />
+                <div className= 'mobile-scroll-top'>
+                    <ScrollTop />
+                </div>
+                
              
         </section>
        
