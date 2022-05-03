@@ -42,7 +42,7 @@ header {
   }
   
   .top {
-    margin-bottom: -7vh;
+    margin-bottom: -5vh;
   }
   
   .top h1 {
@@ -79,6 +79,10 @@ header {
   
     header nav {
       margin-left: 30vh;
+    }
+
+    .top {
+      margin-bottom: -10vh;
     }
   
     .nav-active {

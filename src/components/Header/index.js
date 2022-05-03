@@ -15,7 +15,7 @@ const Header = () => {
                 <span className="top d-flex flex-column align-items-baseline">
                     <h1>
                     <FontAwesomeIcon icon={ faUserAstronaut } />
-                     <span></span>Sihaya Harris
+                     Sihaya Harris
                     </h1>
                     <h2>web developer</h2>
                 </span>
