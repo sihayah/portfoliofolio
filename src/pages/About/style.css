@@ -24,7 +24,6 @@ padding: 4vh 2vh 0 2vh;
 
 #hello-there{
   display: flex;
-  align-self: center;
 }
 
 .smiley {
@@ -57,7 +56,7 @@ padding: 4vh 2vh 0 2vh;
   font-size: 7vh;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
   .about {
     flex-direction: row;
