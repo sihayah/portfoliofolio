@@ -1,11 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import portrait from '../../assets/pink_portrait.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faArrowDown, faX } from '@fortawesome/free-solid-svg-icons';
 
 
 const About = () => {
+
+    const [visible, setVisible] = useState(false);
+
+    const toggleVisible = () => {
+        if (visible === false) {
+            setVisible(true)
+        } else {
+            setVisible(false)
+        }
+    };
+
+    const toggleButton = () => {
+        if (visible === false) {
+            return(
+                <>
+                    <FontAwesomeIcon className='arrow' id='right' icon= { faArrowRight } />
+                    <FontAwesomeIcon className='arrow' id='down' icon= { faArrowDown } />                 
+                </>
+
+            )
+        } else {
+                return( 
+                    <FontAwesomeIcon icon={ faX } className='arrow' />
+            )    
+            }
+            
+    }
+
     return (
         <section className="about">
             <img alt="portrait" className="smiley" src={portrait}/>
@@ -14,14 +42,15 @@ const About = () => {
                     <h3>
                     Hello there 
                     </h3> 
-                    <FontAwesomeIcon className='arrow' id='right' icon= { faArrowRight } />
-                    <FontAwesomeIcon className='arrow' id='down' icon= { faArrowDown } />
+                    <button onClick={toggleVisible}>
+                        {toggleButton()}
+                    </button>
+                    
                 </span>   
-                   
               
-                <p>
-                I'm Sihaya Harris
-                a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
+                <p style={{display: visible ? 'inline' : 'none'}}>
+                    I'm Sihaya Harris
+                    a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
                 </p>                           
             </div>
         </section>
