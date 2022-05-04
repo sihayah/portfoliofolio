@@ -12,6 +12,9 @@ const Contact = () => {
                         You can contact me here...
                     </p>
                     <ContactForm />
+                    <p id='send-email'>
+                        ...or send an e-mail to sihayaharris@gmail.com
+                    </p>
                 </div>
             </section>
         </center>
