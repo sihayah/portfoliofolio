@@ -9,9 +9,9 @@ const Header = () => {
 
     return(
         <>
-            <div id='header-container'>
+            <div className='header-container'>
                 <header id="header">
-                    <div id='line-up'>
+                    <div>
                         <Link to="/">
                             <span className="top d-flex flex-column align-items-baseline">
                                 <h1>

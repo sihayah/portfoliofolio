@@ -5,7 +5,10 @@ header {
   top: -3vh;
   flex-direction: column;
   width: 100%;
+  left: 0;
+  top: 0;
   background-color: #fff;
+  opacity: 90%;
 }
 
 header a {
@@ -14,7 +17,7 @@ header a {
   min-width: 10vh;
 }
 
-  header a:hover {
+header a:hover {
   color: var(--pop);
 }
 
@@ -48,7 +51,6 @@ header a {
   margin-top: -8vh;
   font-size: 3vh;
 }
-
 
 @media screen and (min-width: 700px) {
   
