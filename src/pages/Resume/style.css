@@ -12,13 +12,12 @@
 }
 
 #resume-wrapper h3, #resume-wrapper h4 {
-  color: var(--dark-orange);
+  color: var(--blue-grey);
   margin-top: 1vh;
 }
 #resume-wrapper h5 {
   font-size: smaller;
-  color: var(--dark-orange);
-  opacity: 60%;
+  color: var(--blue-grey);
 }
 
 #resume-wrapper h6 {

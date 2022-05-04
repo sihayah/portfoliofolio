@@ -2,89 +2,79 @@
 /* header styles */
 
 header {
-    position: fixed;
-    top: 0;
-    flex-direction: column;
-    width: 100%;
-    background-color: #fff;
-    opacity: 60%;
-    border-bottom: 3px solid var(--creamy);
-  }
+  position: fixed;
+  top: 0;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  opacity: 80%;
+
+}
+
+  header a {
+  text-decoration: none;
+  padding: .75vh 1vh;
+  min-width: 10vh;
+  color: var(--dark);
+}
+
+  header a:hover {
+  color: var(--pop);
+}
+
+.top {
+  margin-bottom: -5vh;
+}
+
+.top h1, .top h2 {
+  font-size: 4vh;
+  font-weight: bold;
+  padding-left: 3vh;
+  opacity: 80%;
+  background-image: url(https://media.giphy.com/media/l0HlxmJJbxo1Uq8QU/giphy.gif);
+  -webkit-text-stroke: var(--blue-grey);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+#astronaut {
+  color: var(--blue-grey);
+}
+
+.top h2 {
+  font-size: 4vh;
+  font-weight: light;
+  margin-left: 1vh;
+  margin-bottom: 2vh;
+  padding-left: 2vh;
+  transform: translateY(-2vh);
+}
+
+
+@media screen and (min-width: 700px) {
   
-   header a {
-    text-decoration: none;
-    padding: .75vh 1vh;
-    min-width: 10vh;
-    color: var(--dark-orange);
-  }
-  
-   header a:hover {
-    color: var(--pop);
-  }
-  
-  .nav-active {
-    color: var(--golden-touch);
-    background-color: #fff;
-    border-radius: 2vh 2vh 0 0;
-    border-top: 3px solid var(--creamy);
-    border-right: 3px solid var(--creamy);
-    border-left: 3px solid var(--creamy);
+  header {
+    flex-direction: row;
   }
 
-  .nav-active:hover {
-    color: var(--golden-touch);
+  header a {
+    margin-bottom: -1vh;
+    padding-left: 1vh;
+    margin-right: 3vh;
   }
-  
-  nav {
-    align-self: center;
+
+  header nav {
+    margin-left: 30vh;
   }
-  
+
   .top {
-    margin-bottom: -5vh;
-  }
-  
-  .top h1 {
-    font-size: 4vh;
-    font-weight: bold;
-    padding-left: 3vh;
-    opacity: 80%;
-  }
-  .top h1:hover {
-    color: var(--hot-pink);
-  }
-  
-  .top h2 {
-    font-size: 4vh;
-    font-weight: light;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
-    padding-left: 2vh;
-    transform: translateY(-2vh);
+    margin-bottom: -10vh;
   }
 
-
-  @media screen and (min-width: 700px) {
-    
-    header {
-      flex-direction: row;
-    }
-  
-    header a {
-      margin-bottom: -1vh;
-      padding-left: 1vh;
-      margin-right: 3vh;
-    }
-  
-    header nav {
-      margin-left: 30vh;
-    }
-
-    .top {
-      margin-bottom: -10vh;
-    }
-  
-    .nav-active {
-      transform: translateY(6px);
-    }
-    
+  .nav-active {
+    transform: translateY(6px);
   }
+  
+}

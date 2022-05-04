@@ -4,3 +4,22 @@
     margin-left: 24vh;
 
 }
+
+nav {
+    border-bottom: 3px solid var(--blue-grey);
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+.nav-active {
+    color: var(--golden-touch);
+    background-color: #fff;
+    border-radius: 2vh 2vh 0 0;
+    border-top: 3px solid var(--blue-grey);
+    border-right: 3px solid var(--blue-grey);
+    border-left: 3px solid var(--blue-grey);
+  }
+
+  .nav-active:hover {
+    color: var(--golden-touch);
+  }
