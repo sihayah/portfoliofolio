@@ -29,9 +29,8 @@ const About = () => {
         } else {
                 return( 
                     <FontAwesomeIcon icon={ faX } className='arrow' />
-            )    
+                )    
             }
-            
     }
 
     return (
@@ -46,13 +45,15 @@ const About = () => {
                         {toggleButton()}
                     </button>
                     
-                </span>   
-              
-                <p style={{display: visible ? 'inline' : 'none'}}>
-                    I'm Sihaya Harris
-                    a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
-                </p>                           
+                </span>  
+                <span>
+                    <p id='about-text' style={{display: visible ? 'inline' : 'none'}}>
+                        I'm Sihaya Harris
+                        a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
+                    </p>                     
+                </span> 
             </div>
+                          
         </section>
     )
 };
