@@ -5,7 +5,6 @@ import { faUserAstronaut, faBars } from '@fortawesome/free-solid-svg-icons';
 import '../Header/style.css';
 import Nav from '../Nav';
 
-
 const Header = () => {
 
     return(
@@ -22,11 +21,14 @@ const Header = () => {
                                 <h2>web developer</h2>
                             </span>
                         </Link>
-                        <FontAwesomeIcon id="hamburger" icon={ faBars } />
+                        {/* <FontAwesomeIcon id="hamburger" icon={ faBars } /> */}
                     </div>
+                    <span id='fullscreen-nav'>
+                        <Nav />       
+                    </span>
                 </header>            
-            </div>
-            <Nav />        
+            </div>        
+            
         </>
 
 

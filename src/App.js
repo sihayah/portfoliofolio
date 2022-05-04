@@ -10,28 +10,29 @@ import Portfolio from '../src/pages/Portfolio';
 import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
 import NotFound from './pages/NotFound';
+import Sidebar from '../src/components/Sidebar';
 
 function App() {
 
   return (
     <Router>
-      <div className="App">
-        <Header />
-       
-
-        <div className="container"> 
-
-        <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="*" element={<NotFound />} />         
-        </Routes>
-        
+      <div className="App" id='outer-container'>
+        <Sidebar pageWrapId={ 'page-wrap' } outerContainerId={ 'outer-container' } />
+        <div id='page-wrap'>
+          <Header />  
+          <div className="container"> 
+          
+          <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="*" element={<NotFound />} />         
+          </Routes>
+          </div>
+          <Footer />  
         </div>
       </div>   
-      <Footer />    
     </Router>
 
   );

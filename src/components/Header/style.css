@@ -2,13 +2,13 @@
 
 header {
   position: fixed;
-  top: 0;
+  top: -3vh;
   flex-direction: column;
   width: 100%;
   background-color: #fff;
 }
 
-  header a {
+header a {
   text-decoration: none;
   padding: .75vh 1vh;
   min-width: 10vh;
@@ -18,21 +18,10 @@ header {
   color: var(--pop);
 }
 
-#line-up {
-  display: flex;
-  justify-content: space-between;
-}
-
-#hamburger {
-  padding: 1vh;
-  font-size: 4vh;
-}
-
 .top h1, .top h2 {
   font-size: 5vh;
   font-weight: bold;
   padding-left: 3vh;
-  opacity: 80%;
   background-image: url(https://media.giphy.com/media/l0HlxmJJbxo1Uq8QU/giphy.gif);
   -webkit-text-stroke: var(--blue-grey);
 	background-size: cover;
@@ -48,9 +37,16 @@ header {
 .top h2 {
   font-weight: light;
   margin-left: 1vh;
-  margin-bottom: 2vh;
   padding-left: 2vh;
   transform: translateY(-2vh);
+}
+
+#fullscreen-nav {
+  display: none;
+  gap: 15vh;
+  justify-content: flex-end;
+  margin-top: -8vh;
+  font-size: 3vh;
 }
 
 
@@ -66,7 +62,7 @@ header {
     margin-right: 3vh;
   }
 
-  .top {
-    margin-bottom: -10vh;
-  }
+  #fullscreen-nav {
+    display: flex;
+  }  
 }

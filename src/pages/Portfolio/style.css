@@ -8,7 +8,7 @@
   
 #table-of-contents ul {
   list-style: none;
-
+  font-size: 3vh;
 }
 
 #table-of-contents li:hover {
@@ -63,7 +63,7 @@
     }
     #table-of-contents {
       position: fixed;
-      transform: translateX(-4vh);
+      left: 3vh;
     }
 
     .portfolio-container {
@@ -87,9 +87,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    #table-of-contents {
-      transform: translateX(-4vh);
-    }
     .portfolio-container {
       margin-left: 24vh;
     }

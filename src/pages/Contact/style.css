@@ -10,25 +10,25 @@ form {
   input {
     padding: .5vh;
     border-radius: 1vh;
-    border: 1px solid var(--dark-orange);
+    border: 1px solid var(--dark);
   }
   
   textarea {
     padding: .5vh;
     border-radius: 1vh;
-    border: 1px solid var(--dark-orange);
+    border: 1px solid var(--dark);
   }
   
   .contact-btn {
     padding: .5vh;
     background-color: #fff;
     border-radius: 1vh;
-    border: 2px solid var(--warm-grey);
+    border: 2px solid var(--dark);
     margin-top: 2vh;
   }
   
   .contact-btn:hover {
-    background-color: var(--warm-grer);
+    background-color: var(--warm-grey);
     background-image: url("https://64.media.tumblr.com/5442e442acf08a415003faae25bc5b03/tumblr_otrdwxiORG1w603yfo1_500.gifv");
     color: #fff;
   }

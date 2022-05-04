@@ -30,7 +30,7 @@ const Nav = () => {
 
     return(
         <>
-            <nav className="top-nav">
+            <nav id='' className="top-nav">
             
             {tabs.map((tab) => (
                 <Link to={tab.location}

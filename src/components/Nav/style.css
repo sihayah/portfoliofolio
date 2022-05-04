@@ -1,19 +1,5 @@
 nav {
   display: flex;
-  flex-direction: column;
-  gap: 13vh;
-  height: 100vh;
-  text-align: right;
-  position: fixed;
-  top: 0;
-  right: 0;
-  transition: transform 0.3s ease-in-out;
-  background-color: #fff;
-  border-left: 3px solid var(--creamy-lt);
-  width: 100vh;
-  opacity: 90%;
-  padding-top: 15vh;
-  padding-right: 8vh;
 }
 
 nav a {
@@ -26,7 +12,7 @@ nav a:hover {
 
 .nav-active {
     color: var(--golden-touch);
-    background-color: #fff;
+    text-decoration: underline;
   }
 
   .nav-active:hover {
