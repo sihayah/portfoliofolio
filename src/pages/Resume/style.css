@@ -12,12 +12,10 @@
 }
 
 #resume-wrapper h3, #resume-wrapper h4 {
-  color: var(--blue-grey);
   margin-top: 1vh;
 }
 #resume-wrapper h5 {
   font-size: smaller;
-  color: var(--blue-grey);
 }
 
 #resume-wrapper h6 {

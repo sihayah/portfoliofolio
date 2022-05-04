@@ -5,7 +5,6 @@ import { useMediaQuery } from 'react-responsive';
 
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
-
 import About from '../src/pages/About';
 import Portfolio from '../src/pages/Portfolio';
 import Contact from '../src/pages/Contact';
@@ -17,8 +16,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        
         <Header />
+       
 
         <div className="container"> 
 

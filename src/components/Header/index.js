@@ -1,29 +1,34 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
-import Nav from '../Nav';
+import { faUserAstronaut, faBars } from '@fortawesome/free-solid-svg-icons';
 import '../Header/style.css';
+import Nav from '../Nav';
 
 
 const Header = () => {
 
     return(
-        <div id='header-container'>
-            <header id="header">
-                <Link to="/">
-                    
-                    <span className="top d-flex flex-column align-items-baseline">
-                        <h1>
-                        <FontAwesomeIcon id='astronaut' icon={ faUserAstronaut } />
-                        Sihaya Harris
-                        </h1>
-                        <h2>web developer</h2>
-                    </span>
-                </Link>
-                <Nav />
-            </header>            
-        </div>
+        <>
+            <div id='header-container'>
+                <header id="header">
+                    <div id='line-up'>
+                        <Link to="/">
+                            <span className="top d-flex flex-column align-items-baseline">
+                                <h1>
+                                <FontAwesomeIcon id='astronaut' icon={ faUserAstronaut } />
+                                Sihaya Harris
+                                </h1>
+                                <h2>web developer</h2>
+                            </span>
+                        </Link>
+                        <FontAwesomeIcon id="hamburger" icon={ faBars } />
+                    </div>
+                </header>            
+            </div>
+            <Nav />        
+        </>
+
 
     )    
 }

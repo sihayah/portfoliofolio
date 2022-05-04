@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../Nav/style.css';
 
 const Nav = () => {
@@ -32,7 +30,6 @@ const Nav = () => {
 
     return(
         <>
-            <FontAwesomeIcon className="hamburger" icon={ faBars } />
             <nav className="top-nav">
             
             {tabs.map((tab) => (
