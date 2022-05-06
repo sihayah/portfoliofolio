@@ -1,4 +1,7 @@
 /* resume styles */
+.container {
+  margin-top: 20vh;
+}
 
 #resume-wrapper {
   margin-bottom: 15vh;
@@ -51,7 +54,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 0 10vh;
+      margin-right: 10vh;
+      margin-left: 10vh;
     }
     
 }
