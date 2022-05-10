@@ -7,19 +7,17 @@
 }
 
 .about h3 {
-  font-size: 3vh;
   color: var(--dark);
+  font-size: 5vh;
 }
 
 .intro {
-font-size: 3vh;
-padding: 4vh 2vh 0 2vh;
+  font-size: 3vh;
+  padding: 4vh 2vh 0 2vh;
 }
 
 #about-text {
-  padding: 2vh 3vh;
-  display: none;
-  align-items:flex-start;
+  font-size: 2vh;
 }
 
 #hello-there{
@@ -52,9 +50,6 @@ padding: 4vh 2vh 0 2vh;
   display: none;
 }
 
-.intro h3 {
-  font-size: 5vh;
-}
 
 @media screen and (min-width: 1000px) {
 

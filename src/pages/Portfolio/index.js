@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMeteor } from '@fortawesome/free-solid-svg-icons'
 import '../Portfolio/style.css';
 
 
@@ -67,7 +69,11 @@ const Portfolio = () => {
     return (
         <section className="portfolio">
                     <div id="table-of-contents">
-                        <h4>Projects</h4>
+                        
+                        <h4>
+                            <FontAwesomeIcon icon={ faMeteor } />
+                            Projects
+                        </h4>
                         <ul>
                             {projects.map(project => (                            
                                         <li key={project.id}>

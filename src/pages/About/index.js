@@ -9,12 +9,20 @@ const About = () => {
 
     const [visible, setVisible] = useState(false);
 
-    const toggleVisible = () => {
+    const scrollToBottom = () => {
+        window.scrollTo ({
+            bottom: 0,
+            behavior: 'smooth'
+        })
+    };
+
+    function toggleVisible() {
         if (visible === false) {
-            setVisible(true)
+            setVisible(true);
         } else {
-            setVisible(false)
+            setVisible(false);
         }
+        scrollToBottom();
     };
 
     const toggleButton = () => {
@@ -50,10 +58,10 @@ const About = () => {
                     <p id='about-text' style={{display: visible ? 'inline' : 'none'}}>
                         I'm Sihaya Harris
                         a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
-                    </p>                     
+                    </p>   
+                                     
                 </span> 
-            </div>
-                          
+            </div>              
         </section>
     )
 };

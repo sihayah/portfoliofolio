@@ -15,6 +15,10 @@
   color: var(--golden-touch);
 }
 
+.portfolio h4 {
+  color: var(--golden-touch);
+}
+
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
