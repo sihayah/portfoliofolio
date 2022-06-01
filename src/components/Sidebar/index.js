@@ -6,7 +6,7 @@ import '../Sidebar/style.css';
 const Sidebar = () => {
 
     return (
-        <Menu right width={ '80%'}>
+        <Menu right width={ '50%'}>
             <Nav />
         </Menu>
     )
