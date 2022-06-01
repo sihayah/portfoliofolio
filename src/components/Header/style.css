@@ -26,7 +26,7 @@ header a:hover {
   font-weight: bold;
   padding-left: 3vh;
   background-image: url(https://media.giphy.com/media/l0HlxmJJbxo1Uq8QU/giphy.gif);
-  -webkit-text-stroke: var(--blue-grey);
+  -webkit-text-stroke: var(--violet-grey);
 	background-size: cover;
 	color: transparent;
 	background-clip: text;

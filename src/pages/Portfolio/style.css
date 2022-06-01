@@ -47,7 +47,7 @@
 }
 
 #project-links a {
-  color: var(--blue-grey);
+  color: var(--violet-grey);
 }
 #project-links a:hover {
   color: var(--golden-touch);

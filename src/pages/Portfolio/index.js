@@ -52,7 +52,7 @@ const Portfolio = () => {
             title: "Taskmaster",
             file: "taskmaster.JPEG",
             repo: "https://github.com/sihayah/taskmaster-pro",
-            deployment: "https://github.com/sihayah/taskmaster-pro/deployments/activity_log?environment=github-pages",
+            deployment: "https://sihayah.github.io/taskmaster-pro/",
             description: "A kanban board app, that allows users to manage their tasks and stay on schedule with color coding according to deadlines.",
             id: "taskmaster"
         },
@@ -60,7 +60,7 @@ const Portfolio = () => {
             title: "Coding Quiz",
             file: "coding-quiz.jpg",
             repo: "https://github.com/sihayah/coding-quiz",
-            deployment: "https://github.com/sihayah/coding-quiz/deployments/activity_log?environment=github-pages",
+            deployment: "https://sihayah.github.io/coding-quiz/",
             description: "In this quiz app,the user is prompted to start quiz via a button. Then a series of questions are posed. Upon answering, user can see whether their answer was correct or incorrect. Each correct answer adds a point to the users score. When the timer runs out, the user is can submit their initials into a form to save their highscore.",
             id: "coding-quiz"
         },
