@@ -1,19 +1,26 @@
 /* about styles */
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .about {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items:flex-start;
 }
 
 .about h3 {
   color: var(--dark);
   font-size: 5vh;
+  font-style: italic;
+  padding-right: 1vh;
 }
 
 .intro {
   font-size: 3vh;
-  padding: 4vh 2vh 0 2vh;
+  padding: 1vh 2vh 0 2vh;
 }
 
 #about-text {
@@ -22,6 +29,8 @@
 
 #hello-there{
   display: flex;
+  margin-top: 2vh;
+  margin-bottom: -7vh;
 }
 
 .smiley {
@@ -55,7 +64,7 @@
 
   .about {
     flex-direction: row;
-    gap: 8vh;
+    gap: 5vh;
   }
 
   .intro {
