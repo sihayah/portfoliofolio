@@ -5,6 +5,10 @@
 .active:hover {
   color: var(--golden-touch);
 }
+
+#table-of-contents {
+  margin-top: -4vh;
+}
   
 #table-of-contents ul {
   list-style: none;
@@ -26,7 +30,7 @@ h4 {
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    width: 60vh;
+    width: 40vh;
   }
   
 .portfolio-container img {
@@ -35,7 +39,7 @@ h4 {
 
 #table-of-contents {
   text-align: left;
-  width: 35vh;
+  width: 40vh;
 }
 
 .project-container {
@@ -80,6 +84,7 @@ h4 {
     #table-of-contents {
       position: fixed;
       left: 3vh;
+      margin-top: 1vh;
     }
 
     .portfolio-container {
