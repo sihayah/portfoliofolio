@@ -60,8 +60,15 @@ p {
 }
 
 
+@media screen and (min-width: 700px) {
+  .about {
+    padding-top: 8vh;
+  }
+  #hello-there {
+    padding-top: 10vh;
+  }
+}
 @media screen and (min-width: 1000px) {
-
   .about {
     flex-direction: row;
     gap: 5vh;

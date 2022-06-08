@@ -4,12 +4,11 @@
 
 .bm-menu nav{
     flex-direction: column;
-    gap: 13vh;
+    gap: 7vh;
     height: 100vh;
-    text-align: right;
     top: 0;
     opacity: 90%;
-    padding-right: 2vh;
+    padding-top: 5vh;
   }
 
 .bm-burger-button {
