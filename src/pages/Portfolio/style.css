@@ -11,35 +11,47 @@
   font-size: 3vh;
 }
 
+#table-of-contents li {
+  transform: translateX(-2vh);
+}
+
 #table-of-contents li:hover {
   color: var(--golden-touch);
 }
 
-.portfolio h4 {
-  color: var(--golden-touch);
+h4 {
+  color: var(--warm-grey);
 }
 
 .portfolio-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60vh;
   }
   
 .portfolio-container img {
-  max-width: 40vh;
+  max-width: 30vh;
 }
 
 #table-of-contents {
   text-align: left;
+  width: 35vh;
 }
 
 .project-container {
-  margin-bottom: 7vh;
-  max-width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
   padding: 3vh 2vh 1vh 4vh;
 }
 
 .project-container p {
   text-align:justify;
+}
+
+.project-details {
+  width: 80%;
 }
   
 #project-links {
@@ -47,7 +59,7 @@
 }
 
 #project-links a {
-  color: var(--violet-grey);
+  color: var(--pink);
 }
 #project-links a:hover {
   color: var(--golden-touch);
@@ -57,13 +69,13 @@
   display: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
 
     .portfolio {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: flex-start;
-      gap: -35vh;
+
     }
     #table-of-contents {
       position: fixed;
@@ -72,11 +84,23 @@
 
     .portfolio-container {
       margin-left: 38vh;
+      width: 90vh;
     }
   
     .project-container {
       flex-direction: row;
       flex-wrap: wrap;
+      width: 90vh;
+      gap: 3vh;
+    }
+
+    .project-details {
+      width: 40vh;
+      height: 30vh;
+    }
+
+    .project-details p {
+      font-size: larger;
     }
 
     .lg-format-scroll-top {
@@ -90,11 +114,8 @@
   
   }
 
-  @media screen and (min-width: 1200px) {
-    .portfolio-container {
-      margin-left: 24vh;
-    }
+  @media screen and (min-width: 700px) {
     .project-container {
-      margin-left: 14vh;
+      gap: 8vh;
     }
   }
