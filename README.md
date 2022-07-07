@@ -12,6 +12,7 @@
 
 
   [Description](#description) *
+  [Technologies](#technologies) *
   [Prerequisites](#prerequisites) *
   [Installation](#installation) *
   [Usage](#usage) *
@@ -34,6 +35,20 @@
 
 <br>
 
+## Technologies
+
+The following technologies were used in the development of this app:
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* NodeJS
+* NPMs
+* React
+* Heroku
+
+<br>
   ## Prerequisites
 
   Make sure you have the following installed on your development machine:
