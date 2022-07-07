@@ -29,6 +29,7 @@
 
   This a portfolio of all of my most recent web development work, built with React.
   <br>
+  <br>
   Live: https://portfoliofolioolio.herokuapp.com/
   <br>
   Repo: https://github.com/sihayah/portfoliofolio
@@ -49,6 +50,7 @@ The following technologies were used in the development of this app:
 * Heroku
 
 <br>
+
   ## Prerequisites
 
   Make sure you have the following installed on your development machine:
@@ -59,7 +61,7 @@ The following technologies were used in the development of this app:
   <br>
   Visual Studio Code - [Download & Install VS Code](https://code.visualstudio.com/download)
 
-  
+  <br>
 
   ## Installation
 
@@ -92,7 +94,7 @@ The following technologies were used in the development of this app:
 
   <img src='./public/readmeimgs/ui1.png' width=50%>
 
-  The contact form can be used to me (I will receive and email from all form submissions).
+  The contact form can be used to message me (I will receive and email from all form submissions).
 
    <img src='./public/readmeimgs/ui2.png' width=50%>
 
