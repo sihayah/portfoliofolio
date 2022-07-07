@@ -12,9 +12,9 @@
 
 
   [Description](#description) *
-  [Prerequisites](#prerequisites)
-  [Installation](#installation)*
-  [Usage](#usage)
+  [Prerequisites](#prerequisites) *
+  [Installation](#installation) *
+  [Usage](#usage) *
   [Questions](#questions) *
   [License](#license)
 
