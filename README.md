@@ -12,6 +12,9 @@
 
 
   [Description](#description) *
+  [Prerequisites](#prerequisites)
+  [Installation](#installation)*
+  [Usage](#usage)
   [Questions](#questions) *
   [License](#license)
 
@@ -23,13 +26,50 @@
 
   ## Description
 
+  This a portfolio of all of my most recent web development work, built with React.
+  <br>
+  Live: https://portfoliofolioolio.herokuapp.com/
+  <br>
+  Repo: https://github.com/sihayah/portfoliofolio
+
+<br>
+
+  ## Prerequisites
+
+  Make sure you have the following installed on your development machine:
+
+  Git - [Download & Install Git](https://git-scm.com/downloads)
+  <br>
+  Node.js - [Download & Install Node.js](https://nodejs.org/en/download/)
+  <br>
+  Visual Studio Code - [Download & Install VS Code](https://code.visualstudio.com/download)
+
   
 
-  React web development porfolio
+  ## Installation
+
+  Clone the repo locally. Open of the repo in VS Code. Run npm install to install all dependencies via the command line...
+
+    npm install
+
   <br>
-  Deployment: (https://portfoliofolioolio.herokuapp.com/)
+
+  ## Usage 
+
+  To demo this app navigate to https://portfoliofolioolio.herokuapp.com/.
+
+  To view locally, run npm start in the command line. 
+
+    npm start
+
+  If it's running the following response should occur in your command line...
+
+   <img src= 'code-snippet.png'> 
+
+  Then a window should automatically open. If not, navigate to http://localhost:3000 to view it.
+
+
   <br>
-  Repo: (https://github.com/sihayah/portfoliofolio)
 
 
   ## Questions
