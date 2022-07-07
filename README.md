@@ -20,7 +20,7 @@
 
   <br>
 
-   <img width= 50% src= 'landing.png'> 
+   <img width= 50% src= './public/readmeimgs/landing.png'> 
   
   <br>
 
@@ -48,25 +48,42 @@
 
   ## Installation
 
-  Clone the repo locally. Open of the repo in VS Code. Run npm install to install all dependencies via the command line...
+  To demo this app via browser navigate to https://portfoliofolioolio.herokuapp.com/.
+
+  To demo locally, clone the repo. Navigate to the root of the repo in command line. Run npm install to install all dependencies:
 
     npm install
 
-  <br>
-
-  ## Usage 
-
-  To demo this app navigate to https://portfoliofolioolio.herokuapp.com/.
-
-  To view locally, run npm start in the command line. 
+  Once installed, you can start the app from the command line, as follows:
 
     npm start
 
   If it's running the following response should occur in your command line...
 
-   <img src= 'code-snippet.png'> 
+   <img src= './public/readmeimgs/code-snippet.png'> 
 
-  Then a window should automatically open. If not, navigate to http://localhost:3000 to view it.
+  Then a browser window should automatically open. If not, navigate to http://localhost:3000 to view the app.
+
+  <br>
+
+  ## Usage 
+
+  A menu is available to the user (top of screen for wider screen formats, or hamburger sidebar for smaller and mobile). From there, the sections of the site can be selected and viewed. 
+
+  Links to my GitHub, LinkedIN, and Instagram are fixed to the bottom of the page.
+
+  From the About section a dropdown menu is available to view a short bio via an arrow, button.
+  Once opened it can be X'd out.
+
+  <img src='./public/readmeimgs/ui1.png' width=50%>
+
+  The contact form can be used to me (I will receive and email from all form submissions).
+
+   <img src='./public/readmeimgs/ui2.png' width=50%>
+
+  The portfolio can be navigated from a table of contents.
+
+   <img src='./public/readmeimgs/ui3.png' width=50%>
 
 
   <br>
