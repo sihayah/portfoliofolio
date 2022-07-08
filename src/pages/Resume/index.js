@@ -73,16 +73,19 @@ const Resume = () => {
                     <h4>
                         Experience
                     </h4>
-                    <h6>Bartender, 2021 - present
+                    <h6>Technical Lead, 2021 - present
                     </h6>
                     <h6>
                     Insa, Brooklyn, NY
                     </h6>
                     <p>
-                        Contributed high level of technical skill and composure lead to thriving a team in fast-paced and high intensity environment establishing record sales
+                        Contributed high level of technical skills to thriving a team in fast-paced and high intensity environment establishing revenue increase
                     </p>
                     <p>
-                        Established rapport and communicated adaptively with guests to provide excellent customer service and maintained a returning customer base
+                        Aided in the rapid implementation of new POS and staff training
+                    </p>
+                    <p>
+                        Consulted on inventory systems to track profits based on cost of goods sold and implemented procedures to increase profit to consumption ratios
                     </p>
                     <p>
                         Awarded creative grant and spotlight from Bombay Sapphire Canvas Project
