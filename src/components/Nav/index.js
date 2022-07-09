@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../Nav/style.css';
+import { scroller } from 'react-scroll';
+
 
 const Nav = () => {
 
@@ -26,6 +28,14 @@ const Nav = () => {
             location: "/resume"
         }
     ];
+
+    const scrollToTop = () => {
+        scroller.scrollToTop({
+            duration: 100,
+            smooth: 'easeInOutQuint'
+        });
+    };
+
     const currentLocation = useLocation().pathname;  
 
     return(
@@ -37,6 +47,7 @@ const Nav = () => {
                     className=
                         {`link ${currentLocation === tab.location && 'nav-active'}`}
                     key={tab.name}
+                    onClick={scrollToTop}
                     >
                     {tab.title}
                 </Link>                      
