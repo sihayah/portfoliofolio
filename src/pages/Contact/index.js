@@ -9,7 +9,7 @@ const Contact = () => {
             <section id="contact">
                 <div id="form-wrapper">
                     <p className="mb-3">
-                        You can contact me here...
+                        Please feel free to reach out to me with any questions...
                     </p>
                     <ContactForm />
                     <p id='send-email'>
