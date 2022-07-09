@@ -26,6 +26,10 @@ const About = () => {
         })
     };
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
+
     const toggleButton = () => {
         if (visible === false) {
             return(
@@ -37,7 +41,7 @@ const About = () => {
             )
         } else {
                 return( 
-                    <FontAwesomeIcon icon={ faX } className='arrow' />
+                    <FontAwesomeIcon onClick={scrollToTop} icon={ faX } className='arrow' />
                 )    
             }
     }
