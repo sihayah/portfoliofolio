@@ -14,6 +14,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/project-3-group-a",
             deployment: "https://qrad.herokuapp.com/",
             description: "This app allows users to generate a digital business card with a QR code they can share from the profile, and add other business cards to a contact list.",
+            technologies: "ReactJS, MongoDB, GraphQL, Node.js, Bootstrap, JavaScript, CSS, HTML, Heroku",
             id: "QRad"
         },
         {
@@ -22,6 +23,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/budget-tracker",
             deployment: "https://blooming-plains-15476.herokuapp.com/",
             description: "This app allows the user to input and graph income and expenses. User data persists, and offline functionality allows the user to input transactions even without an internet connection.",
+            technologies: "Node.js, MongoDB, JavaScript, CSS, HTML, Heroku",
             id: "budget-tracker"
         },
         {
@@ -30,6 +32,7 @@ const Portfolio = () => {
             repo: "https://github.com/mkohn4/pet-project",
             deployment: "https://warm-springs-61498.herokuapp.com/",
             description: "Pet Project is an online community for pet owners to post about their pets, allergies, diets and more. Users can comment on one anothers posts and will receive notifications when other users comment on their posts.",
+            technologies: "MySQL, Node.js, Express, Jest, JavaScript, CSS, HTML",
             id: "pet-project"
         },
         {
@@ -38,6 +41,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/forum_follows_functions",
             deployment: "https://forum-follows-functions.herokuapp.com/",
             description: "This is a tech blog forum where users can, create an account to make posts. Also, user may view and upvote the posts of other users.",
+            technologies: "MySQL, Node.js, Express, JavaScript, CSS, HTML, Heroku",
             id: "fff"
         },
         {
@@ -46,6 +50,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/weather-dashboard",
             deployment: "https://sihayah.github.io/weather-dashboard/",
             description: "This is application allows the user to search for a city to retrieve the current weather as well as a five day forecast. The weather is displayed with corresponding icons, and the uvi is color-coded to match its intesity. The user's search history is saved in a series of buttons under the search input.",
+            technologies: "Node.js, APIs, JavaScript, CSS, HTML",
             id: "weather-dash"
         },
         {
@@ -54,6 +59,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/taskmaster-pro",
             deployment: "https://sihayah.github.io/taskmaster-pro/",
             description: "A kanban board app, that allows users to manage their tasks and stay on schedule with color coding according to deadlines.",
+            technologies: "JQuery, JavaScript, CSS, HTML",
             id: "taskmaster"
         },
         {
@@ -62,6 +68,7 @@ const Portfolio = () => {
             repo: "https://github.com/sihayah/coding-quiz",
             deployment: "https://sihayah.github.io/coding-quiz/",
             description: "In this quiz app,the user is prompted to start quiz via a button. Then a series of questions are posed. Upon answering, user can see whether their answer was correct or incorrect. Each correct answer adds a point to the users score. When the timer runs out, the user is can submit their initials into a form to save their highscore.",
+            technologies: "JavaScript, CSS, HTML",
             id: "coding-quiz"
         },
     ];
@@ -108,7 +115,11 @@ const Portfolio = () => {
                                 </span>  
                                 <p>
                                     {project.description}
-                                </p>                                
+                                </p>  
+                                <h5>Technologies:</h5>                   
+                                <p id="tech-list">
+                                    {project.technologies}
+                                </p>           
                             </div>
                         </div>
                     ))}    

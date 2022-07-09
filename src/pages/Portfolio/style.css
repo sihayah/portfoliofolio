@@ -23,7 +23,7 @@
   color: var(--golden-touch);
 }
 
-h4 {
+h4, h5 {
   color: var(--warm-grey);
 }
 
@@ -47,15 +47,19 @@ h4 {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5vh;
-  padding: 3vh 2vh 1vh 4vh;
+  padding: 3vh 2vh 1vh 9vh;
 }
 
 .project-container p {
   text-align:justify;
 }
 
+#tech-list {
+  text-align: center;
+}
+
 .project-details {
-  width: 80%;
+  width: 90%;
 }
   
 #project-links {
@@ -101,7 +105,7 @@ h4 {
 
     .project-details {
       width: 40vh;
-      height: 30vh;
+      height: 50vh;
     }
 
     .project-details p {
@@ -135,6 +139,7 @@ h4 {
     }
     .project-details {
       max-width: 50vh;
+      padding-top: 10vh;
     }
 
   }
