@@ -79,16 +79,16 @@ const Resume = () => {
                     Insa, Brooklyn, NY
                     </h6>
                     <p>
-                        Contributed high level of technical skills to thriving a team in fast-paced and high intensity environment establishing revenue increase
+                        - Provided high level of technical skills to thriving a team in fast-paced and high intensity environment contributing 10% revenue increase for winter quarter
                     </p>
                     <p>
-                        Aided in the rapid implementation of new POS and staff training
+                        - Aided in the rapid implementation of new POS and staff training
                     </p>
                     <p>
-                        Consulted on inventory systems to track profits based on cost of goods sold and implemented procedures to increase profit to consumption ratios
+                        - Work collaboratively with general managers on inventory systems to track profits based on cost of goods sold and implemented procedures to increase profit to consumption ratios
                     </p>
                     <p>
-                        Awarded creative grant and spotlight from Bombay Sapphire Canvas Project
+                        - Awarded creative grant and spotlight from Bombay Sapphire Canvas Project
                     </p>
 
                 </section>
