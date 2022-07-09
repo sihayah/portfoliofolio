@@ -3,7 +3,7 @@ import portrait from '../../assets/pink_portrait.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX } from '@fortawesome/free-solid-svg-icons';
-import { animateScroll as scroll } from 'react-scroll';
+import { Element, animateScroll as scroll, scroller } from 'react-scroll';
 
 
 const About = () => {
@@ -19,7 +19,11 @@ const About = () => {
     };
 
     const scrollToArticle = () => {
-        scroll.scrollToBottom();
+        scroll.scrollTo('300', {
+            duration: 100,
+            delay: 100,
+            smooth: true,
+        })
     };
 
     const toggleButton = () => {
@@ -50,8 +54,8 @@ const About = () => {
                         {toggleButton()}
                     </button>
                 </span>  
-                <span>
-                    <article id='about-text' style={{display: visible ? 'inline-block' : 'none'}}>
+                <span id='aboutContainer'>
+                    <article id='about-text' name='aboutText' style={{display: visible ? 'inline-block' : 'none'}}>
                         <p>
                             I'm Sihaya Harris a dynamic full-stack web developer with a background in art & design. I began my web development journey in elementary school. Back then, I was writing my first HTML, CSS, and JavaScript (with an egregious number of marquees and Lisa Frank color palettes) in a word processor, and hosting my webpages on GeoCities.     
                         </p>
