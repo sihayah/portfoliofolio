@@ -21,6 +21,7 @@ p {
 .intro {
   font-size: 3vh;
   padding: 1vh 2vh 0 2vh;
+  min-height: 80vh;
 }
 
 #about-text {
@@ -84,6 +85,10 @@ p {
   
   #right {
     display: inline-block;
+  }
+
+  .smiley {
+    transform: translateY(-24vh);
   }
 
 }
