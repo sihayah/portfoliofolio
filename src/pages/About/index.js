@@ -3,6 +3,7 @@ import portrait from '../../assets/pink_portrait.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX } from '@fortawesome/free-solid-svg-icons';
+import { animateScroll as scroll } from 'react-scroll';
 
 
 const About = () => {
@@ -17,12 +18,16 @@ const About = () => {
         }
     };
 
+    const scrollToArticle = () => {
+        scroll.scrollToBottom();
+    };
+
     const toggleButton = () => {
         if (visible === false) {
             return(
                 <>
                     <FontAwesomeIcon className='arrow' id='right' icon= { faArrowRight } />
-                    <FontAwesomeIcon className='arrow' id='down' icon= { faArrowDown } />                 
+                    <FontAwesomeIcon onClick={scrollToArticle} className='arrow' id='down' icon= { faArrowDown } />                 
                 </>
 
             )
@@ -46,10 +51,21 @@ const About = () => {
                     </button>
                 </span>  
                 <span>
-                    <p id='about-text' style={{display: visible ? 'inline-block' : 'none'}}>
-                        I'm Sihaya Harris
-                        a dynamic full-stack web developer with a background in art & design. I am experienced in MERN stack. I am based out of Brooklyn, and I'm currently seeking out my next endeavor.
-                    </p>   
+                    <article id='about-text' style={{display: visible ? 'inline-block' : 'none'}}>
+                        <p>
+                            I'm Sihaya Harris a dynamic full-stack web developer with a background in art & design. I began my web development journey in elementary school. Back then, I was writing my first HTML, CSS, and JavaScript (with an egregious number of marquees and Lisa Frank color palettes) in a word processor, and hosting my webpages on GeoCities.     
+                        </p>
+                        <p>
+                            I have managed to hone those nascent skills into full-stack MERN development. I still relish in the creative process of app building— pulling a new idea out of the air and seeing it through to completion, not to mention, handling the many side quests of debugging along the way.    
+                        </p>
+                        <p>
+                            I am also a visual artists and I find many satisfying parallels in creating patterns in algorithms and data. I delight in beautiful code!
+                        </p>
+                        <p>
+                            I am based out of Brooklyn, NY, and I am currently seeking new endeavors.
+                        </p>
+
+                    </article>   
                                      
                 </span> 
             </div>              
