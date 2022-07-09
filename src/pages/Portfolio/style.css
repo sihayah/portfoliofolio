@@ -34,7 +34,7 @@ h4, h5 {
   }
   
 .portfolio-container img {
-  max-width: 30vh;
+  max-width: 35vh;
 }
 
 #table-of-contents {
@@ -59,7 +59,7 @@ h4, h5 {
 }
 
 .project-details {
-  width: 90%;
+  width: 110%;
 }
   
 #project-links {
@@ -99,7 +99,7 @@ h4, h5 {
     .project-container {
       flex-direction: row;
       flex-wrap: wrap;
-      width: 90vh;
+      width: 100vh;
       gap: 3vh;
     }
 
@@ -140,6 +140,9 @@ h4, h5 {
     .project-details {
       max-width: 50vh;
       padding-top: 10vh;
+    }
+    .portfolio-container {
+      margin-left: 30vh;
     }
 
   }
