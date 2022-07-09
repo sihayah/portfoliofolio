@@ -119,8 +119,22 @@ h4 {
   
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 1000px) {
+    .project-container {
+      gap: 2vh;
+    }
+    .project-details {
+      max-width: 30vh;
+    }
+
+  }
+
+  @media screen and (min-width: 1500px) {
     .project-container {
       gap: 8vh;
     }
+    .project-details {
+      max-width: 50vh;
+    }
+
   }
