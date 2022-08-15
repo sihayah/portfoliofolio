@@ -73,7 +73,7 @@ const Resume = () => {
                     <h4>
                         Experience
                     </h4>
-                    <h6>Technical Lead, 2021 - present
+                    <h6>Technical Generalist, 2021 - present
                     </h6>
                     <h6>
                     Insa, Brooklyn, NY
