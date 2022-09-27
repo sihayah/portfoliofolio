@@ -16,9 +16,12 @@ const Header = () => {
                             <span className="top d-flex flex-column align-items-baseline">
                                 <h1>
                                 <FontAwesomeIcon id='astronaut' icon={ faUserAstronaut } />
-                                Sihaya Harris
-                                </h1>
-                                <h2>web developer</h2>
+                                 <span className="heading-text">
+                                    Sihaya Harris
+                                </span>
+                                    </h1>
+                                <h2>web developer</h2>    
+                                
                             </span>
                         </Link>
                         {/* <FontAwesomeIcon id="hamburger" icon={ faBars } /> */}

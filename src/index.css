@@ -37,6 +37,11 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+  font-family: 'Designer';
+  src: url(../public/DESIGNER.otf);
+}
+
 .container {
   margin-top: 20vh;
   margin-bottom: 8vh;

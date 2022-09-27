@@ -15,7 +15,7 @@ const Nav = () => {
         {
             title: "About",
             name: "about",
-            location: "/"
+            location: "/about "
         },
         {
             title: "Contact",
