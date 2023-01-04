@@ -12,7 +12,7 @@ const Portfolio = () => {
             title: "QRad",
             file: "qrad.jpg",
             repo: "https://github.com/sihayah/project-3-group-a",
-            deployment: "https://qrad.herokuapp.com/",
+            deployment: "https://qrad-v2.herokuapp.com/",
             description: "This app allows users to generate a digital business card with a QR code they can share from the profile, and add other business cards to a contact list.",
             technologies: "ReactJS, MongoDB, GraphQL, Node.js, Bootstrap, JavaScript, CSS, HTML, Heroku",
             id: "QRad"
