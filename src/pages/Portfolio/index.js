@@ -21,7 +21,7 @@ const Portfolio = () => {
             title: "Budget Tracker",
             file: "budget.jpg",
             repo: "https://github.com/sihayah/budget-tracker",
-            deployment: "https://blooming-plains-15476.herokuapp.com/",
+            deployment: "https://budgettracker.herokuapp.com/",
             description: "This app allows the user to input and graph income and expenses. User data persists, and offline functionality allows the user to input transactions even without an internet connection.",
             technologies: "Node.js, MongoDB, JavaScript, CSS, HTML, Heroku",
             id: "budget-tracker"
@@ -30,7 +30,7 @@ const Portfolio = () => {
             title: "Pet Project",
             file: "pet-project.jpg",
             repo: "https://github.com/mkohn4/pet-project",
-            deployment: "https://warm-springs-61498.herokuapp.com/",
+            deployment: "https://pet-project.herokuapp.com/",
             description: "Pet Project is an online community for pet owners to post about their pets, allergies, diets and more. Users can comment on one anothers posts and will receive notifications when other users comment on their posts.",
             technologies: "MySQL, Node.js, Express, Jest, JavaScript, CSS, HTML",
             id: "pet-project"
@@ -39,7 +39,7 @@ const Portfolio = () => {
             title: "Forum Follows Functions",
             file: "fff.jpg",
             repo: "https://github.com/sihayah/forum_follows_functions",
-            deployment: "https://forum-follows-functions.herokuapp.com/",
+            deployment: "https://forumfollowsfunctions.herokuapp.com/",
             description: "This is a tech blog forum where users can, create an account to make posts. Also, user may view and upvote the posts of other users.",
             technologies: "MySQL, Node.js, Express, JavaScript, CSS, HTML, Heroku",
             id: "fff"
