@@ -31,7 +31,7 @@ h4, h5 {
     display: flex;
     flex-direction: column;
     width: 40vh;
-    margin-bottom: 8vh;
+    margin-bottom: 4vh;
   }
   
 .portfolio-container img {
@@ -53,10 +53,12 @@ h4, h5 {
 
 .project-container p {
   text-align:justify;
+  margin-top: -6vh;
 }
 
 #tech-list {
   text-align: center;
+  margin-top: -7vh;
 }
 
 .project-details {
