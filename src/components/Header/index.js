@@ -20,7 +20,7 @@ const Header = () => {
                                     Sihaya Harris
                                 </span>
                                     </h1>
-                                <h2>web developer</h2>    
+                                <h2>design / develop</h2>    
                                 
                             </span>
                         </Link>

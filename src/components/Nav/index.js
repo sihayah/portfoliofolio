@@ -8,9 +8,14 @@ const Nav = () => {
 
     const tabs = [
         {
-            title: "Portfolio",
-            name: "portfolio",
-            location: "/portfolio"
+            title: "Design",
+            name: "design",
+            location: "/design"
+        },
+        {
+            title: "Develop",
+            name: "develop",
+            location: "/develop"
         },
         {
             title: "About",
