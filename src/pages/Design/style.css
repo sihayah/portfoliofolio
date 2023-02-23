@@ -1,0 +1,151 @@
+.active {
+    color: var(--golden-touch);
+  }
+  
+  .active:hover {
+    color: var(--golden-touch);
+  }
+  
+  #table-of-contents {
+    margin-top: -3vh;
+  }
+    
+  #table-of-contents ul {
+    list-style: none;
+    font-size: 3vh;
+  }
+  
+  #table-of-contents li {
+    transform: translateX(-2vh);
+  }
+  
+  #table-of-contents li:hover {
+    color: var(--golden-touch);
+  }
+  
+  h4, h5 {
+    color: var(--warm-grey);
+  }
+  
+  .portfolio-container {
+      display: flex;
+      flex-direction: column;
+      width: 40vh;
+      margin-bottom: 4vh;
+    }
+    
+  .portfolio-container img {
+    max-width: 35vh;
+  }
+  
+  #table-of-contents {
+    text-align: left;
+    width: 40vh;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+    padding: 3vh 2vh 1vh 9vh;
+  }
+  
+  .project-container p {
+    text-align:justify;
+    margin-top: -6vh;
+  }
+  
+  #tech-list {
+    text-align: center;
+    margin-top: -7vh;
+  }
+  
+  .project-details {
+    width: 110%;
+  }
+    
+  #project-links {
+    margin-top: -1vh;
+  }
+  
+  #project-links a {
+    color: var(--pink);
+  }
+  #project-links a:hover {
+    color: var(--golden-touch);
+  }
+  
+  .lg-format-scroll-top {
+    display: none;
+  }
+  
+  @media screen and (min-width: 500px) {
+  
+      .portfolio {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+  
+      }
+      #table-of-contents {
+        position: fixed;
+        left: 3vh;
+        margin-top: 1vh;
+      }
+  
+      .portfolio-container {
+        margin-left: 38vh;
+        width: 90vh;
+      }
+    
+      .project-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vh;
+        gap: 3vh;
+      }
+  
+      .project-details {
+        width: 40vh;
+        height: 50vh;
+      }
+  
+      .project-details p {
+        font-size: larger;
+      }
+  
+      .lg-format-scroll-top {
+        margin-top: 34vh;
+        display: inline-block;
+      }
+  
+      .mobile-scroll-top {
+        display: none;
+      }
+    
+    }
+  
+    @media screen and (min-width: 1000px) {
+      .project-container {
+        gap: 2vh;
+      }
+      .project-details {
+        max-width: 30vh;
+      }
+  
+    }
+  
+    @media screen and (min-width: 1500px) {
+      .project-container {
+        gap: 9vh;
+      }
+      .project-details {
+        max-width: 70vh;
+        padding-top: 10vh;
+      }
+      .portfolio-container {
+        margin-left: 30vh;
+      }
+  
+    }

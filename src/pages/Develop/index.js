@@ -3,10 +3,10 @@ import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMeteor } from '@fortawesome/free-solid-svg-icons'
-import '../Portfolio/style.css';
+import './style.css';
 
 
-const Portfolio = () => {
+const Develop = () => {
     const projects = [
         {
             title: "QRad",
@@ -135,4 +135,4 @@ const Portfolio = () => {
 };
 
 
-export default Portfolio;
+export default Develop;
