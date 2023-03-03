@@ -22,15 +22,13 @@ header a:hover {
 }
 
 .top h1, .top h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
   font-size: 4vh;
   font-weight: bold;
   padding-left: 3vh;
-  background-image: url(https://media.giphy.com/media/l0HlxmJJbxo1Uq8QU/giphy.gif);
-  -webkit-text-stroke: var(--violet-grey);
-	background-size: cover;
-	color: transparent;
-	background-clip: text;
-	-webkit-background-clip: text;
+  padding-bottom:n 8vh;
+
 }
 
 

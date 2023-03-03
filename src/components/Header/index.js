@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserAstronaut, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../Header/style.css';
 import Nav from '../Nav';
 
@@ -15,19 +15,16 @@ const Header = () => {
                         <Link to="/">
                             <span className="top d-flex flex-column align-items-baseline">
                                 <h1>
-                                <FontAwesomeIcon id='astronaut' icon={ faUserAstronaut } />
                                  <span className="heading-text">
-                                    Sihaya Harris
+                                    sihaya harris / design / develop
                                 </span>
-                                    </h1>
-                                <h2>design / develop</h2>    
+                                    </h1>   
                                 
                             </span>
                         </Link>
                         {/* <FontAwesomeIcon id="hamburger" icon={ faBars } /> */}
                     </div>
-                    <span id='fullscreen-nav'>
-                        <Nav />       
+                    <span id='fullscreen-nav'>    
                     </span>
                 </header>            
             </div>        

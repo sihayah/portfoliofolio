@@ -66,9 +66,9 @@
     display: inline-block;
   }
 
-  @media screen and (min-width: 700px) {
+  /* @media screen and (min-width: 700px) {
     .bm-burger-bars {
       display: none;
     }
-  }
+  } */
   

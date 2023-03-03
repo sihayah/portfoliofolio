@@ -78,7 +78,7 @@ const Develop = () => {
                     <div id="table-of-contents">
                         
                         <h4>
-                            Projects
+                            Coding Projects
                         </h4>
                         <ul>
                             {projects.map(project => (                            
