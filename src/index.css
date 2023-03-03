@@ -17,6 +17,8 @@
   padding: 0;
   font-family: 'neue helvetica', Helvetica, sans-serif;
   box-sizing: border-box;
+  background-image: url("../public/dotgrid.webp");
+  background-repeat: repeat;
 }
 
 body {

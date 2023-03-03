@@ -39,7 +39,7 @@ const Design = () => {
                     <div id="table-of-contents">
                         
                         <h4>
-                            Case Studies
+                            UX Case Studies
                         </h4>
                         <ul>
                             {caseStudies.map(project => (                            
