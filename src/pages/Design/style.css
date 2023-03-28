@@ -5,18 +5,10 @@
   .active:hover {
     color: var(--golden-touch);
   }
-  
-  #table-of-contents {
-    margin-top: -3vh;
-  }
     
   #table-of-contents ul {
     list-style: none;
     font-size: 3vh;
-  }
-  
-  #table-of-contents li {
-    transform: translateX(-2vh);
   }
   
   #table-of-contents li:hover {
@@ -30,43 +22,23 @@
   .portfolio-container {
       display: flex;
       flex-direction: column;
-      width: 40vh;
-      margin-bottom: 4vh;
     }
-    
-  .portfolio-container img {
-    max-width: 35vh;
-  }
   
   #table-of-contents {
     text-align: left;
-    width: 40vh;
   }
   
   .project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5vh;
-    padding: 3vh 2vh 1vh 9vh;
+    padding: 3vh 0 0 3vh;
   }
   
   .project-container p {
     text-align:justify;
-    margin-top: -6vh;
-  }
-  
-  #tech-list {
-    text-align: center;
-    margin-top: -7vh;
-  }
-  
-  .project-details {
-    width: 110%;
-  }
-    
-  #project-links {
-    margin-top: -1vh;
+    width: 40vh;
+    word-wrap: break-word;
   }
   
   #project-links a {
@@ -79,40 +51,29 @@
   .lg-format-scroll-top {
     display: none;
   }
+
+  .portfolio {
+    padding-top: 7vh;
+  }
   
   @media screen and (min-width: 500px) {
   
-      .portfolio {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-  
-      }
       #table-of-contents {
         position: fixed;
         left: 3vh;
         margin-top: 1vh;
+        width: 20vh;
       }
   
       .portfolio-container {
-        margin-left: 38vh;
-        width: 90vh;
+        margin-left: -7vh;
       }
     
-      .project-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100vh;
-        gap: 3vh;
-      }
-  
-      .project-details {
-        width: 40vh;
-        height: 50vh;
-      }
-  
-      .project-details p {
+      .project-container p {
         font-size: larger;
+        text-align: left;
+        width: 60vh;
+        word-wrap: break-word;
       }
   
       .lg-format-scroll-top {
@@ -126,26 +87,37 @@
     
     }
   
-    @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1000px) {
       .project-container {
         gap: 2vh;
       }
-      .project-details {
-        max-width: 30vh;
+      #table-of-contents {
+        width: 25vh;
       }
   
     }
   
-    @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1500px) { 
       .project-container {
         gap: 9vh;
       }
       .project-details {
-        max-width: 70vh;
         padding-top: 10vh;
       }
       .portfolio-container {
-        margin-left: 30vh;
+        margin-left: 10vh;
+        width: fit-content;
+      }
+      .project-details {
+        color: red;
+        width: 40vh;
+        text-align: center;
+      }
+      .project-container p {
+        width: 100vh;
+      }
+      .portfolio-container {
+        margin-left: -12vh;
       }
   
     }
