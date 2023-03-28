@@ -60,6 +60,7 @@ const Design = () => {
                                         </li>
                             ))}                            
                         </ul>
+                        <span id="disappearingDashes">//////////////////////////////////////////////////////////////////</span>
                         <div className= 'lg-format-scroll-top'>
                             <ScrollTop />     
                         </div>
@@ -74,8 +75,11 @@ const Design = () => {
                                 <p>
                                     {project.description}
                                 </p> 
-                                <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}>
+                                <div className="centerImg">
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}>
                                 </img>  
+                                </div>
+                                
                                 <h6>My Role</h6>  
                                 <p>
                                     {project.myRole}
@@ -84,60 +88,60 @@ const Design = () => {
                                 <p>
                                     {project.research}
                                 </p>  
-                                <div>
+                                <div  className="centerImg">
                                     {project.empathyMap}
                                 </div> 
                                 <p>
                                     {project.empathyCopy}
                                 </p>     
-                                <div>
+                                <div className="centerImg">
                                     {project.persona1}
                                 </div> 
-                                <div>
+                                <div className="centerImg">
                                     {project.persona2}
                                 </div> 
                                 <p>
                                     {project.competitveAnalysisCopy}
                                 </p> 
-                                <div>
+                                <div className="centerImg">
                                     {project.competitveAnalysis}
                                 </div> 
                                 <h6>Architecture</h6>  
                                 <p>
                                     {project.sitemapCopy}
                                 </p>  
-                                <div>
+                                <div className="centerImg">
                                     {project.sitemap}
                                 </div> 
                                 <p>
                                     {project.userFlowCopy}
                                 </p>                           
-                                <div>
+                                <div className="centerImg">
                                     {project.userFlow}
                                 </div>                          
                                 <h6>Wireframing</h6>  
                                 <p>
                                     {project.wireframeCopy}
                                 </p>  
-                                <div>
+                                <div className="centerImg">
                                     {project.wireframe}
                                 </div>              
                                 <h6>Prototype</h6>  
                                 <p>
                                     {project.prototypeCopy}
                                 </p>  
-                                <div>
+                                <div className="centerImg">
                                     {project.prototype}
                                 </div>             
                                 <h6>Testing + Iteration</h6>    
                                 <p>
                                     {project.testingIterationCopy}
                                 </p>  
-                                <div>
+                                <div className="centerImg">
                                     {project.testingIteration}
                                 </div>            
                                 <h6>Final Design</h6>  
-                                <div>
+                                <div className="centerImg">
                                     {project.revisedDesign}
                                 </div>     
                                 <p>
