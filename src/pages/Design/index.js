@@ -32,10 +32,8 @@ const Design = () => {
             testingIteration: "X",
             revisedDesign: "X",
             completetionSummary: "X",
-
-
-            id: "Planting"
-        },
+            id: "planting"
+        }
 
     ];
 
@@ -73,14 +71,14 @@ const Design = () => {
                             <div className='project-details'>
                                 <h4>{project.title}</h4>
                                 <h5>{project.subtitle}</h5> 
+                                <p>
+                                    {project.description}
+                                </p> 
                                 <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}>
                                 </img>  
                                 <span id="project-links">
                                     <a href={project.research}> RESEARCH </a>
-                                </span>  
-                                <p>
-                                    {project.description}
-                                </p>  
+                                </span>   
                                 <h6>My Role</h6>  
                                 <p>
                                     {project.myRole}
