@@ -14,17 +14,24 @@ const Design = () => {
             imageBank: "planting_empathy_map.jpg",
             research: "this is synopsis of research coducted...",
             empathyMap: "planting_empathy_map.jpg",
-            persona1: "",
-            persona2: "",
-            competitveAnalysis: "",
-            interviews: "",
-            sitemap: "",
-            userFlow: "",
-            wireframe: "",
-            prototype: "",
-            testingIteration: "",
-            revisedDesign: "",
-            completetionSummary: "",
+            empathyCopy: "research... blah blah blah",
+            persona1: "X",
+            persona2: "X",
+            competitveAnalysisCopy: "about competitive analysis",
+            competitveAnalysis: "X",
+            interviews: "...",
+            sitemapCopy: "about sitemap...",
+            sitemap: "X",
+            userFlowCopy: "about user flow...",
+            userFlow: "X",
+            wireframeCopy: "about wireframe",
+            wireframe: "X",
+            prototypeCopy: "about prototype...",
+            prototype: "X",
+            testingIterationCopy: "about testing and iteration",
+            testingIteration: "X",
+            revisedDesign: "X",
+            completetionSummary: "X",
 
 
             id: "Planting"
@@ -62,18 +69,85 @@ const Design = () => {
                     </div>
                 <div className="portfolio-container">
                     {caseStudies.map ((project) => (
-                        <div className="project-container" key={project.title}>
-                            <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}
-                            ></img>                                
+                        <div className="project-container" key={project.title}>                              
                             <div className='project-details'>
                                 <h4>{project.title}</h4>
                                 <h5>{project.subtitle}</h5> 
+                                <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}>
+                                </img>  
                                 <span id="project-links">
                                     <a href={project.research}> RESEARCH </a>
                                 </span>  
                                 <p>
                                     {project.description}
-                                </p>                             
+                                </p>  
+                                <h6>My Role</h6>  
+                                <p>
+                                    {project.myRole}
+                                </p>    
+                                <h6>Research</h6>
+                                <p>
+                                    {project.research}
+                                </p>  
+                                <div>
+                                    {project.empathyMap}
+                                </div> 
+                                <p>
+                                    {project.empathyCopy}
+                                </p>     
+                                <div>
+                                    {project.persona1}
+                                </div> 
+                                <div>
+                                    {project.persona2}
+                                </div> 
+                                <p>
+                                    {project.competitveAnalysisCopy}
+                                </p> 
+                                <div>
+                                    {project.competitveAnalysis}
+                                </div> 
+                                <h6>Architecture</h6>  
+                                <p>
+                                    {project.sitemapCopy}
+                                </p>  
+                                <div>
+                                    {project.sitemap}
+                                </div> 
+                                <p>
+                                    {project.userFlowCopy}
+                                </p>                           
+                                <div>
+                                    {project.userFlow}
+                                </div>                          
+                                <h6>Wireframing</h6>  
+                                <p>
+                                    {project.wireframeCopy}
+                                </p>  
+                                <div>
+                                    {project.wireframe}
+                                </div>              
+                                <h6>Prototype</h6>  
+                                <p>
+                                    {project.prototypeCopy}
+                                </p>  
+                                <div>
+                                    {project.prototype}
+                                </div>             
+                                <h6>Testing + Iteration</h6>    
+                                <p>
+                                    {project.testingIterationCopy}
+                                </p>  
+                                <div>
+                                    {project.testingIteration}
+                                </div>            
+                                <h6>Final Design</h6>  
+                                <div>
+                                    {project.revisedDesign}
+                                </div>     
+                                <div>
+                                    {project.completetionSummary}
+                                </div>          
                             </div>
                         </div>
                     ))}    
