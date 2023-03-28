@@ -8,29 +8,27 @@ const Design = () => {
     const caseStudies = [
         {
             title: "Planting",
-            slides: "planting_empathy_map.jpg",
-            gooogleSlides: "https://docs.google.com/presentation/d/1dOjgu_sHbX1tURTPiMInShJgPFo20LncTjsSOoawQow/edit?usp=sharing",
+            subtitle: "UX/UI",
             description: "Guide to gardening, house plant care, and forum for online community of gardeners of all knowledge levels.",
-            technologies: "Figma, Google Slides",
-            id: "Planting"
-        },
-        {
-            title: "QRAD",
-            slides: "qrad_empathy_map.jpg",
-            gooogleSlides: "https://docs.google.com/presentation/d/1dOjgu_sHbX1tURTPiMInShJgPFo20LncTjsSOoawQow/edit?usp=sharing",
-            description: "This app allows users to generate a digital business card with a QR code they can share from the profile, and add other business cards to a contact list.",
-            technologies: "Figma, Google Slides",
-            id: "Planting"
-        },
-        {
-            title: "Budget Tracker",
-            slides: "budget_tracker_empathy_map.jpg",
-            gooogleSlides: "https://docs.google.com/presentation/d/1dOjgu_sHbX1tURTPiMInShJgPFo20LncTjsSOoawQow/edit?usp=sharing",
-            description: "This app allows the user to input and graph income and expenses. User data persists, and offline functionality allows the user to input transactions even without an internet connection.",
-            technologies: "Figma, Google Slides",
-            id: "Planting"
-        },
+            myRole: "This is a description of my role",
+            imageBank: "planting_empathy_map.jpg",
+            research: "this is synopsis of research coducted...",
+            empathyMap: "planting_empathy_map.jpg",
+            persona1: "",
+            persona2: "",
+            competitveAnalysis: "",
+            interviews: "",
+            sitemap: "",
+            userFlow: "",
+            wireframe: "",
+            prototype: "",
+            testingIteration: "",
+            revisedDesign: "",
+            completetionSummary: "",
 
+
+            id: "Planting"
+        },
 
     ];
 
@@ -65,21 +63,17 @@ const Design = () => {
                 <div className="portfolio-container">
                     {caseStudies.map ((project) => (
                         <div className="project-container" key={project.title}>
-                            <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.slides}`)} alt={project.title}
+                            <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}
                             ></img>                                
                             <div className='project-details'>
                                 <h4>{project.title}</h4>
+                                <h5>{project.subtitle}</h5> 
                                 <span id="project-links">
-                                    <a href={project.googleSlides}>Google Slides</a>
-                                    <span> / </span>   
+                                    <a href={project.research}> RESEARCH </a>
                                 </span>  
                                 <p>
                                     {project.description}
-                                </p>  
-                                <h5>Technologies:</h5>                   
-                                <p id="tech-list">
-                                    {project.technologies}
-                                </p>           
+                                </p>                             
                             </div>
                         </div>
                     ))}    
