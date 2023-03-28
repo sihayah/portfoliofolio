@@ -12,16 +12,22 @@ const Header = () => {
             <div className='header-container'>
                 <header id="header">
                     <div>
-                        <Link to="/">
-                            <span className="top d-flex flex-column align-items-baseline">
-                                <h1>
-                                 <span className="heading-text">
-                                    sihaya harris / design / develop
-                                </span>
-                                    </h1>   
-                                
+                        <span className="top d-flex flex-column align-items-baseline">
+                            <h1>
+                                <span className="heading-text">
+                                <Link to="/">
+                                    sihaya harris
+                                    </Link>/ 
+                                <Link to="/design">
+                                    design
+                                </Link>/ 
+                                <Link to="/develop">
+                                    develop
+                                </Link>
                             </span>
-                        </Link>
+                                </h1>   
+                            
+                        </span>
                         {/* <FontAwesomeIcon id="hamburger" icon={ faBars } /> */}
                     </div>
                     <span id='fullscreen-nav'>    
