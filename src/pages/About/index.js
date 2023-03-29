@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import portrait from '../../assets/pink_portrait.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowDown, faX } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Element, animateScroll as scroll, scroller } from 'react-scroll';
 
 
@@ -48,11 +48,25 @@ const About = () => {
 
     return (
         <section className="about">
-            <img alt="portrait" className="smiley" src={portrait}/>
+            <div id="intro-menu">
+                <button>
+                     {'\u2190'}
+                     <br/>
+                     browse my UX case studies
+                   
+                </button>
+                <img alt="portrait" className="smiley" src={portrait}/>
+                <button>
+                {'\u2192'}
+                     <br/>
+                    checkout my full stack dev projects
+                    </button>
+                </div>
+            
             <div className="intro">
                 <span id='hello-there'>
                     <h3>
-                    Hello there 
+                    my background...
                     </h3> 
                     <button onClick={toggleVisible}>
                         {toggleButton()}
