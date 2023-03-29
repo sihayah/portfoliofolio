@@ -45,6 +45,26 @@
     width: 40vh;
   }
 
+  .popupImg {
+    max-width: 45vh;
+  }
+
+  .competitvePopup {
+    max-width: 500%;
+  }
+
+  .clickClose {
+    display: block;
+  }
+
+  .escClose {
+    display: none;
+  }
+
+  .emphasize {
+    font-weight: bolder;
+  }
+
   #project-links a {
     color: var(--pink);
   }
@@ -106,6 +126,22 @@
       }
       #table-of-contents {
         width: 25vh;
+      }
+
+      .popupImg {
+        max-width: 75%;
+      }
+
+      .competitvePopup {
+        max-width: 100%;
+      }
+
+      .clickClose {
+        display: none;
+      }
+
+      .escClose {
+        display: block;
       }
   
     }

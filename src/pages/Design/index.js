@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
+import Popup from 'reactjs-popup';
 import './style.css';
-
 
 const Design = () => {
     const caseStudies = [
@@ -14,7 +14,7 @@ const Design = () => {
             logo: "smiley.png",
             research: "this is synopsis of research coducted........",
             empathyMap: "planting_empathy_map.jpg",
-            empathyCopy: "research... blah blah blah..........................................",
+            empathyCopy: "empathy... blah blah blah..........................................",
             personas: "personas.jpg",
             competitveAuditCopy: "about competitive audit.....................................",
             competitveAudit: "competitive_audit.jpg",
@@ -33,8 +33,8 @@ const Design = () => {
             completetionSummary: "this why i did all the things...",
             id: "planting"
         }
-
-    ];
+        
+    ]
 
     return (
         <section className="portfolio">
@@ -89,46 +89,92 @@ const Design = () => {
                                 <p>
                                     {project.research}
                                 </p>  
-                                <div  className="centerImg">
-                                <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
-                                </img>  
-                                </div> 
                                 <p>
                                     {project.empathyCopy}
                                 </p>     
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.personas}`)}alt="peronas">
-                                    </img>  
+                                    <Popup trigger={<button className="thumb"> 
+                                            <img className="project-example" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                            </img> 
+                                            </button>} 
+                                        modal>
+                                        <span> 
+                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImg" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                            </img>  
+                                        </span>
+                                        </Popup>
                                 </div> 
                                 <p>
                                     {project.competitveAuditCopy}
                                 </p> 
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitive audit">
-                                    </img>  
+                                    <Popup trigger={<button className="thumb"> 
+                                        <img className="project-example" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
+                                        </img> 
+                                        </button>} 
+                                    modal>
+                                    <span> 
+                                        <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
+                                        <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                        <img className="competitvePopup" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
+                                        </img>  
+                                    </span>
+                                    </Popup>
                                 </div> 
                                 <h6>Architecture</h6>  
                                 <p>
                                     {project.sitemapCopy}
                                 </p>  
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
-                                    </img>  
+                                    <Popup trigger={<button className="thumb"> 
+                                            <img className="project-example" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                            </img> 
+                                            </button>} 
+                                        modal>
+                                        <span> 
+                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImg" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                            </img>  
+                                        </span>
+                                    </Popup> 
                                 </div> 
                                 <p>
                                     {project.userFlowCopy}
                                 </p>                           
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.userFlow}`)}alt="user flow">
-                                    </img>  
+                                    <Popup trigger={<button className="thumb"> 
+                                            <img className="project-example" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
+                                            </img> 
+                                            </button>} 
+                                        modal>
+                                        <span> 
+                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImg" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
+                                            </img>  
+                                        </span>
+                                    </Popup>  
                                 </div>                          
                                 <h6>Wireframing</h6>  
                                 <p>
                                     {project.wireframeCopy}
                                 </p>  
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.wireframe}`)}alt="wire frame">
-                                    </img>  
+                                    <Popup trigger={<button className="thumb"> 
+                                            <img className="project-example" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
+                                            </img> 
+                                            </button>} 
+                                        modal>
+                                        <span> 
+                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImg" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
+                                            </img>  
+                                        </span>
+                                    </Popup>  
                                 </div>              
                                 <h6>Prototype</h6>  
                                 <p>
