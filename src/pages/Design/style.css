@@ -61,6 +61,10 @@
     max-width: 60vh;
   }
 
+  .competitivePopup {
+    max-width: 50vh;
+  }
+
   .clickClose {
     display: block;
   }
@@ -134,8 +138,8 @@
         width: 25vh;
       }
 
-      .popupImg {
-        max-width: 75%;
+      .popupImg,  .competitivePopup {
+        max-width: 100vh;
       }
 
       .popupImgXl {
