@@ -78,7 +78,7 @@
   }
 
   #project-links a {
-    color: var(--pink);
+    color: var(--pop);
   }
   #project-links a:hover {
     color: var(--golden-touch);

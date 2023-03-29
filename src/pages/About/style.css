@@ -40,9 +40,17 @@ p {
   display: inline-block;
   font-size: 4vh;
   margin: 0 5vh 5vh 5vh;
-  background: var(--dark);
+  background: var(--pop);
   top: 0;
   display: none;
+}
+
+#intro-menu button:hover {
+  background: var(--dark-blue-grey);
+}
+
+#intro-menu a {
+  text-decoration: none;
 }
 
 .intro {
@@ -81,7 +89,7 @@ p {
   background-color: var(--dark);
   border-radius: 50%;
   font-size: 6vh;
-  color: var(--pink);
+  color: var(--pop);
 }
 
 .arrow:hover {

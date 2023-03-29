@@ -14,8 +14,8 @@ footer {
   }
   
   .bottom-nav a {
-    color: var(--pink);
+    color: var(--pop);
   }
   .bottom-nav a:hover {
-    color: var(--dark);
+    color: #000000;
   }

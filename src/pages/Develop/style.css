@@ -69,7 +69,7 @@ h4, h5 {
 }
 
 #dev-project-links a {
-  color: var(--pink);
+  color: var(--pop);
 }
 #dev-project-links a:hover {
   color: var(--golden-touch);

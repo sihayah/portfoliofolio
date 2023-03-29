@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import portrait from '../../assets/pink_portrait.png';
+import avatar from '../../assets/avatar.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Element, animateScroll as scroll, scroller } from 'react-scroll';
+import { Link, useLocation } from 'react-router-dom';
 
 
 const About = () => {
@@ -49,24 +50,28 @@ const About = () => {
     return (
         <section className="about">
             <div id="intro-menu">
-                <button>
-                     {'\u2190'}
-                     <br/>
-                     browse my UX case studies
-                   
-                </button>
-                <img alt="portrait" className="smiley" src={portrait}/>
-                <button>
-                {'\u2192'}
-                     <br/>
-                    checkout my full stack dev projects
-                    </button>
+                <Link to="/design">
+                    <button>
+                        {'\u2190'}
+                        <br/>
+                        browse my UX case studies
+                    
+                    </button>                                    
+                </Link>/ 
+                <img alt="avatar" className="smiley" src={avatar}/>
+                <Link to="/design">
+                    <button>
+                        {'\u2192'}
+                        <br/>
+                        checkout my full stack dev projects
+                    </button>                                  
+                </Link>/ 
                 </div>
             
             <div className="intro">
                 <span id='hello-there'>
-                    <h3>
-                    my background...
+                    <h3 onClick={toggleVisible}>
+                    learn about my background...
                     </h3> 
                     <button onClick={toggleVisible}>
                         {toggleButton()}
