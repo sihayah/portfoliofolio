@@ -115,7 +115,7 @@ const Design = () => {
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImg" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                            <img className="empathyMapPopup" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
                                             </img>  
                                         </span>
                                         </Popup>

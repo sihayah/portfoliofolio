@@ -49,7 +49,7 @@
     width: 40vh;
   }
 
-  .popupImg, .wireframePopup {
+  .popupImg, .wireframePopup, .empathyMapPopup {
     max-width: 45vh;
   }
 
@@ -89,7 +89,7 @@
   }
 
   
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 1000px) {
   
       #table-of-contents {
         position: fixed;
@@ -103,7 +103,8 @@
       }
   
       .portfolio-container {
-        margin-left: 1vh;
+        margin-left: 30vh;
+        padding: 0;
       }
     
       .project-container p {
@@ -125,10 +126,7 @@
       .mobile-scroll-top {
         display: none;
       }
-    
-    }
-  
-  @media screen and (min-width: 1000px) {
+
       .project-container {
         gap: 2vh;
       }
@@ -145,6 +143,10 @@
       }
 
       .wireframePopup {
+        max-width: 90vh;
+      }
+
+      .empathyMapPopup {
         max-width: 90vh;
       }
 
