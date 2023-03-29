@@ -99,8 +99,8 @@ const Design = () => {
                                             </button>} 
                                         modal>
                                         <span> 
-                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
-                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
+                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
                                             <img className="popupImg" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
                                             </img>  
                                         </span>
@@ -116,9 +116,9 @@ const Design = () => {
                                         </button>} 
                                     modal>
                                     <span> 
-                                        <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
-                                        <p className="escClose"><span className="emphasize">click</span> to exit</p>
-                                        <img className="competitvePopup" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
+                                        <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                        <p className="clickClose"><span className="emphasize">click</span> to exit</p>
+                                        <img className="competitivePopup" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
                                         </img>  
                                     </span>
                                     </Popup>
@@ -134,9 +134,9 @@ const Design = () => {
                                             </button>} 
                                         modal>
                                         <span> 
-                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
-                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImg" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImgXl" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
                                             </img>  
                                         </span>
                                     </Popup> 
@@ -151,9 +151,9 @@ const Design = () => {
                                             </button>} 
                                         modal>
                                         <span> 
-                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
-                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImg" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
+                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="popupImgXl" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
                                             </img>  
                                         </span>
                                     </Popup>  
@@ -169,9 +169,9 @@ const Design = () => {
                                             </button>} 
                                         modal>
                                         <span> 
-                                            <p className="clickClose">hit <span className="emphasize">esc</span> to exit</p>
-                                            <p className="escClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImg" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
+                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="wireframePopup" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
                                             </img>  
                                         </span>
                                     </Popup>  

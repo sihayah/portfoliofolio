@@ -45,8 +45,12 @@
     width: 40vh;
   }
 
-  .popupImg {
+  .popupImg, .wireframePopup {
     max-width: 45vh;
+  }
+
+  .popupImgXl {
+    max-width: 100%;
   }
 
   .competitvePopup {
@@ -132,8 +136,12 @@
         max-width: 75%;
       }
 
-      .competitvePopup {
+      .popupImgXl {
         max-width: 100%;
+      }
+
+      .wireframePopup {
+        max-width: 50%;
       }
 
       .clickClose {
