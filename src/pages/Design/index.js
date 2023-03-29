@@ -59,7 +59,7 @@ const Design = () => {
                                         </li>
                             ))}                            
                         </ul>
-                        <span id="disappearingDashes">//////////////////////////////////////////////////////////////////</span>
+                        <span id="disappearingDashes">-------------------</span>
                         <div className= 'lg-format-scroll-top'>
                             <ScrollTop />     
                         </div>

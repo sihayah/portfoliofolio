@@ -57,7 +57,7 @@ const About = () => {
                         browse my UX case studies
                     
                     </button>                                    
-                </Link>/ 
+                </Link>
                 <img alt="avatar" className="smiley" src={avatar}/>
                 <Link to="/design">
                     <button>
@@ -65,7 +65,7 @@ const About = () => {
                         <br/>
                         checkout my full stack dev projects
                     </button>                                  
-                </Link>/ 
+                </Link>
                 </div>
             
             <div className="intro">
