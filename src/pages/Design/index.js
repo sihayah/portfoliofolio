@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
 import Popup from 'reactjs-popup';
