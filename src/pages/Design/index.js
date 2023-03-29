@@ -197,7 +197,7 @@ const Design = () => {
                                 <div className="centerImg">
                                     {project.prototype}
                                 </div>             
-                                <h6>Testing + Iteration</h6>    
+                                {/* <h6>Testing + Iteration</h6>    
                                 <p>
                                     {project.testingIterationCopy}
                                 </p>  
@@ -210,7 +210,7 @@ const Design = () => {
                                 </div>     
                                 <p>
                                     {project.completetionSummary}
-                                </p>          
+                                </p>           */}
                             </div>
                         </div>
                     ))}    
