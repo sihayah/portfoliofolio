@@ -10,28 +10,27 @@ const Design = () => {
             title: "Planting",
             subtitle: "UX/UI",
             description: "Guide to gardening, house plant care, and forum for online community of gardeners of all knowledge levels.",
-            myRole: "This is a description of my role...............................................................................................................................................................................................................................................................",
-            imageBank: "planting_empathy_map.jpg",
-            research: "this is synopsis of research coducted..................................................................................................................................................................................................................................................................",
+            myRole: "This is a description of my role.......",
+            logo: "smiley.png",
+            research: "this is synopsis of research coducted........",
             empathyMap: "planting_empathy_map.jpg",
-            empathyCopy: "research... blah blah blah...............................................................................................................................................................................................................................................................",
-            persona1: "X",
-            persona2: "X",
-            competitveAnalysisCopy: "about competitive analysis...............................................................................................................................................................................................................................................................",
-            competitveAnalysis: "X",
+            empathyCopy: "research... blah blah blah..........................................",
+            personas: "personas.jpg",
+            competitveAuditCopy: "about competitive audit.....................................",
+            competitveAudit: "competitive_audit.jpg",
             interviews: "...",
-            sitemapCopy: "about sitemap.................................................................................................................................................................................................................................................................",
-            sitemap: "X",
-            userFlowCopy: "about user flow..................................................................................................................................................................................................................................................................",
-            userFlow: "X",
-            wireframeCopy: "about wireframe...............................................................................................................................................................................................................................................................",
-            wireframe: "X",
-            prototypeCopy: "about prototype..................................................................................................................................................................................................................................................................",
+            sitemapCopy: "about sitemap........",
+            sitemap: "sitemap.jpg",
+            userFlowCopy: "about user flow..........",
+            userFlow: "userflow.jpg",
+            wireframeCopy: "about wireframe...",
+            wireframe: "wireframe.jpg",
+            prototypeCopy: "about prototype......",
             prototype: "X",
-            testingIterationCopy: "about testing and iteration...............................................................................................................................................................................................................................................................",
+            testingIterationCopy: "about testing and iteration.......",
             testingIteration: "X",
             revisedDesign: "X",
-            completetionSummary: "this why i did all the things...............................................................................................................................................................................................................................................................",
+            completetionSummary: "this why i did all the things...",
             id: "planting"
         }
 
@@ -76,11 +75,13 @@ const Design = () => {
                                     {project.description}
                                 </p> 
                                 <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.imageBank}`)} alt={project.title}>
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.logo}`)} alt={project.title}>
                                 </img>  
                                 </div>
                                 
-                                <h6>My Role</h6>  
+                                <h6>
+                                    My Role
+                                    </h6>  
                                 <p>
                                     {project.myRole}
                                 </p>    
@@ -89,42 +90,45 @@ const Design = () => {
                                     {project.research}
                                 </p>  
                                 <div  className="centerImg">
-                                    {project.empathyMap}
+                                <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                </img>  
                                 </div> 
                                 <p>
                                     {project.empathyCopy}
                                 </p>     
                                 <div className="centerImg">
-                                    {project.persona1}
-                                </div> 
-                                <div className="centerImg">
-                                    {project.persona2}
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.personas}`)}alt="peronas">
+                                    </img>  
                                 </div> 
                                 <p>
-                                    {project.competitveAnalysisCopy}
+                                    {project.competitveAuditCopy}
                                 </p> 
                                 <div className="centerImg">
-                                    {project.competitveAnalysis}
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitive audit">
+                                    </img>  
                                 </div> 
                                 <h6>Architecture</h6>  
                                 <p>
                                     {project.sitemapCopy}
                                 </p>  
                                 <div className="centerImg">
-                                    {project.sitemap}
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                    </img>  
                                 </div> 
                                 <p>
                                     {project.userFlowCopy}
                                 </p>                           
                                 <div className="centerImg">
-                                    {project.userFlow}
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.userFlow}`)}alt="user flow">
+                                    </img>  
                                 </div>                          
                                 <h6>Wireframing</h6>  
                                 <p>
                                     {project.wireframeCopy}
                                 </p>  
                                 <div className="centerImg">
-                                    {project.wireframe}
+                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.wireframe}`)}alt="wire frame">
+                                    </img>  
                                 </div>              
                                 <h6>Prototype</h6>  
                                 <p>
