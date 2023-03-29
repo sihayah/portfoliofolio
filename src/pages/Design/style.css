@@ -34,6 +34,10 @@
     align-items: center;
     padding: 3vh 0 0 3vh;
   }
+
+  .project-example {
+    max-width: 40vh;
+  }
   
   .project-container p {
     text-align:justify;
@@ -52,9 +56,9 @@
   .popupImgXl {
     max-width: 100%;
   }
-
-  .competitvePopup {
-    max-width: 500%;
+  
+  .personasPopup {
+    max-width: 60vh;
   }
 
   .clickClose {
@@ -141,7 +145,11 @@
       }
 
       .wireframePopup {
-        max-width: 50%;
+        max-width: 90vh;
+      }
+
+      .personasPopup {
+        max-width: 90vh;
       }
 
       .clickClose {
@@ -158,6 +166,10 @@
 
       .project-container {
         gap: 9vh;
+      }
+
+      x  .project-example {
+        max-width: 60vh;
       }
 
       .project-details {

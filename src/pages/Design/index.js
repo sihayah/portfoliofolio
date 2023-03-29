@@ -89,6 +89,20 @@ const Design = () => {
                                 <p>
                                     {project.research}
                                 </p>  
+                                <div className="centerImg">
+                                    <Popup trigger={<button className="thumb"> 
+                                            <img className="project-example" src={require(`../../assets/mockups/${project.personas}`)}alt="personas">
+                                            </img> 
+                                            </button>} 
+                                        modal>
+                                        <span> 
+                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
+                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
+                                            <img className="personasPopup" src={require(`../../assets/mockups/${project.personas}`)}alt="personas">
+                                            </img>  
+                                        </span>
+                                        </Popup>
+                                </div> 
                                 <p>
                                     {project.empathyCopy}
                                 </p>     
