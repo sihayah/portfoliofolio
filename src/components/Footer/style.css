@@ -13,6 +13,9 @@ footer {
     font-size: 5vh;
   }
   
+  .bottom-nav a {
+    color: var(--pink);
+  }
   .bottom-nav a:hover {
-    color: var(--golden-touch);
+    color: var(--dark);
   }
