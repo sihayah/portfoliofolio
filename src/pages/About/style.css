@@ -104,8 +104,20 @@ p {
     margin: 30vh 0 -7vh 35vh;
   }
 
+  #intro-menu {
+    margin-top: 8vh;
+  }
+
   #intro-menu button {
     display: block;
+  }
+
+  .arrow {
+    margin-top: 2vh;
+  }
+
+  #about-text {
+    margin-top: 0;
   }
 
 }
