@@ -2,7 +2,7 @@
 
 header {
   position: fixed;
-  z-index: 9999;
+  z-index: 8888;
   top: -3vh;
   flex-direction: column;
   width: 100%;
@@ -26,9 +26,9 @@ header a:hover {
 .top h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #000;
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-weight: bold;
-  padding-top: 1vh;
+  padding-top: 4vh;
   padding-bottom: 3vh;
   margin-right: 7vh;
   padding-left: 2vh;
@@ -56,4 +56,12 @@ header a:hover {
   #fullscreen-nav {
     display: flex;
   }  
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .top h1 {
+    font-size: 4vh;
+  }
 }

@@ -11,14 +11,13 @@ import Design from '../src/pages/Design';
 import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
 import NotFound from './pages/NotFound';
-import Sidebar from '../src/components/Sidebar';
 
 function App() {
 
   return (
     <Router>
       <div className="App" id='outer-container'>
-        <Sidebar pageWrapId={ 'page-wrap' } outerContainerId={ 'outer-container' } />
+        {/* <Sidebar pageWrapId={ 'page-wrap' } outerContainerId={ 'outer-container' } /> */}
         <div id='page-wrap'>
           <Header />  
           <div className="container"> 
