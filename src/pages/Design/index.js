@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
 import Popup from 'reactjs-popup';
-import './style.css';
+import '../Design/style.css';
 
 const Design = () => {
     const caseStudies = [

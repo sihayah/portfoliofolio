@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import ScrollTop from '../../components/ScrollTop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMeteor } from '@fortawesome/free-solid-svg-icons'
-import './style.css';
+import '../Develop/style.css';
 
 
 const Develop = () => {
@@ -74,8 +74,8 @@ const Develop = () => {
     ];
 
     return (
-        <section className="portfolio">
-                    <div id="table-of-contents">
+        <section className="dev-portfolio">
+                    <div id="dev-table-of-contents">
                         
                         <h4>
                             Coding Projects
@@ -96,19 +96,19 @@ const Develop = () => {
                                         </li>
                             ))}                            
                         </ul>
-                        <div className= 'lg-format-scroll-top'>
+                        <div className= 'dev-lg-format-scroll-top'>
                             <ScrollTop />     
                         </div>
                         
                     </div>
-                <div className="portfolio-container">
+                <div className="dev-portfolio-container">
                     {projects.map ((project) => (
-                        <div className="project-container" key={project.title}>
-                            <img className="project-example" id={project.id} src={require(`../../assets/landings/jpegs/${project.file}`)} alt={project.title}
+                        <div className="dev-project-container" key={project.title}>
+                            <img className="dev-project-example" id={project.id} src={require(`../../assets/landings/jpegs/${project.file}`)} alt={project.title}
                             ></img>                                
-                            <div className='project-details'>
+                            <div className='dev-project-details'>
                                 <h4>{project.title}</h4>
-                                <span id="project-links">
+                                <span id="dev-project-links">
                                     <a href={project.repo}>REPO</a>
                                     <span> / </span>
                                     <a href={project.deployment}>LIVE</a>     
@@ -117,14 +117,14 @@ const Develop = () => {
                                     {project.description}
                                 </p>  
                                 <h5>Technologies:</h5>                   
-                                <p id="tech-list">
+                                <p id="dev-tech-list">
                                     {project.technologies}
                                 </p>           
                             </div>
                         </div>
                     ))}    
                 </div>
-                <div className= 'mobile-scroll-top'>
+                <div className= 'dev-mobile-scroll-top'>
                     <ScrollTop />
                 </div>
                 
