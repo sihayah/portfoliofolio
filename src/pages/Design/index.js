@@ -38,33 +38,40 @@ const Design = () => {
 
     return (
         <section className="portfolio">
-                    <div id="table-of-contents">
-                        
-                        <h4>
-                            UX Case Studies
-                        </h4>
-                        <ul>
-                            {caseStudies.map(project => (                            
-                                        <li key={project.id}>
-                                            <Link
-                                                activeClass="active"
-                                                spy={true}
-                                                to={project.id}
-                                                smooth={true}
-                                                offset={-180}
-                                                duration={500}
-                                            >
-                                                + {project.title}
-                                            </Link>
-                                        </li>
-                            ))}                            
-                        </ul>
-                        <span id="disappearingDashes">-------------------</span>
-                        <div className= 'lg-format-scroll-top'>
-                            <ScrollTop />     
-                        </div>
-                        
+                <div id="table-of-contents">
+                    
+                    <h4>
+                        UX Case Studies
+                    </h4>
+                    <ul>
+                        {caseStudies.map(project => (                            
+                                    <li key={project.id}>
+                                        <Link
+                                            activeClass="active"
+                                            spy={true}
+                                            to={project.id}
+                                            smooth={true}
+                                            offset={-180}
+                                            duration={500}
+                                        >
+                                            + {project.title}
+                                        </Link>
+                                    </li>
+                        ))}                            
+                    </ul>
+                    <span id="disappearingDashes">-------------------------------------------------------------</span>
+                    <div className= 'lg-format-scroll-top'>
+                        <ScrollTop />     
                     </div>
+                    
+                </div>
+                <div id="clickem"><p id="clickemText">
+                    <img id="clickIcon" src={require(`../../assets/ux/click-icon.webp`)} alt="click icon">
+                    </img>  
+                    click images to expand
+                    </p>
+                </div>
+                
                 <div className="portfolio-container">
                     {caseStudies.map ((project) => (
                         <div className="project-container" key={project.title}>                              
