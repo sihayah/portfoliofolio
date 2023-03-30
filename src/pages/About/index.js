@@ -59,7 +59,7 @@ const About = () => {
                     </button>                                    
                 </Link>
                 <img alt="avatar" className="smiley" src={avatar}/>
-                <Link to="/design">
+                <Link to="/develop">
                     <button>
                         {'\u2192'}
                         <br/>
