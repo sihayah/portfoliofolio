@@ -80,13 +80,13 @@ const About = () => {
                 <span id='aboutContainer'>
                     <article id='about-text' name='aboutText' style={{display: visible ? 'inline-block' : 'none'}}>
                         <p>
-                            I'm Sihaya Harris a dynamic full-stack web developer with a background in art & design. I began my web development journey in elementary school. Back then, I was writing my first HTML, CSS, and JavaScript (with an egregious number of marquees and Lisa Frank color palettes) in a word processor, and hosting my webpages on GeoCities.     
+                            I'm Sihaya Harris a dynamic UX designer and full-stack web developer with a background in art & design. I began my web development journey in elementary school. Back then, I was writing my first HTML, CSS, and JavaScript (with an egregious number of marquees and Lisa Frank color palettes) in a word processor, and hosting my webpages on GeoCities.     
                         </p>
                         <p>
-                            I have managed to hone those nascent skills into full-stack MERN development. I still relish in the creative process of app building— pulling a new idea out of the air and seeing it through to completion, not to mention, handling the many side quests of debugging along the way.    
+                            I have managed to hone those nascent skills since. I still relish in the creative process of app building— pulling a new idea out of the air and seeing it through to completion, not to mention, handling the many side quests of debugging, testing, and iteration along the way.    
                         </p>
                         <p>
-                            I am also a visual artists and I find many satisfying parallels in creating patterns in algorithms and data. I delight in beautiful code!
+                            I am also a visual artists and I find many satisfying parallels in creating patterns in algorithms and data structures. I delight in channeling my sense of aesthetics into creating beautiful web designs!
                         </p>
                         <p>
                             I am based out of Brooklyn, NY, and I am currently seeking new endeavors.
