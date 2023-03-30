@@ -109,9 +109,9 @@ const Develop = () => {
                             <div className='dev-project-details'>
                                 <h4>{project.title}</h4>
                                 <span id="dev-project-links">
-                                    <a href={project.repo}>REPO</a>
+                                    <a href={project.repo} target= "_blank" rel= "noreferrer">REPO</a>
                                     <span> / </span>
-                                    <a href={project.deployment}>LIVE</a>     
+                                    <a href={project.deployment} target= "_blank"  rel= "noreferrer">LIVE</a>     
                                 </span>  
                                 <p>
                                     {project.description}

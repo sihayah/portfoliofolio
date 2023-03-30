@@ -218,7 +218,7 @@ const Design = () => {
                                         </span>
                                     </Popup>  
                                 </div>  
-                                <a href={project.prototypeLink}>Click here to interact with the live prototype.</a>  
+                                <a href={project.prototypeLink} target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>  
                                 <p className="summary">
                                     {project.completetionSummary}
                                 </p>              
