@@ -49,6 +49,10 @@
     width: 40vh;
   }
 
+  .logo {
+    max-width: 15vh;
+  }
+
   .popupImg, .wireframePopup, .empathyMapPopup {
     max-width: 45vh;
   }

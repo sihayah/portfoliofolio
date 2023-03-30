@@ -11,7 +11,7 @@ const Design = () => {
             subtitle: "UX/UI",
             description: "Guide to gardening, house plant care, and forum for online community of gardeners of all knowledge levels.",
             myRole: "This is a description of my role.......",
-            logo: "smiley.png",
+            logo: "logo.webp",
             research: "this is synopsis of research coducted........",
             empathyMap: "planting_empathy_map.webp",
             empathyCopy: "empathy... blah blah blah..........................................",
@@ -69,19 +69,18 @@ const Design = () => {
                     {caseStudies.map ((project) => (
                         <div className="project-container" key={project.title}>                              
                             <div className='project-details'>
+                             <div className="centerImg">
+                                    <img className="project-example logo" id={project.id} src={require(`../../assets/ux/${project.logo}`)} alt={project.title}>
+                                    </img>  
+                                </div>
                                 <h4>{project.title}</h4>
                                 <h5>{project.subtitle}</h5> 
                                 <p>
                                     {project.description}
                                 </p> 
-                                <div className="centerImg">
-                                    <img className="project-example" id={project.id} src={require(`../../assets/mockups/${project.logo}`)} alt={project.title}>
-                                </img>  
-                                </div>
-                                
                                 <h6>
                                     My Role
-                                    </h6>  
+                                </h6>  
                                 <p>
                                     {project.myRole}
                                 </p>    
@@ -91,14 +90,14 @@ const Design = () => {
                                 </p>  
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/mockups/${project.personas}`)}alt="personas">
+                                            <img className="project-example" src={require(`../../assets/ux/${project.personas}`)}alt="personas">
                                             </img> 
                                             </button>} 
                                         modal>
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="personasPopup" src={require(`../../assets/mockups/${project.personas}`)}alt="personas">
+                                            <img className="personasPopup" src={require(`../../assets/ux/${project.personas}`)}alt="personas">
                                             </img>  
                                         </span>
                                         </Popup>
@@ -108,14 +107,14 @@ const Design = () => {
                                 </p>     
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                            <img className="project-example" src={require(`../../assets/ux/${project.empathyMap}`)}alt="empathy map">
                                             </img> 
                                             </button>} 
                                         modal>
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="empathyMapPopup" src={require(`../../assets/mockups/${project.empathyMap}`)}alt="empathy map">
+                                            <img className="empathyMapPopup" src={require(`../../assets/ux/${project.empathyMap}`)}alt="empathy map">
                                             </img>  
                                         </span>
                                         </Popup>
@@ -125,14 +124,14 @@ const Design = () => {
                                 </p> 
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                        <img className="project-example" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
+                                        <img className="project-example" src={require(`../../assets/ux/${project.competitveAudit}`)}alt="competitve analysis">
                                         </img> 
                                         </button>} 
                                     modal>
                                     <span> 
                                         <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                         <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                        <img className="competitivePopup" src={require(`../../assets/mockups/${project.competitveAudit}`)}alt="competitve analysis">
+                                        <img className="competitivePopup" src={require(`../../assets/ux/${project.competitveAudit}`)}alt="competitve analysis">
                                         </img>  
                                     </span>
                                     </Popup>
@@ -143,14 +142,14 @@ const Design = () => {
                                 </p>  
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                            <img className="project-example" src={require(`../../assets/ux/${project.sitemap}`)}alt="sitemap">
                                             </img> 
                                             </button>} 
                                         modal>
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImgXl" src={require(`../../assets/mockups/${project.sitemap}`)}alt="sitemap">
+                                            <img className="popupImgXl" src={require(`../../assets/ux/${project.sitemap}`)}alt="sitemap">
                                             </img>  
                                         </span>
                                     </Popup> 
@@ -160,14 +159,14 @@ const Design = () => {
                                 </p>                           
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
+                                            <img className="project-example" src={require(`../../assets/ux/${project.userFlow}`)}alt="userFlow">
                                             </img> 
                                             </button>} 
                                         modal>
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="popupImgXl" src={require(`../../assets/mockups/${project.userFlow}`)}alt="userFlow">
+                                            <img className="popupImgXl" src={require(`../../assets/ux/${project.userFlow}`)}alt="userFlow">
                                             </img>  
                                         </span>
                                     </Popup>  
@@ -178,14 +177,14 @@ const Design = () => {
                                 </p>  
                                 <div className="centerImg">
                                     <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
+                                            <img className="project-example" src={require(`../../assets/ux/${project.wireframe}`)}alt="wireframe">
                                             </img> 
                                             </button>} 
                                         modal>
                                         <span> 
                                             <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
                                             <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="wireframePopup" src={require(`../../assets/mockups/${project.wireframe}`)}alt="wireframe">
+                                            <img className="wireframePopup" src={require(`../../assets/ux/${project.wireframe}`)}alt="wireframe">
                                             </img>  
                                         </span>
                                     </Popup>  
