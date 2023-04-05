@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/sihaya-harris/" target= "_blank" rel= "noreferrer" className="badge badge-pill badge-dark">
             <FontAwesomeIcon icon={ faLinkedin } />
             </a>
-            <a href="hhttps://www.instagram.com/blablahyaya/" target= "_blank" rel= "noreferrer" className="badge badge-pill badge-dark">
+            <a href="https://www.instagram.com/blablahyaya/" target= "_blank" rel= "noreferrer" className="badge badge-pill badge-dark">
             <FontAwesomeIcon icon={ faInstagram } />
             </a>
         </footer>
