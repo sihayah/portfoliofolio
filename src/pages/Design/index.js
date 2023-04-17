@@ -19,7 +19,6 @@ const Design = () => {
             painPoint4: "Previous negative experiences killing plants",
             personas: "personas.webp",
             competitveAuditCopy: "I conducted a competitive audit  to compare the usefulness and usability of competing plant care apps. The key competitors examined were the Blossom and Planta mobile apps. The Blossom App is exceptionally visually engaging with motion graphics and beautiful photos. The features for adding plants and accessing care data are very easy to use and well-organized. Planta is a somewhat simpler, cleaner design with darker tones, and better contrast. It feels very modern and somewhat more direct. Similar to Blossom, the user can add plants and access care information, which is set-up in bullet points and, therefore, easy to scan quickly. Planta markets itself as an efficient solution to plant care for individuals who need reminders to keep their plants healthy with room for the customization of the user’s experience based on their goals and needs. Overall the point is simplifying care, so the user doesn’t have to worry. Blossom markets itself similarly– a glorified watering reminder app with more complex features for those who wish to go deeper. The user can create solutions for various goals through the Blossom app, including identification, diagnosis and treatment for sick plants, and reminders for watering and fertilization.I reached the conclusion that a new app could create location/climate customization options, provide recommendations instead of the user having to solely use the search function to discover plant cultivars, provide more language and audio tools, and create different modes for visibility.",
-            competitveAudit: "competitive_audit.webp",
             auditLink: "https://docs.google.com/spreadsheets/d/1shuanvrA8jEe5lFHkDcUVP4lwejfYk0N45C1zJGkND8/edit#gid=2073884517",
             interviews: "...",
             architectureCopy: "The navigation adheres to a very simple design that echoes familiar patterns. The Site Map provides an overview of the Planting app. The User Flow illustrates an example of how a user might use the search function in the Planting app.",
@@ -49,7 +48,6 @@ const Design = () => {
             painPoint4: "Market saturated with lower quality products",
             personas: "bbyy_personas.webp",
             competitveAuditCopy: "The competitive audit to a look at the shopping sites of both independent artists and small home goods brands.",
-            competitveAudit: "bbyy_competitive_audit.webp",
             auditLink: "https://docs.google.com/spreadsheets/d/1PuH0lh_l1oQKtAUnrkkNNWplvO2stb1MsLcN8MdUY8Y/edit?usp=sharing&resourcekey=0-ITXj9wHlUTiJ-dQTTRZuuw",
             interviews: "...",
             architectureCopy: "The structure of the site evolved over time, starting with the minimal necessary features, and later expanding on those features. This occurred primarily in the checkout portion of the site, further pages with confirmations were necessary to encourage the confidence of shoppers along their journey.",
@@ -58,7 +56,7 @@ const Design = () => {
             wireframeCopy: "After the blueprint was laid, a multitude of compositional directions were explored through wireframes. The selected wireframe laid out the essential structure of all the core features. The home page was most iterated with a more dynamic experience being established to engage users more quickly.",
             wireframe: "bbyy_wireframe.webp",
             prototypeCopy: "",
-            prototypeLink: "",
+            prototypeLink: "https://www.figma.com/proto/Th48j5ohvsGSj1p1h3neBq/wireframe?node-id=1-2&scaling=scale-down&page-id=0%3A1",
             prototype: "bbyy_logo_redviolet.webp",
             testingIterationCopy: "",
             testingIteration: "",
@@ -162,20 +160,7 @@ const Design = () => {
                                 <p>
                                     {project.competitveAuditCopy}
                                 </p> 
-                                <div className="centerImg">
-                                    <Popup trigger={<button className="thumb"> 
-                                        <img className="project-example" src={require(`../../assets/ux/${project.competitveAudit}`)}alt="competitve audit">
-                                        </img> 
-                                        </button>} 
-                                    modal>
-                                    <span> 
-                                        <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
-                                        <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                        <img className="competitivePopup" src={require(`../../assets/ux/${project.competitveAudit}`)}alt="competitve audit">
-                                        </img>  
-                                    </span>
-                                    </Popup>
-                                </div> 
+
                                 <div class="auditLink" >
                                     <a href={project.auditLink} target= "_blank" rel= "noreferrer">Click here to view the competitve audit in Google Sheets.</a> 
                                 </div>

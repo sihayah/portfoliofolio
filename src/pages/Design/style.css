@@ -134,6 +134,7 @@
   .paintPointWrapper {
     background: #fff;
     border: 1px dotted var(--warm-grey);
+    margin-bottom: 2vh;
   }
   .paintPointsUl {
     padding-top: 2vh;
