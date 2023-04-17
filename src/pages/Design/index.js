@@ -13,14 +13,10 @@ const Design = () => {
             myRole: "To breath life into this new concept for a mobile gardening app, I started by conducting user research which fueled the ideation process. I tailored a logo to suit the direction of apps aesthetic, planned the site’s information architecture and user interaction, produced wireframes, and, finally, generated a prototype, and refined it with usability testing.",
             logo: "logo.webp",
             research: "User interviews cast a wide net to gather information from plant parents and gardeners with regard to their thoughts and feelings on their personal experience with growing plants. The research conducted included surveys, a competitive audit, and a usablity study",
-            empathyMap: "planting_empathy_map.webp",
-            painPoint1: "Limited access to nature in daily life",
-            painPoint2:  "Limited resources to grow plants",
-            painPoint3: "Precious little free time",
-            painPoint4: "Pests and diseases killing plants",
-            painPoint5: "Pets/wildlife wreaking havoc on plants",
-            painPoint6: "Previous negative experiences killing plants",
-            painPoint7: "Conflicting information on internet about techniques and fertilizers",
+            painPoint1:  "Limited resources to grow plants",
+            painPoint2: "Precious little free time",
+            painPoint3: "Pets/wildlife wreaking havoc on plants",
+            painPoint4: "Previous negative experiences killing plants",
             personas: "personas.webp",
             competitveAuditCopy: "I conducted a competitive audit  to compare the usefulness and usability of competing plant care apps. The key competitors examined were the Blossom and Planta mobile apps. The Blossom App is exceptionally visually engaging with motion graphics and beautiful photos. The features for adding plants and accessing care data are very easy to use and well-organized. Planta is a somewhat simpler, cleaner design with darker tones, and better contrast. It feels very modern and somewhat more direct. Similar to Blossom, the user can add plants and access care information, which is set-up in bullet points and, therefore, easy to scan quickly. Planta markets itself as an efficient solution to plant care for individuals who need reminders to keep their plants healthy with room for the customization of the user’s experience based on their goals and needs. Overall the point is simplifying care, so the user doesn’t have to worry. Blossom markets itself similarly– a glorified watering reminder app with more complex features for those who wish to go deeper. The user can create solutions for various goals through the Blossom app, including identification, diagnosis and treatment for sick plants, and reminders for watering and fertilization.I reached the conclusion that a new app could create location/climate customization options, provide recommendations instead of the user having to solely use the search function to discover plant cultivars, provide more language and audio tools, and create different modes for visibility.",
             competitveAudit: "competitive_audit.webp",
@@ -43,35 +39,31 @@ const Design = () => {
         {
             title: "Blahblahyaya",
             subtitle: "UX/UI",
-            description: "Web shop for one of a kind handmade homegoods",
-            myRole: "This is how I do it......",
+            description: "This is an online shop for handmade, functional and sculptural pottery and various other home goods.",
+            myRole: "I started this project to create an alternative means of selling my own pottery and other handmade objects. I performed research, planned the architecture and, and executed the design.",
             logo: "bbyy_logo_redviolet.webp",
-            research: "about research...",
-            empathyMap: "bbyy_empathy_map.webp",
-            painPoint1: "Limited access to nature in daily life",
-            painPoint2:  "Limited resources to grow plants",
-            painPoint3: "Precious little free time",
-            painPoint4: "Pests and diseases killing plants",
-            painPoint5: "Pets/wildlife wreaking havoc on plants",
-            painPoint6: "Previous negative experiences killing plants",
-            painPoint7: "Conflicting information on internet about techniques and fertilizers",
+            research: "Foundation data for this project was collected through a handful of interviews of online shoppers. Their feelings regarding similar shopping platforms and the goods available through those platforms were recorded and analyzed. Personas were modeled upon this sample of data.",
+            painPoint1: "Limited time to shop for goods",
+            painPoint2:  "Unimpressive UI",
+            painPoint3: "Product inconsistencies",
+            painPoint4: "Market saturated with lower quality products",
             personas: "bbyy_personas.webp",
-            competitveAuditCopy: "about competitve audit...",
+            competitveAuditCopy: "The competitive audit to a look at the shopping sites of both independent artists and small home goods brands.",
             competitveAudit: "bbyy_competitive_audit.webp",
             auditLink: "https://docs.google.com/spreadsheets/d/1PuH0lh_l1oQKtAUnrkkNNWplvO2stb1MsLcN8MdUY8Y/edit?usp=sharing&resourcekey=0-ITXj9wHlUTiJ-dQTTRZuuw",
             interviews: "...",
-            architectureCopy: "about architecture...",
+            architectureCopy: "The structure of the site evolved over time, starting with the minimal necessary features, and later expanding on those features. This occurred primarily in the checkout portion of the site, further pages with confirmations were necessary to encourage the confidence of shoppers along their journey.",
             sitemap: "bbyy_sitemap.webp",
             userFlow: "bbyy_userflow.webp",
-            wireframeCopy: "about wireframe....",
+            wireframeCopy: "After the blueprint was laid, a multitude of compositional directions were explored through wireframes. The selected wireframe laid out the essential structure of all the core features. The home page was most iterated with a more dynamic experience being established to engage users more quickly.",
             wireframe: "bbyy_wireframe.webp",
-            prototypeCopy: "all about prototype....",
-            prototypeLink: "https://www.figma.com/proto/k4cWzVgibqCa9Bq1g5PEsB/prototype?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2",
-            prototype: "prototype.webp",
-            testingIterationCopy: "about testing and iteration.......",
-            testingIteration: "X",
-            revisedDesign: "X",
-            completetionSummary: "in summary...",
+            prototypeCopy: "",
+            prototypeLink: "",
+            prototype: "bbyy_logo_redviolet.webp",
+            testingIterationCopy: "",
+            testingIteration: "",
+            revisedDesign: "",
+            completetionSummary: "",
             id: "bbyy"
         }
     ]
@@ -149,23 +141,24 @@ const Design = () => {
                                 <p>
                                     {project.research}
                                 </p>  
-                                <p>
-                                    {project.empathyCopy}
-                                </p>     
-                                <div className="centerImg">
-                                    <Popup trigger={<button className="thumb"> 
-                                            <img className="project-example" src={require(`../../assets/ux/${project.empathyMap}`)}alt="empathy map">
-                                            </img> 
-                                            </button>} 
-                                        modal>
-                                        <span> 
-                                            <p className="escClose">hit <span className="emphasize">esc</span> to exit</p>
-                                            <p className="clickClose"><span className="emphasize">click</span> to exit</p>
-                                            <img className="empathyMapPopup" src={require(`../../assets/ux/${project.empathyMap}`)}alt="empathy map">
-                                            </img>  
-                                        </span>
-                                        </Popup>
-                                </div> 
+                                <div className="paintPointWrapper">
+                                    <ul className="paintPointsUl">
+                                        Pain points:
+                                        <li>
+                                            {project.painPoint1}
+                                        </li>
+                                        <li>
+                                            {project.painPoint2}
+                                        </li>
+                                        <li>
+                                            {project.painPoint3}
+                                        </li>
+                                        <li>
+                                            {project.painPoint4}
+                                        </li>
+                                    </ul>                                    
+                                </div>
+
                                 <p>
                                     {project.competitveAuditCopy}
                                 </p> 
