@@ -92,7 +92,7 @@
     max-width: 15vh;
   }
 
-  .popupImg, .wireframePopup, .empathyMapPopup {
+  .popupImg, .empathyMapPopup {
     max-width: 45vh;
   }
 
@@ -217,7 +217,7 @@
       }
 
       .wireframePopup {
-        max-width: 90vh;
+        max-width: 175vh;
       }
 
       .empathyMapPopup {
