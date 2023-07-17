@@ -41,7 +41,7 @@ h6 {
 .paintPointWrapper {
   background: #fff;
   border: 1px dotted var(--warm-grey);
-  margin-bottom: 2vh;
+  margin: 2vh 0;
 }
 .paintPointsUl {
   padding-top: 2vh;

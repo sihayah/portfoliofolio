@@ -14,7 +14,7 @@ const Planting = () => {
                     <div className='top-cotainer'>
                         <div>
                             <h4>Planting</h4>
-                        <h5>UX/UI</h5> 
+                        <h5>(UX/UI)</h5> 
                         </div>
                          
                     <article>

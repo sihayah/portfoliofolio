@@ -1,268 +1,90 @@
-.active {
-    color: var(--golden-touch);
-  }
-  
-  .active:hover {
-    color: var(--golden-touch);
-  }
-    
-  #table-of-contents ul {
-    list-style: none;
-    font-size: 3vh;
-  }
-  
-  #table-of-contents li:hover {
-    color: var(--golden-touch);
-  }
+h4, h5, h6 {
+  color: var(--warm-grey);
+}
 
-  #disappearingDashes {
-    color: gainsboro;
-  }
+.portfolio article {
+  padding: 0 4vh;
+}
 
-  #clickem {
-    color: var(--pop);
-    position: fixed;
-    bottom: 6vh;
-    right: 1vh;
-    width: 15vh;
-    height: 15vh;
-    font-size: smaller;
-    margin: 0 1vh 1vh 1vh;
-    border: 2px solid var(--pop);
-    border-radius: 100%;
-    opacity: 75%;
-  }
+h6 {
+  font-weight: bolder;
+  padding-top: 3vh;
+}
 
-  .disappear {
-    display: none;
-  }
+.project-example {
+  max-width: 40vh;
+}
 
-  #clickIcon {
-    height: 4vh;
-    padding-right: 3px;
-  }
+.extra-room {
+  padding: 2vh 0;
+}
 
-  #clickemText {
-    margin: -7vh 0 0 2.5vh;
-    width: 10vh;
-    height: 10vh;
-    background: 0%;
-  }
-  
-  h4, h5, h6 {
-    color: var(--warm-grey);
-  }
+.logo {
+  max-width: 15vh;
+}
 
-  h6 {
-    font-weight: bolder;
-  }
-  
-  .portfolio-container {
-      display: flex;
-      flex-direction: column;
-    }
-  
-  #table-of-contents {
-    text-align: left;
-  }
-  
-  .project-container {
+.auditLink {
+ padding: 2vh 0;
+}
+
+.emphasize {
+  font-weight: bolder;
+}
+
+#project-links a {
+  color: var(--pop);
+}
+#project-links a:hover {
+  color: var(--golden-touch);
+}
+
+.paintPointWrapper {
+  background: #fff;
+  border: 1px dotted var(--warm-grey);
+  margin: 2vh 0;
+}
+.paintPointsUl {
+  padding-top: 2vh;
+  text-align: left;
+  list-style: square;
+  background: #fff;
+}
+
+.paintPointsUl li {
+  background: #fff;
+  padding-right: 2vh;
+}
+
+.summary {
+  margin-top: 5vh;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  .top-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3vh 0 0 3vh;
+    flex-direction: row;
+  }
+
+  .project-details article {
+    padding: 5vh 15vh;
   }
 
   .project-example {
-    max-width: 40vh;
-  }
-  
-  .project-container p {
-    text-align:justify;
-    width: 40vh;
-    word-wrap: break-word;
-    padding: 0;
-  }
-
-  .centerImg {
-    width: 40vh;
+    max-width: 70vh;
   }
 
   .logo {
-    max-width: 15vh;
+    max-width: 13vh;
   }
 
-  .popupImg, .empathyMapPopup {
-    max-width: 45vh;
   }
 
-  .popupImgXl {
-    max-width: 100%;
-  }
-  
-  .personasPopup {
-    max-width: 60vh;
-  }
+@media screen and (min-width: 1500px) { 
 
-  .competitivePopup {
-    max-width: 100vh;
-  }
-
-  .auditLink {
-    margin-bottom: 7vh;
-  }
-
-  .clickClose {
-    display: block;
-  }
-
-  .escClose {
-    display: none;
-  }
-
-  .emphasize {
-    font-weight: bolder;
-  }
-
-  #project-links a {
-    color: var(--pop);
-  }
-  #project-links a:hover {
-    color: var(--golden-touch);
-  }
-
-  .paintPointWrapper {
-    background: #fff;
-    border: 1px dotted var(--warm-grey);
-    margin-bottom: 2vh;
-  }
-  .paintPointsUl {
-    padding-top: 2vh;
-    text-align: left;
-    list-style: square;
-    background: #fff;
-  }
-
-  .paintPointsUl li {
-    background: #fff;
-  }
-
-  .summary {
-    margin-top: 5vh;
-  }
-  
-  .lg-format-scroll-top {
-    display: none;
-  }
-
-  .portfolio {
-    padding-top: 7vh;
-  }
-
-  
-  @media screen and (min-width: 1000px) {
-  
-      #table-of-contents {
-        position: fixed;
-        left: 3vh;
-        margin-top: 1vh;
-        width: 20vh;
-      }
-
-      .disappear {
-        display: block;
-      }
-
-      #disappearingDashes {
-        display: none;
-      }
-  
-      .portfolio-container {
-        margin-left: 30vh;
-      }
-    
-      .project-container p {
-        font-size: larger;
-        text-align: left;
-        width: 60vh;
-        word-wrap: break-word;
-      }
-
-      .centerImg, .project-container h4, .project-container h5, .project-container h6, .project-details {
-        width: 60vh;
-      }
-  
-      .lg-format-scroll-top {
-        margin-top: 50vh;
-        display: inline-block;
-      }
-  
-      .mobile-scroll-top {
-        display: none;
-      }
-
-      .project-container {
-        gap: 2vh;
-      }
-      #table-of-contents {
-        width: 35vh;
-      }
-
-      .popupImg,  .competitivePopup {
-        max-width: 100vh;
-      }
-
-      .popupImgXl {
-        max-width: 100%;
-      }
-
-      .wireframePopup {
-        max-width: 175vh;
-      }
-
-      .empathyMapPopup {
-        max-width: 90vh;
-      }
-
-      .personasPopup {
-        max-width: 90vh;
-      }
-
-      .clickClose {
-        display: none;
-      }
-
-      .escClose {
-        display: block;
-      }
-  
+    .project-container p, .project-container h4, .project-container h5, .project-container h6, .centerImg {
+      width: 120vh;
     }
-  
-  @media screen and (min-width: 1500px) { 
 
-      .project-container {
-        gap: 9vh;
-      }
-
-      x  .project-example {
-        max-width: 60vh;
-      }
-
-      .project-details {
-        padding-top: 10vh;
-      }
-
-      .project-details p {
-        width: 100vh;
-        text-align: center;
-      }
-
-      .project-container p, .project-container h4, .project-container h5, .project-container h6, .centerImg {
-        width: 120vh;
-      }
-
-      .portfolio-container {
-        margin-left: -3vh;
-      }
-  
-    }
+  }
