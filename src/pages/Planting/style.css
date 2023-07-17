@@ -1,30 +1,37 @@
-h4, h5, h6 {
+h4, h5{
   color: var(--warm-grey);
 }
 
-.portfolio article {
-  padding: 0 4vh;
+.heading-wrapper {
+  color: var(--pop);
+  border: 1px solid var(--pop);
+  border-radius: 5vh;
+  margin: 3vh 0 1vh 0;
+  width: 95vh;
 }
 
-h6 {
-  font-weight: bolder;
-  padding-top: 3vh;
+article {
+  text-align: justify;
+}
+
+.p {
+  padding: 0 4vh;
 }
 
 .project-example {
   max-width: 40vh;
 }
 
-.extra-room {
-  padding: 2vh 0;
+.audit-link {
+  padding-bottom: 5vh;
 }
 
 .logo {
   max-width: 15vh;
 }
 
-.auditLink {
- padding: 2vh 0;
+.top-container article {
+  font-style: italic;
 }
 
 .emphasize {
@@ -38,21 +45,32 @@ h6 {
   color: var(--golden-touch);
 }
 
-.paintPointWrapper {
-  background: #fff;
-  border: 1px dotted var(--warm-grey);
+.pain-point-wrapper {
+  border: 1px solid var(--pop);
   margin: 2vh 0;
 }
-.paintPointsUl {
+.pain-point-ul {
   padding-top: 2vh;
   text-align: left;
   list-style: square;
   background: #fff;
 }
 
-.paintPointsUl li {
+.pain-point-ul li {
   background: #fff;
   padding-right: 2vh;
+}
+
+.personas {
+  padding-top: 3vh;
+}
+
+.sitemap {
+  padding-top: 4vh;
+}
+
+.userflow {
+  padding-bottom: 4vh;
 }
 
 .summary {
@@ -60,15 +78,29 @@ h6 {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
 
   .top-container {
     display: flex;
     flex-direction: row;
+    justify-content: ;
+    max-width: 80%;
+    transform: translateX(8vh);
+    border-radius: 5vh;
+  }
+
+  .top-container article {
+    font-size: smaller;
+    max-width: 90%;
+  }
+
+  .logo-container {
+    align-self: center;
   }
 
   .project-details article {
     padding: 5vh 15vh;
+    max-width: 130vh;
   }
 
   .project-example {
@@ -86,5 +118,7 @@ h6 {
     .project-container p, .project-container h4, .project-container h5, .project-container h6, .centerImg {
       width: 120vh;
     }
+
+    
 
   }
