@@ -19,36 +19,10 @@
     color: gainsboro;
   }
 
-  #clickem {
-    color: var(--pop);
-    position: fixed;
-    bottom: 6vh;
-    right: 1vh;
-    width: 15vh;
-    height: 15vh;
-    font-size: smaller;
-    margin: 0 1vh 1vh 1vh;
-    border: 2px solid var(--pop);
-    border-radius: 100%;
-    opacity: 75%;
-  }
-
   .disappear {
     display: none;
   }
 
-  #clickIcon {
-    height: 4vh;
-    padding-right: 3px;
-  }
-
-  #clickemText {
-    margin: -7vh 0 0 2.5vh;
-    width: 10vh;
-    height: 10vh;
-    background: 0%;
-  }
-  
   h4, h5, h6 {
     color: var(--warm-grey);
   }
@@ -56,72 +30,29 @@
   h6 {
     font-weight: bolder;
   }
-  
-  .portfolio-container {
-      display: flex;
-      flex-direction: column;
-    }
+
   
   #table-of-contents {
     text-align: left;
   }
   
   .project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 3vh 0 0 3vh;
   }
 
-  .project-example {
-    max-width: 40vh;
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .project-container p {
-    text-align:justify;
     width: 40vh;
-    word-wrap: break-word;
     padding: 0;
-  }
-
-  .centerImg {
-    width: 40vh;
   }
 
   .logo {
     max-width: 15vh;
-  }
-
-  .popupImg, .empathyMapPopup {
-    max-width: 45vh;
-  }
-
-  .popupImgXl {
-    max-width: 100%;
-  }
-  
-  .personasPopup {
-    max-width: 60vh;
-  }
-
-  .competitivePopup {
-    max-width: 100vh;
-  }
-
-  .auditLink {
-    margin-bottom: 7vh;
-  }
-
-  .clickClose {
-    display: block;
-  }
-
-  .escClose {
-    display: none;
-  }
-
-  .emphasize {
-    font-weight: bolder;
   }
 
   #project-links a {
@@ -129,26 +60,6 @@
   }
   #project-links a:hover {
     color: var(--golden-touch);
-  }
-
-  .paintPointWrapper {
-    background: #fff;
-    border: 1px dotted var(--warm-grey);
-    margin-bottom: 2vh;
-  }
-  .paintPointsUl {
-    padding-top: 2vh;
-    text-align: left;
-    list-style: square;
-    background: #fff;
-  }
-
-  .paintPointsUl li {
-    background: #fff;
-  }
-
-  .summary {
-    margin-top: 5vh;
   }
   
   .lg-format-scroll-top {
@@ -172,10 +83,6 @@
       .disappear {
         display: block;
       }
-
-      #disappearingDashes {
-        display: none;
-      }
   
       .portfolio-container {
         margin-left: 30vh;
@@ -184,13 +91,10 @@
       .project-container p {
         font-size: larger;
         text-align: left;
-        width: 60vh;
+        width: 90vh;
         word-wrap: break-word;
       }
 
-      .centerImg, .project-container h4, .project-container h5, .project-container h6, .project-details {
-        width: 60vh;
-      }
   
       .lg-format-scroll-top {
         margin-top: 50vh;
@@ -207,34 +111,6 @@
       #table-of-contents {
         width: 35vh;
       }
-
-      .popupImg,  .competitivePopup {
-        max-width: 100vh;
-      }
-
-      .popupImgXl {
-        max-width: 100%;
-      }
-
-      .wireframePopup {
-        max-width: 175vh;
-      }
-
-      .empathyMapPopup {
-        max-width: 90vh;
-      }
-
-      .personasPopup {
-        max-width: 90vh;
-      }
-
-      .clickClose {
-        display: none;
-      }
-
-      .escClose {
-        display: block;
-      }
   
     }
   
@@ -244,8 +120,8 @@
         gap: 9vh;
       }
 
-      x  .project-example {
-        max-width: 60vh;
+      .project-example {
+        max-width: 120vh;
       }
 
       .project-details {
@@ -253,11 +129,11 @@
       }
 
       .project-details p {
-        width: 100vh;
+        width: 50vh;
         text-align: center;
       }
 
-      .project-container p, .project-container h4, .project-container h5, .project-container h6, .centerImg {
+      .project-container p, .project-container h4, .project-container h5, .project-container h6 {
         width: 120vh;
       }
 

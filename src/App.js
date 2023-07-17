@@ -10,6 +10,8 @@ import Develop from '../src/pages/Develop';
 import Design from '../src/pages/Design';
 import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
+import Planting from '../src/pages/Planting';
+import Bbyy from '../src/pages/Bbyy';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
               <Route path="/Design" element={<Design />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/resume" element={<Resume />} />
+              <Route path="/planting" element={<Planting />} />
+              <Route path="/bbyy" element={<Bbyy />} />
               <Route path="*" element={<NotFound />} />         
           </Routes>
           </div>
