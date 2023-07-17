@@ -95,6 +95,11 @@
         word-wrap: break-word;
       }
 
+      .case-study-link {
+        transform: translateX(65%);
+        max-width: 40vh;
+
+      }
   
       .lg-format-scroll-top {
         margin-top: 50vh;

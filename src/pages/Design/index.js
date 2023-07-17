@@ -8,14 +8,14 @@ const Design = () => {
     const caseStudies = [
         {
             title: "Planting",
-            description: "Planting is a concept project for a gardening app geared primarily towards newer gardeners.",
+            description: "Planting is a concept project for a gardening app geared primarily towards newer gardeners...",
             logo: "logo_dirt.webp",
             location:"/planting",
             id: "planting"
         },
         {
             title: "Blahblahyaya",
-            description: "This is an online shop for handmade, functional and sculptural pottery and various other home goods.",
+            description: "This is an online shop for handmade, functional and sculptural pottery and various other home goods...",
             logo: "bbyy_logo_redviolet.webp",
             location: "/bbyy",
             id: "bbyy"
@@ -65,7 +65,7 @@ const Design = () => {
                                     <p>
                                         {project.description}
                                     </p>                
-                                    <p>
+                                    <p className="case-study-link">
                                         <Linkit to={project.location}>
                                             click here to see more
                                         </Linkit>
