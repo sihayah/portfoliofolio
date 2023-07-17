@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { Link as Linkit} from 'react-router-dom';
 import ScrollTop from '../../components/ScrollTop';
 import '../Design/style.css';
 
@@ -63,10 +64,11 @@ const Design = () => {
                                     <h4>{project.title}</h4>
                                     <p>
                                         {project.description}
-                                    </p>                <p>
-                                        <Link to= {project.location}>
+                                    </p>                
+                                    <p>
+                                        <Linkit to={project.location}>
                                             click here to see more
-                                        </Link>
+                                        </Linkit>
                                     </p>                 
                                 </div>
                             </div>
