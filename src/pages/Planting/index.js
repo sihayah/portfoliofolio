@@ -28,16 +28,131 @@ const Planting = () => {
                     <div className='heading-wrapper'>
                         Research
                     </div>
-                    <div className='extra-room'>
-                        <img className="project-example personas" src={require(`../../assets/ux/personas.webp`)}alt="personas">
-                        </img> 
+                    
+                    {/* Persona 1 */}
+                    <div className='extra-room persona'>
+                        <div className='persona-intro'>
+                            <img className="persona-graphic" src={require(`../../assets/ux/persona_graphic_1.webp`)}alt="personas">
+                            </img>  
+                            <ul>
+                                <li className='persona-name'>Alex Gonzalez</li>
+                                <li>(they/them)</li>
+                                <li>Age: 32</li>
+                                <li>Education: BS in Accounting</li>
+                                <li>Job title: Accountant</li>
+                                <li>Status: Single</li>
+                                <li>Location: St. Louis, MO</li>
+                            </ul>   
+                            <div className='persona-quote'>
+                            "I am learning to garden in my free time to relieve the stress of work and being in a bustling city. I have had some success, but, also, a fair amount of disappointments with my plot in the local community garden." 
+                            </div>
+                        </div>
+                        <div className='persona-lists'>
+                            <div className='list-title-wrapper'><h6>Goals</h6></div>
+                            
+                            <ul>
+                                <li>
+                                    learn more about gardening methods to optimize growing projects
+                                </li>
+                                <li>
+                                    grow some my own food for better freshness and food quality
+                                </li>
+                                <li>
+                                    relieve stress and increase mental health by feeling closer to nature
+                                </li>
+                                <li>
+                                    deal with any hiccups like pests, fungal infections, and diseases
+                                </li>
+                                <li>
+                                    learn about invasive species to grow responsibly
+                                </li>
+                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
+                          
+                            <ul>
+                                <li>
+                                    environmental responsibility
+                                </li>
+                                <li>
+                                    mental health
+                                </li>
+                                <li>
+                                    beauty in nature
+                                </li>
+                                <li>
+                                    cooking
+                                </li>
+                                <li>
+                                    personal fulfillment and mindfulness
+                                </li>
+                            </ul>
+                        </div>                    
                     </div> 
+
+                    {/* Persona 2 */}
+                    <div className='extra-room persona'>
+                        <div className='persona-intro'>
+                            <img className="persona-graphic" src={require(`../../assets/ux/persona_graphic_2.webp`)}alt="personas">
+                            </img>  
+                            <ul>
+                                <li className='persona-name'>Louis LeBlanc</li>
+                                <li>(he/him)</li>
+                                <li>Age: 55</li>
+                                <li>Education: DDS</li>
+                                <li>Job title: Dentist</li>
+                                <li>SStatus: Divorced, 2 kids</li>
+                                <li>Location: Baton Rouge, LA</li>
+                            </ul>   
+                            <div className='persona-quote'>
+                                “I’ve always been fascinated by plants. I’ve got a few house plants. I’d like more in depth knowledge, for instance, how to propagate.”
+                            </div>
+                        </div>
+                        <div className='persona-lists'>
+                            <div className='list-title-wrapper'><h6>Goals</h6></div>
+                            
+                            <ul>
+                                <li>
+                                    expand knowledge of botany
+                                </li>
+                                <li>
+                                    learn how to propagate
+                                </li>
+                                <li>
+                                    keep house current house plants properly healthy and nourished
+                                </li>
+                                <li>
+                                    grow unique/unusual plants
+                                </li>
+                                <li>
+                                    develop knowledge of more advance botany techniques, like plant training or even how to set-up a greenhouse
+                                </li>
+                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
+                          
+                            <ul>
+                                <li>
+                                    biology
+                                </li>
+                                <li>
+                                    charity work
+                                </li>
+                                <li>
+                                    nature documentaries
+                                </li>
+                                <li>
+                                    travel
+                                </li>
+                                <li>
+                                    community
+                                </li>
+                            </ul>
+                        </div>                    
+                    </div> 
+
                     <article className='p'>
                         User interviews cast a wide net to gather information from plant parents and gardeners with regard to their thoughts and feelings on their personal experience with growing plants. The research conducted included surveys, a competitive audit, and a usablity study.
                     </article>  
                     <div className="pain-point-wrapper">
                         <ul className="pain-point-ul">
-                            Pain points:
+                            <h6>Pain points:</h6>
                             <li>
                                 Limited resources to grow plants
                             </li>
@@ -83,18 +198,26 @@ const Planting = () => {
                         With the help of the architecture set in place through the Site Map and User Flow, I create a set of wireframes that illustrate how the user can move through the core features in the Planting app. My initial design included bare bones navigation occurring solely through the hamburger menu. This later iteration includes buttons affixed to the bottom right to make it easier to hop from page to page in mobile.
                     </article>  
                     <div className='extra-room'> 
-                        <img className="project-example" src={require(`../../assets/ux/wireframe.webp`)}alt="wireframe">
+                        <img className="wireframe" src={require(`../../assets/ux/wireframe.webp`)}alt="wireframe">
                         </img> 
                     </div>   
      
                     <div className='heading-wrapper'>
                         Prototype
                     </div> 
+                    <div className='extra-room'> 
+                        <img className="design-system" src={require(`../../assets/ux/planting_design_system.webp`)}alt="design-system">
+                        </img> 
+                    </div>   
                     <article className='p'>
                         In the planting Home Screen, the user is presented with the most important information, their daily plant/garden care tasks, as well as a seasonal daily tip to get the gears turning. Upon navigating to the calendar, the user is present with a guide to gardening making recommendations, organized by date, as well as the forecast for their location. Their profile page contains the basic data the app uses to customize recommendations as well as link to alter setting and preferences. When the user navigates to the My Garden page, they can view the plants they have saved to their garden, plants recommended to them by the app, and their daily plant care tasks. If they select tasks, the user is present with checklist of items to complete for the care of their saved plants and general garden upkeep.
                     </article>  
-                    <div className='extra-room'>
-                        <img className="project-example" src={require(`../../assets/ux/planting_prototype.webp`)}alt="prototype">
+                    <div className='extra-room prototypes'>
+                        <img className="project-example" src={require(`../../assets/ux/planting_prototype_home.webp`)}alt="prototype">
+                        </img> 
+                        <img className="project-example" src={require(`../../assets/ux/planting_prototype_mygarden.webp`)}alt="prototype">
+                        </img> 
+                        <img className="project-example" src={require(`../../assets/ux/planting_prototype_search.webp`)}alt="prototype">
                         </img> 
                     </div>  
                     <a href="https://www.figma.com/proto/kPOzAOly1UEYep7yPG9ne0/prototype?type=design&node-id=626-7028&t=nis7aBnZnprOG0s9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=626%3A7130" target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>  

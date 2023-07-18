@@ -7,7 +7,7 @@ h4, h5{
   border: 1px solid var(--pop);
   border-radius: 5vh;
   margin: 3vh 0 1vh 0;
-  width: 95vh;
+  max-width: 60vh;
 }
 
 article {
@@ -19,11 +19,16 @@ article {
 }
 
 .project-example {
-  max-width: 40vh;
+  max-width: 50vh;
+}
+
+.wireframe {
+  padding: 2vh;
+  max-width: 60vh;
 }
 
 .audit-link {
-  padding-bottom: 5vh;
+  padding: 3vh 0 5vh 0;
 }
 
 .logo {
@@ -46,23 +51,95 @@ article {
 }
 
 .pain-point-wrapper {
-  border: 1px solid var(--pop);
   margin: 2vh 0;
+  background: var(--pop);
+  color: #fff;
+  border-radius: 1vh;
+  max-width: 50vh;
 }
+
+.pain-point-ul h6 {
+  background: var(--pop);
+  color: #fff;
+  font-weight: bold;
+}
+
 .pain-point-ul {
   padding-top: 2vh;
   text-align: left;
   list-style: square;
-  background: #fff;
+  background: var(--pop);
+  border-radius: 1vh;
 }
 
 .pain-point-ul li {
-  background: #fff;
+  font-size: small;
+  border: 1px solid var(--pop);
+  background: var(--pop);
   padding-right: 2vh;
+  border-radius: 1vh;
 }
 
-.personas {
-  padding-top: 3vh;
+.persona {
+  margin: 1vh 3vh 3vh 1vh;
+  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  font-size: x-small;
+  align-items: center;
+  border-bottom: 1px solid var(--pop);
+}
+
+.persona h6 {
+  font-weight: bold; 
+  padding-left: 3vh;
+  background: var(--pop);
+  color: #fff;
+}
+
+.list-title-wrapper {
+  background: var(--pop);
+}
+
+.persona-intro {
+  font-size: xx-small;
+  max-width: 30vh;
+}
+
+.persona-name {
+  font-weight: bold;
+  color: var(--pop);
+}
+
+.persona-quote {
+  font-style: italic;
+  color: var(--warm-grey);
+  font-size: 1.5vh;
+  padding-bottom: 3vh;
+}
+
+.persona-intro ul {
+  list-style:none;
+  transform: translateX(-3vh);
+}
+
+.persona-graphic {
+  border: 1px solid var(--pop);
+  margin: 1vh;
+  max-width: 20vh;
+}
+
+.persona-lists {
+  margin-left: 2vh;
+}
+
+.persona-lists ul{
+  text-align: left;
+  padding-top: 2vh;
+}
+
+.persona-lists li {
+  padding: .5vh;
 }
 
 .sitemap {
@@ -71,6 +148,17 @@ article {
 
 .userflow {
   padding-bottom: 4vh;
+}
+
+.design-system {
+  max-width: 50vh;
+  padding: 3vh 0;
+
+}
+
+.prototypes img {
+  max-width: 30vh;
+  padding: 2vh;
 }
 
 .summary {
@@ -109,6 +197,10 @@ article {
 
   .logo {
     max-width: 13vh;
+  }
+
+  .persona {
+    flex-direction: row;
   }
 
   }
