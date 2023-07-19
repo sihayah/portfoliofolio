@@ -6,7 +6,7 @@
 .link-inner-container {
   border: 1px solid var(--pop);
   margin: 7vh 0;
-  border-radius: 5vh;
+  border-radius: .5vh;
   display: flex;
   flex-direction: column;
 }
