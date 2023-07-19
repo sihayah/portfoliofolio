@@ -13,6 +13,12 @@ article {
   text-align: justify;
 }
 
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .p {
   padding: 0 4vh;
 }
