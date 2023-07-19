@@ -1,5 +1,9 @@
-h4, h5{
+h4{
   color: var(--warm-grey);
+}
+
+h5 {
+  color: var(--pop)!important; 
 }
 
 .heading-wrapper {
@@ -7,7 +11,7 @@ h4, h5{
   border: 1px solid var(--pop);
   border-radius: 5vh;
   margin: 3vh 0 1vh 0;
-  max-width: 60vh;
+  width: 95vh;
 }
 
 article {
@@ -171,15 +175,13 @@ article {
   .top-container {
     display: flex;
     flex-direction: row;
-    justify-content: ;
-    max-width: 80%;
+    padding: 0 10vh;
     transform: translateX(8vh);
     border-radius: 5vh;
   }
 
   .top-container article {
     font-size: smaller;
-    max-width: 90%;
   }
 
   .logo-container {
