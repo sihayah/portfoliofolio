@@ -4,6 +4,7 @@
 }
 
 .link-inner-container {
+   background: #fff;
   border: 1px solid var(--pop);
   margin: 7vh 0;
   border-radius: .5vh;
