@@ -9,7 +9,7 @@ const Planting = () => {
                 <div className='project-details'>
                     <div className='top-container'>
                         <div className='logo-container'>
-                            <img className="project-example logo" id="planting" src={require(`../../assets/ux/logo_dirt.webp`)} alt="planting">
+                            <img className="project-example logo" id="planting" src={require(`../../assets/ux/planting_logo.webp`)} alt="planting">
                             </img>  
                             <h4>Planting</h4>
                             <h5>(UX/UI)</h5> 
