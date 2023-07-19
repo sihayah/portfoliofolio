@@ -80,9 +80,10 @@ h4, h5 {
 }
 
 @media screen and (min-width: 1000px) {
-
-
+  
   .dev-project-details {
+    font-size: small;
+    padding-left: 6vh;
     width: 50vh;
     height: fit-content;
   }
@@ -105,7 +106,7 @@ h4, h5 {
   }
 
   .dev-project-container {
-    margin-left: 35vh;
+    margin-left: 40vh;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100vh;
