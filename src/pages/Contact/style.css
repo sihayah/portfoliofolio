@@ -35,7 +35,7 @@ form {
   }
   
   #form-wrapper {
-    margin-top: -20vh;
+    margin-top: -10vh;
     margin-bottom: 1vh;
     border-radius: 1vh;
     padding: 3vh;
@@ -44,5 +44,6 @@ form {
 
   #send-email {
     margin-top: 1vh;
+    padding-top: 0;
   }
 
