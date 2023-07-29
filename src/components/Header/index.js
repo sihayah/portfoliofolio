@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from '../Menu';
 import '../Header/style.css';
-import Hamburger from '../Hamburger';
 
 const Header = () => {
 
@@ -31,8 +31,7 @@ const Header = () => {
                     </span>
                 </header>  
             </div>
-
-            <Hamburger />
+            <Menu />
             
         </>
 
