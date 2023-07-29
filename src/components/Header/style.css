@@ -3,7 +3,6 @@
 header {
   position: fixed;
   z-index: 8888;
-  top: -3vh;
   flex-direction: column;
   width: 100%;
   left: 0;
@@ -32,13 +31,6 @@ header a:hover {
   padding-bottom: 3vh;
   margin-right: 7vh;
   padding-left: 2vh;
-}
-
-#fullscreen-nav {
-  display: none;
-  gap: 15vh;
-  justify-content: flex-end;
-  font-size: 3vh;
 }
 
 @media screen and (min-width: 700px) {

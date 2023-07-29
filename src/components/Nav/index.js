@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../Nav/style.css';
 import { scroller } from 'react-scroll';
+import { elastic as Menu } from 'react-burger-menu';
+import '../Sidebar/style.css';
 
 
 const Nav = () => {
@@ -45,19 +47,21 @@ const Nav = () => {
 
     return(
         <>
-            <nav id='' className="top-nav">
-            
-            {tabs.map((tab) => (
-                <Link to={tab.location}
-                    className=
-                        {`link ${currentLocation === tab.location && 'nav-active'}`}
-                    key={tab.name}
-                    onClick={scrollToTop}
-                    >
-                    {tab.title}
-                </Link>                      
-            ))}
-            </nav>        
+            <Menu id= "sidebar-container" right width={ '30%'}>
+            <div>
+                
+                {tabs.map((tab) => (
+                    <Link to={tab.location}
+                        className=
+                            {`link menu-item ${currentLocation === tab.location && 'nav-active'}`}
+                        key={tab.name}
+                        onClick={scrollToTop}
+                        >
+                        {tab.title}
+                    </Link>                      
+                ))}
+                </div> 
+            </Menu>          
         </>
 
     )

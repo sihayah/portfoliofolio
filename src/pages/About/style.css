@@ -87,9 +87,59 @@ p {
   display: flex;
   padding: 1vh 4vh 0 3vh;
   margin: 20vh 0 8vh 0;
-  border: 1px solid #c7c7c8;
+  border: 1px solid #EDEFE6;
+  box-shadow: .75px .75px 4px #99A4A5;
   background: #fff;
   max-width: fit-content;
+    
+    --top-color: #ccc;
+    --bottom-color: #999;
+    --right-color: #ddd;
+    
+    transition: 
+      box-shadow 0.2s,
+      transform 0.15s;
+    
+    box-shadow:
+        1px 0   0 var(--right-color),
+        1px 1px 0 var(--bottom-color),
+        2px 1px 0 var(--right-color),
+        2px 2px 0 var(--bottom-color),
+        3px 2px 0 var(--right-color),
+        3px 3px 0 var(--bottom-color),
+ 
+      
+        -5px 10px 20px -8px #999;
+}
+
+#hello-there:hover, #hello-there:focus {
+  outline: 0;
+  box-shadow:
+    1px 0   0 var(--right-color),
+    1px 1px 0 var(--bottom-color),
+    2px 1px 0 var(--right-color),
+    2px 2px 0 var(--bottom-color),
+    3px 2px 0 var(--right-color),
+    3px 3px 0 var(--bottom-color),
+    
+    -5px 5px 12px -8px #999;
+  
+  transform: translate(1px, 1px);
+}
+
+#hello-there:active {
+  outline: 0;
+  box-shadow:
+    -1px 0   0 var(--right-color),
+    -1px -1px 0 var(--top-color),
+    -2px -1px 0 var(--right-color),
+    -2px -2px 0 var(--top-color),
+    -3px -2px 0 var(--right-color),
+    -3px -3px 0 var(--top-color),
+
+    -5px -2px 20px -8px #999;
+
+  transform: translate(1px, 1px);
 }
 
 .about-text-btn {

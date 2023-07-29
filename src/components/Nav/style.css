@@ -1,6 +1,12 @@
 nav {
+  transform: translateX(18vh);
+  max-width: 20vh;
+}
+
+nav .link{
 
   display: flex;
+  flex-direction: column;
 }
 
 nav a {

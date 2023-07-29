@@ -19,7 +19,6 @@ function App() {
   return (
     <Router>
       <div className="App" id='outer-container'>
-        {/* <Sidebar pageWrapId={ 'page-wrap' } outerContainerId={ 'outer-container' } /> */}
         <div id='page-wrap'>
           <Header />  
           <div className="container"> 
