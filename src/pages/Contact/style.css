@@ -20,9 +20,10 @@ form {
   }
   
   .contact-btn {
-    padding: .5vh;
-    background-color: #fff;
-    border-radius: 1vh;
+    color: var(--pop);
+    padding: 1vh;
+    font-weight: 550;
+    border-radius: 0 0 1vh 1vh;
     border: 2px solid var(--dark);
     margin-top: 2vh;
   }
@@ -34,14 +35,14 @@ form {
   }
   
   #form-wrapper {
-    margin-top: 3vh;
-    margin-bottom: 20vh;
+    margin-top: -20vh;
+    margin-bottom: 1vh;
     border-radius: 1vh;
     padding: 3vh;
     max-width: 90vh;
   }
 
   #send-email {
-    margin-top: 3vh;
+    margin-top: 1vh;
   }
 
