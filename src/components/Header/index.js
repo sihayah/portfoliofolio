@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../Header/style.css';
-import Nav from '../Nav';
+import Hamburger from '../Hamburger';
 
 const Header = () => {
 
@@ -28,13 +26,13 @@ const Header = () => {
                                 </h1>   
                             
                         </span>
-                        <Nav />
-                        {/* <FontAwesomeIcon id="hamburger" icon={ faBars } /> */}
                     </div>
                     <span id='fullscreen-nav'>    
                     </span>
                 </header>  
-            </div>        
+            </div>
+
+            <Hamburger />
             
         </>
 

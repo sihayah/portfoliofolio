@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import '../Nav/style.css';
 import { scroller } from 'react-scroll';
-import { elastic as Menu } from 'react-burger-menu';
-import '../Sidebar/style.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import '../Nav/style.css';
 
 const Nav = () => {
 
@@ -43,12 +42,13 @@ const Nav = () => {
         });
     };
 
-    const currentLocation = useLocation().pathname;  
+    const currentLocation = useLocation().pathname; 
 
     return(
         <>
-            <Menu id= "sidebar-container" right width={ '30%'}>
-            <div>
+            
+            {/* <Menu id= "sidebar-container" right width={ '30%'}> */}
+            <nav>
                 
                 {tabs.map((tab) => (
                     <Link to={tab.location}
@@ -60,8 +60,8 @@ const Nav = () => {
                         {tab.title}
                     </Link>                      
                 ))}
-                </div> 
-            </Menu>          
+                </nav> 
+            {/* </Menu>           */}
         </>
 
     )
