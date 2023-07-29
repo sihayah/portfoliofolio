@@ -42,7 +42,7 @@ const About = () => {
             )
         } else {
                 return( 
-                    <FontAwesomeIcon onClick={scrollToTop} icon={ faX } className='arrow' />
+                    <FontAwesomeIcon onClick={scrollToTop} icon={ faX } className='arrow x-icon' />
                 )    
             }
     }
@@ -69,11 +69,11 @@ const About = () => {
                 </div>
             
             <div className="intro">
-                <span id='hello-there'>
-                    <h3 onClick={toggleVisible}>
+                <span id='hello-there' onClick={toggleVisible}>
+                    <h3>
                     learn about my background...
                     </h3> 
-                    <button onClick={toggleVisible}>
+                    <button className="about-text-btn" onClick={toggleVisible}>
                         {toggleButton()}
                     </button>
                 </span>  

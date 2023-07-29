@@ -7,42 +7,44 @@ p {
 .about {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  align-items:flex-start;
+  flex-wrap: wrap;
+  padding-left: 2vh;
 }
 
 .about h3 {
+  align-self: center;
+  text-align: center;
+  justify-self: center;
   color: var(--dark);
-  font-size: 5vh;
+  font-size: 3vh;
   font-style: italic;
-  padding-right: 1vh;
+  max-width: 24vh;
 }
 
 #intro-menu {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: baseline;
   align-content: space-around;
-  max-height: 10vh;
+  max-height: 8vh;
   margin-top: 25vh;
 }
 
 #intro-menu button {
   opacity: 90%;
-  color: #fff;
   border-radius: 100%;
-  height: 40vh;
-  width: 40vh;
+  height: 35vh;
+  width: 35vh;
   padding: 5vh;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 4vh;
+  display: none;
+  font-size: 3.5vh;
   margin: 0 5vh 5vh 5vh;
   background: var(--pop);
+  color: #fff;
   top: 0;
-  display: none;
 }
 
 #intro-menu button:hover {
@@ -54,6 +56,9 @@ p {
 }
 
 .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 2vh;
   padding: 1vh 2vh 0 2vh;
   min-height: 80vh;
@@ -67,11 +72,7 @@ p {
 
 #about-text p {
   padding-top: 2vh;
-}
-
-#hello-there{
-  display: flex;
-  margin-top: 5vh;
+  max-width: fit-content;
 }
 
 .smiley {
@@ -82,19 +83,29 @@ p {
   z-index: 6666;
 }
 
-.arrow {
-  padding: .5vh 1.5vh;
-  margin: 15vh 0 0 1vh;
-  color: #fff;
-  background-color: var(--dark);
-  border-radius: 50%;
-  font-size: 6vh;
-  color: var(--pop);
+#hello-there{
+  display: flex;
+  padding: 1vh 4vh 0 3vh;
+  margin: 20vh 0 8vh 0;
+  border: 1px solid #c7c7c8;
+  background: #fff;
+  max-width: fit-content;
 }
 
-.arrow:hover {
-  color: var(--dark);
-  background-color: var(--creamy);
+.about-text-btn {
+  background-color: ;
+  margin-top: 0;
+  padding: 0;
+  transform: translateY(0vh);
+  align-self: baseline;
+}
+
+.arrow {
+  color: #fff;
+  background-color: ;
+  border-radius: 50%;
+  font-size: 5.5vh;
+  color: var(--pop);
 }
 
 #right {
@@ -102,30 +113,45 @@ p {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
+
+  .about {
+    padding-left: 0;
+  }
 
   #intro-menu {
     flex-direction: row;
   }
 
   #hello-there {
-    margin: 34vh 0 -7vh 35vh;
+    margin-top: 27vh;
   }
 
   #intro-menu {
     margin-top: 8vh;
   }
 
-  #intro-menu button {
-    display: block;
+  .smiley {
+    max-width:35vh;
+    max-height: 35vh;
   }
 
-  .arrow {
-    margin-top: 2vh;
+  #intro-menu button {
+    display: flex;
+    border: 1px solid red;
   }
+
+  /* #hello-there {
+    min-width: 80vh;
+  } */
 
   #about-text {
     margin-top: 0;
+  }
+
+  #about-text p {
+    padding-top: 2vh;
+    max-width: 90vh;
   }
 
 }
