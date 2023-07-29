@@ -75,18 +75,21 @@ const RightNav = ({ open }) => {
     return(
         <>
             <Ul open={open}>
-                {tabs.map((tab) => (
-                   <li>
-                    <Link to={tab.location}
-                            className=
-                                {`link menu-item ${currentLocation === tab.location && 'navBar-active'}`}
-                            key={tab.name}
-                            onClick={scrollToTop}
-                            >
-                            {tab.title}
-                        </Link>     
-                   </li>                   
-                ))}
+                <li>
+                    <Link to='/design'> Design </Link>     
+                </li>                   
+                <li>
+                    <Link to='/develop'> Develop </Link>     
+                </li>                   
+                <li>
+                    <Link to='/about'> About </Link>     
+                </li>                   
+                <li>
+                    <Link to='/contact'> Contact </Link>     
+                </li>                   
+                <li>
+                    <Link to='/resume'> Resume </Link>     
+                </li>                   
             </Ul> 
         </>
 
