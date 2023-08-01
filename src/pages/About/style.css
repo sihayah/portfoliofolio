@@ -166,7 +166,7 @@ p {
 @media screen and (min-width: 900px) {
 
   .about {
-    padding-left: 0;
+    padding: 5vh 0 0 0;
   }
 
   #intro-menu {
