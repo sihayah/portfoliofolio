@@ -8,7 +8,7 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 2vh;
+  padding: 5vh 0  0 2vh;
 }
 
 .about h3 {
@@ -38,13 +38,13 @@ p {
   width: 35vh;
   padding: 5vh;
   text-align: center;
+  align-self: center;
   text-decoration: none;
   display: none;
   font-size: 3.5vh;
   margin: 0 5vh 5vh 5vh;
   background: var(--pop);
   color: #fff;
-  top: 0;
 }
 
 #intro-menu button:hover {
@@ -75,7 +75,7 @@ p {
   max-width: fit-content;
 }
 
-.smiley {
+.avatar {
   width: 40vh;
   height: 40vh;
   border-radius: 50%;
@@ -83,67 +83,47 @@ p {
   z-index: 6666;
 }
 
-#hello-there{
+#hello-there-btn{
   display: flex;
-  padding: 1vh 4vh 0 3vh;
+  padding: 2vh 7vh 1vh 7vh;
   margin: 20vh 0 8vh 0;
-  border: 1px solid #EDEFE6;
-  box-shadow: .75px .75px 4px #99A4A5;
   background: #fff;
-  max-width: fit-content;
+  min-width: 50vh;
     
-    --top-color: #ccc;
-    --bottom-color: #999;
-    --right-color: #ddd;
+    --blue-grey: #ced2f0;
+    --blue-grey-2: #B0BFD9;
     
     transition: 
       box-shadow 0.2s,
       transform 0.15s;
     
     box-shadow:
-        1px 0   0 var(--right-color),
-        1px 1px 0 var(--bottom-color),
-        2px 1px 0 var(--right-color),
-        2px 2px 0 var(--bottom-color),
-        3px 2px 0 var(--right-color),
-        3px 3px 0 var(--bottom-color),
- 
-      
-        -5px 10px 20px -8px #999;
+        -5px 10px 20px -8px var(--blue-grey-2);
+    border: 3px solid var(--pop);
+    border-radius: .5vh;
 }
 
-#hello-there:hover, #hello-there:focus {
+#hello-there-btn:hover, #hello-there-btn:focus {
   outline: 0;
   box-shadow:
-    1px 0   0 var(--right-color),
-    1px 1px 0 var(--bottom-color),
-    2px 1px 0 var(--right-color),
-    2px 2px 0 var(--bottom-color),
-    3px 2px 0 var(--right-color),
-    3px 3px 0 var(--bottom-color),
-    
-    -5px 5px 12px -8px #999;
+    -5px 5px 12px -8px var(--blue-grey-2);
   
   transform: translate(1px, 1px);
 }
 
-#hello-there:active {
+#hello-there-btn:active {
   outline: 0;
   box-shadow:
-    -1px 0   0 var(--right-color),
-    -1px -1px 0 var(--top-color),
-    -2px -1px 0 var(--right-color),
-    -2px -2px 0 var(--top-color),
-    -3px -2px 0 var(--right-color),
-    -3px -3px 0 var(--top-color),
-
-    -5px -2px 20px -8px #999;
+    -5px -2px 20px -8px var(--blue-grey-2);
 
   transform: translate(1px, 1px);
 }
 
-.about-text-btn {
-  background-color: ;
+.clickem {
+  max-width: 10vh;
+}
+
+.arrow-btn {
   margin-top: 0;
   padding: 0;
   transform: translateY(0vh);
@@ -156,6 +136,7 @@ p {
   border-radius: 50%;
   font-size: 5.5vh;
   color: var(--pop);
+  padding: 1vh 0 0 4vh;
 }
 
 #right {
@@ -173,34 +154,25 @@ p {
     flex-direction: row;
   }
 
-  #hello-there {
-    margin-top: 27vh;
+  #hello-there-btn {
+    margin-top: 30vh;
   }
 
   #intro-menu {
     margin-top: 8vh;
   }
 
-  .smiley {
+  .avatar {
+    transform: translateY(9vh);
     max-width:35vh;
     max-height: 35vh;
   }
 
   #intro-menu button {
     display: flex;
-    border: 1px solid red;
-  }
-
-  /* #hello-there {
-    min-width: 80vh;
-  } */
-
-  #about-text {
-    margin-top: 0;
   }
 
   #about-text p {
-    padding-top: 2vh;
     max-width: 90vh;
   }
 

@@ -12,6 +12,7 @@ import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
 import Planting from '../src/pages/Planting';
 import Bbyy from '../src/pages/Bbyy';
+import MessageGhost from '../src/pages/MessageGhost';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
               <Route path="/resume" element={<Resume />} />
               <Route path="/planting" element={<Planting />} />
               <Route path="/bbyy" element={<Bbyy />} />
+              <Route path="/messageghost" element={<MessageGhost />} />
               <Route path="*" element={<NotFound />} />         
           </Routes>
           </div>

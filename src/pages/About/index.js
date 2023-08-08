@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import avatar from '../../assets/avatar.png';
+import clickem from '../../assets/click-icon.webp';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -31,14 +32,17 @@ const About = () => {
         scroll.scrollToTop();
     };
 
+    const scrollToBottom = () => {
+        scroll.scrollToBottom();
+    };
+
     const toggleButton = () => {
         if (visible === false) {
             return(
                 <>
-                    <FontAwesomeIcon className='arrow' id='right' icon= { faArrowRight } />
-                    <FontAwesomeIcon onClick={scrollToArticle} className='arrow' id='down' icon= { faArrowDown } />                 
+                   {/* <FontAwesomeIcon onClick={scrollToArticle} className='arrow' id='down' icon= { faArrowDown } />  */}
+                    <img alt="clickem" className="clickem"  onclick={scrollToArticle} src={clickem}/>
                 </>
-
             )
         } else {
                 return( 
@@ -58,7 +62,7 @@ const About = () => {
                     
                     </button>                                    
                 </Link>
-                <img alt="avatar" className="smiley" src={avatar}/>
+                <img alt="avatar" className="avatar" src={avatar}/>
                 <Link to="/develop">
                     <button>
                         {'\u2192'}
@@ -69,11 +73,11 @@ const About = () => {
                 </div>
             
             <div className="intro">
-                <span id='hello-there' onClick={toggleVisible}>
+                <span id='hello-there-btn' onClick={toggleVisible}>
                     <h3>
                     learn about my background...
                     </h3> 
-                    <button className="about-text-btn" onClick={toggleVisible}>
+                    <button className="arrow-btn" onClick={toggleVisible}>
                         {toggleButton()}
                     </button>
                 </span>  
