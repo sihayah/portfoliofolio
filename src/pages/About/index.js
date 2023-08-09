@@ -20,13 +20,13 @@ const About = () => {
         }
     };
 
-    const scrollToArticle = () => {
-        scroll.scrollTo('300', {
-            duration: 100,
-            delay: 100,
-            smooth: true,
-        })
-    };
+    // const scrollToArticle = () => {
+    //     scroll.scrollTo('300', {
+    //         duration: 100,
+    //         delay: 100,
+    //         smooth: true,
+    //     })
+    // };
 
     const scrollToTop = () => {
         scroll.scrollToTop();
@@ -40,8 +40,8 @@ const About = () => {
         if (visible === false) {
             return(
                 <>
-                   {/* <FontAwesomeIcon onClick={scrollToArticle} className='arrow' id='down' icon= { faArrowDown } />  */}
-                    <img alt="clickem" className="clickem"  onclick={scrollToArticle} src={clickem}/>
+                   {/* <FontAwesomeIcon onClick={scrollToArticle} className='hidden-click' id='down' icon= { faArrowDown } />  */}
+                    <img alt="clickem" className="clickem"  onClick={scrollToBottom} src={clickem}/>
                 </>
             )
         } else {
