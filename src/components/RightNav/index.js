@@ -8,7 +8,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  opacity: 75%;
+  opacity: 95%;
   li {
     padding: 5vh 4vh 5vh 0;
   }
