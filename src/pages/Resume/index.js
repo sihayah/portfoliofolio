@@ -18,10 +18,10 @@ const Resume = () => {
                     <h5>sihayaharris@gmail.com | (618) 623-9302 | Brooklyn, NY</h5>
                     <h5>Github: https://github.com/sihayah </h5>
                     <h5>LinkedIn: www.linkedin.com/in/sihaya-harris/ </h5>
-                    <h5>Portfolio: https://portfoliofolioolio.herokuapp.com/</h5>
+                    <h5>Portfolio: https://sihayaharris.netlify.app</h5>
                     <section className="summary">
                         <h4>SUMMARY</h4>
-                        <p>Highly motivated full stack web developer distinguished by penchant for innovation, communication, and collaboration. Background in art and design as well as customer service.
+                        <p>Highly motivated ux designer and full stack web developer distinguished by penchant for innovation, communication, and collaboration. Background in art and design as well as customer service.
                         </p>
                     </section>
                     <section className="skills">
@@ -69,7 +69,7 @@ const Resume = () => {
                             JavaScript, Node.js, MySQL, Express, Rest APIs, HTML5, CSS
                         </p> 
                     </section>
-                <section className='experience'>
+                {/* <section className='experience'>
                     <h4>
                         Experience
                     </h4>
@@ -91,7 +91,7 @@ const Resume = () => {
                         - Awarded creative grant and spotlight from Bombay Sapphire Canvas Project
                     </p>
 
-                </section>
+                </section> */}
                 <section className='education'>
                     <h4>
                         Education
