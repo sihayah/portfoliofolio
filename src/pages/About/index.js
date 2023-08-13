@@ -20,28 +20,28 @@ const About = () => {
         }
     };
 
-    // const scrollToArticle = () => {
-    //     scroll.scrollTo('300', {
-    //         duration: 100,
-    //         delay: 100,
-    //         smooth: true,
-    //     })
-    // };
+    const scrollToArticle = () => {
+        scroll.scrollTo('300', {
+            duration: 100,
+            delay: 100,
+            smooth: true,
+        })
+    };
 
     const scrollToTop = () => {
         scroll.scrollToTop();
     };
 
-    const scrollToBottom = () => {
-        scroll.scrollToBottom();
-    };
+    // const scrollToBottom = () => {
+    //     scroll.scrollToBottom();
+    // };
 
     const toggleButton = () => {
         if (visible === false) {
             return(
                 <>
                    {/* <FontAwesomeIcon onClick={scrollToArticle} className='hidden-click' id='down' icon= { faArrowDown } />  */}
-                    <img alt="clickem" className="clickem"  onClick={scrollToBottom} src={clickem}/>
+                    <img alt="clickem" className="clickem"  onClick={scrollToArticle} src={clickem}/>
                 </>
             )
         } else {

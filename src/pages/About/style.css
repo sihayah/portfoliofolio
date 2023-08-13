@@ -85,10 +85,10 @@ p {
 
 #hello-there-btn{
   display: flex;
-  padding: 2vh 7vh 1vh 7vh;
+  padding: 2vh 3vh 1vh 3vh;
   margin: 20vh 0 8vh 0;
   background: #fff;
-  min-width: 50vh;
+  min-width: fit-content;
     
     --blue-grey: #ced2f0;
     --blue-grey-2: #B0BFD9;
