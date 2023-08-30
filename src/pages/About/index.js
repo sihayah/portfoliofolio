@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import avatar from '../../assets/avatar.png';
 import clickem from '../../assets/click-icon.webp';
+import placeholder from '../../assets/placeholder_img.png';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -32,10 +33,6 @@ const About = () => {
         scroll.scrollToTop();
     };
 
-    // const scrollToBottom = () => {
-    //     scroll.scrollToBottom();
-    // };
-
     const toggleButton = () => {
         if (visible === false) {
             return(
@@ -53,27 +50,31 @@ const About = () => {
 
     return (
         <section className="about">
-            <div id="intro-menu">
+            <div className="intro-menu">
                 <Link to="/design">
                     <button>
-                        {'\u2190'}
-                        <br/>
+                        <span className='intro-menu-arrow'>{'\u2190'}</span>
                         browse my UX case studies
-                    
-                    </button>                                    
-                </Link>
-                <img alt="avatar" className="avatar" src={avatar}/>
+                    </button>
+                                            
+                </Link>  
+            </div> 
+                <img alt="placeholder" className="placeholder" src={placeholder}/>
+                <button className="arrow-btn">
+                    </button>
+            <div className='intro-menu'>
                 <Link to="/develop">
                     <button>
-                        {'\u2192'}
-                        <br/>
+                        
                         checkout my full stack dev projects
+                        <span className='intro-menu-arrow'>{'\u2192'}</span>
+                        
                     </button>                                  
                 </Link>
                 </div>
             
             <div className="intro">
-                <span id='hello-there-btn' onClick={toggleVisible}>
+                <span className='hello-there-btn' onClick={toggleVisible}>
                     <h3>
                     learn about my background...
                     </h3> 

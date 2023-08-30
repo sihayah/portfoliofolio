@@ -5,6 +5,12 @@ import '../Design/style.css';
 const Design = () => {
     const caseStudies = [
         {
+            title: "MessageGhost",
+            role: ['UX/UI', 'UX Research'],
+            location:"/messageghost",
+            id: "messageghost"
+        },
+        {
             title: "Planting",
             role: ['UX/UI', 'UX Research'],
             location:"/planting",
@@ -20,11 +26,9 @@ const Design = () => {
 
     return (
         <section className="portfolio">
-                <div className='glitch-wrapper'>
-                    <div className='glitch' data-glitch='glitch'>
+                <div className='title'>
                     Case Studies:
-                    </div>    
-                </div>
+                </div>    
                 
             
                 

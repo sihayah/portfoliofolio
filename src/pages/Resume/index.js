@@ -12,7 +12,7 @@ const Resume = () => {
                 <Link to ={pdf} target="_blank" download>
                     download my resume here
                 </Link>
-            </div>
+            {/* </div>
                 <div className="full-resume"> 
                     <h3>Sihaya Harris</h3>
                     <h5>sihayaharris@gmail.com | (618) 623-9302 | Brooklyn, NY</h5>
@@ -68,7 +68,7 @@ const Resume = () => {
                         <p>
                             JavaScript, Node.js, MySQL, Express, Rest APIs, HTML5, CSS
                         </p> 
-                    </section>
+                    </section> */}
                 {/* <section className='experience'>
                     <h4>
                         Experience
@@ -92,7 +92,7 @@ const Resume = () => {
                     </p>
 
                 </section> */}
-                <section className='education'>
+                {/* <section className='education'>
                     <h4>
                         Education
                     </h4>
@@ -111,7 +111,7 @@ const Resume = () => {
                     <p>
                         2008 - 2012 | Savannah College of Art & Design, Savannah, Ga
                     </p>
-                </section>
+                </section> */}
             </div>
         </article>
 
