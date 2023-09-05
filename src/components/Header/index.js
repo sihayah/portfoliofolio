@@ -15,13 +15,14 @@ const Header = () => {
                                 <span className="heading-text">
                                 <Link to="/">
                                     sihaya harris
-                                    </Link>/ 
-                                <Link to="/design">
+                                    </Link>
+                                    
+                                {/* <Link to="/design">
                                     design
                                 </Link>/ 
                                 <Link to="/develop">
                                     develop
-                                </Link>
+                                </Link> */}
                             </span>
                                 </h1>   
                             

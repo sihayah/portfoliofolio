@@ -17,8 +17,6 @@
   padding: 0;
   font-family: 'neue helvetica', Helvetica, sans-serif;
   box-sizing: border-box;
-  background-image: url("../public/dotgrid.webp");
-  background-repeat: repeat;
 }
 
 body {
@@ -42,6 +40,11 @@ p {
 @font-face {
   font-family: 'Designer';
   src: url(../public/DESIGNER.otf);
+}
+
+@font-face {
+  font-family: 'Poly sans neutral';
+  src: url(../public/PolySansTrial-Neutral.otf);
 }
 
 .container {

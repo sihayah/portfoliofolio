@@ -79,7 +79,7 @@ const RightNav = ({ open }) => {
                     <Link to='/design'> Design </Link>     
                 </li>                   
                 <li>
-                    <Link to='/develop'> Develop </Link>     
+                    <Link to='/develop'> Development </Link>     
                 </li>                   
                 <li>
                     <Link to='/about'> About </Link>     

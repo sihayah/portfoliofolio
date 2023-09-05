@@ -4,6 +4,12 @@ p {
   margin: 0;
 }
 
+.spot {
+  position: absolute;
+  z-index: -100;
+
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -28,20 +34,19 @@ p {
   justify-content: center;
   align-items: baseline;
   max-height: 8vh;
-  margin-top: 6vh;
+  margin-top: 2vh;
 }
 
 .intro-menu button {
   opacity: 90%;
   height: 6vh;
   width: 45vh;
-  padding: 1vh;
+  padding: 1vh 0 1vh 4vh;
   justify-content: center;
   text-decoration: none;
   font-size: 2vh;
-  margin: 0 5vh 0 5vh;
-  background: var(--pop);
-  color: #fff;
+  color: #000;
+  border: 1px solid #000;
   box-shadow:
   -5px 10px 20px -8px var(--blue-grey-2);
 }
@@ -51,7 +56,7 @@ p {
 }
 
 .intro-menu-arrow {
-  background: var(--pop);
+
   padding: 0 2vh 0 2vh;
 }
 
@@ -79,11 +84,11 @@ p {
   max-width: fit-content;
 }
 
-.placeholder {
-  width: 20vh;
-  padding-bottom: 1vh;
-  align-self: flex-end;
-  transform: translateX(-5vh);
+.silhouette {
+  width: 45vh;
+  height: 45vh;
+  align-self: center;
+  padding-bottom: 2vh;
 }
 
 .hello-there-btn{
@@ -102,7 +107,7 @@ p {
     
     box-shadow:
         -5px 10px 20px -8px var(--blue-grey-2);
-    border: 3px solid var(--pop);
+    /* border: 3px solid var(--pop); */
     border-radius: .5vh;
 }
 
@@ -127,17 +132,17 @@ p {
 }
 
 .arrow-btn {
+  background-color: #fff;
   margin-top: 0;
   padding: 0;
   transform: translateY(0vh);
   align-self: baseline;
 }
 
-.arrow {
-  color: #fff;
-  background-color: ;
+.x-icon {
+  background-color: #fff;
   border-radius: 50%;
-  font-size: 5.5vh;
+  font-size: 3.5vh;
   color: var(--pop);
   padding: 1vh 0 0 4vh;
 }
@@ -153,12 +158,6 @@ p {
     padding: 5vh 0 0 0;
   }
 
-  .avatar {
-    transform: translateY(9vh);
-    max-width:35vh;
-    max-height: 35vh;
-  }
-
   .intro-menu button {
     display: flex;
   }
@@ -167,11 +166,11 @@ p {
     max-width: 9 
   }
 
-  .hello-there-btn{
+  /* .hello-there-btn{
     min-width: 45vh;
     padding: 2vh 23vh 1vh 23vh;
-  }
-
+  } */
+/* 
   .clickem {
     max-width: 10vh;
   }
@@ -181,18 +180,17 @@ p {
     width: 81vh;
     font-size: 3.5vh;
     padding: 2vh;
-  }
+  } */
 
-  .about h3 {
+  /* .about h3 {
     font-size: 3vh;
-  }
-  
-  .placeholder {
-    align-self: center;
-    transform: translateX(30vh)
-  }
+  } */
 
   #about-text {
     max-width: 81vh;
+  }
+
+  .spot {
+    transform: translateX(60vh);
   }
 }

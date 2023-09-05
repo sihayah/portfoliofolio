@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import avatar from '../../assets/avatar.png';
 import clickem from '../../assets/click-icon.webp';
-import placeholder from '../../assets/placeholder_img.png';
+import silhouette from '../../assets/silhouette.jpg';
+import spot from '../../assets/yellow-spot-bkgrd.webp';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -43,35 +43,37 @@ const About = () => {
             )
         } else {
                 return( 
-                    <FontAwesomeIcon onClick={scrollToTop} icon={ faX } className='arrow x-icon' />
+                    <FontAwesomeIcon onClick={scrollToTop} icon={ faX } className='x-icon' />
                 )    
             }
     }
 
     return (
         <section className="about">
+               <img alt="spot" className="spot" src={spot}/>
             <div className="intro-menu">
                 <Link to="/design">
                     <button>
-                        <span className='intro-menu-arrow'>{'\u2190'}</span>
-                        browse my UX case studies
+                        
+                        recent work
+                        <span className='intro-menu-arrow'>{'\u2192'}</span>
                     </button>
                                             
                 </Link>  
             </div> 
-                <img alt="placeholder" className="placeholder" src={placeholder}/>
-                <button className="arrow-btn">
-                    </button>
-            <div className='intro-menu'>
+            <img alt="silhouette" className="silhouette" src={silhouette}/>
+            <button className="arrow-btn">
+                </button>
+            {/* <div className='intro-menu'>
                 <Link to="/develop">
                     <button>
                         
-                        checkout my full stack dev projects
+                        full stack dev projects
                         <span className='intro-menu-arrow'>{'\u2192'}</span>
                         
                     </button>                                  
                 </Link>
-                </div>
+                </div> */}
             
             <div className="intro">
                 <span className='hello-there-btn' onClick={toggleVisible}>
