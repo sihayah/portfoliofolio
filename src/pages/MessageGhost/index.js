@@ -207,21 +207,27 @@ const MessageGhost = () => {
                     </article>  
                     <div className='extra-room prototypes'>
                         {/* mobile prototype */}
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_login.webp`)}alt="prototype">
-                        </img> 
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_dash.webp`)}alt="prototype">
-                        </img> 
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_comp.webp`)}alt="prototype">
-                        </img> 
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_metrics.webp`)}alt="prototype">
-                        </img> 
+                        <div className='mobile-prototypes'>
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_login.webp`)}alt="prototype">
+                            </img> 
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_dash.webp`)}alt="prototype">
+                            </img> 
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_comp.webp`)}alt="prototype">
+                            </img> 
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_metrics.webp`)}alt="prototype">
+                            </img>                             
+                        </div>
+
                         {/* desktop prototype */}
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_login.webp`)}alt="prototype">
-                        </img> 
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_dash.webp`)}alt="prototype">
-                        </img> 
-                        <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_comp.webp`)}alt="prototype">
-                        </img> 
+                        <div className='desktop-prototypes'>
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_login.webp`)}alt="prototype">
+                            </img> 
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_dash.webp`)}alt="prototype">
+                            </img> 
+                            <img className="project-example" src={require(`../../assets/ux/mg_prototype_desktop_comp.webp`)}alt="prototype">
+                            </img>     
+                        </div>
+
                     </div>  
                     <a href="https://xd.adobe.com/view/dc68e5c7-57bf-4edb-af6b-1e7dbc578c45-893b/?fullscreen" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
                     <a href="https://xd.adobe.com/view/7d5f631a-836a-4ee2-b79c-10c4ddcb30ff-280c/?fullscreen" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a>  
