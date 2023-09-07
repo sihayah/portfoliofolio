@@ -87,16 +87,13 @@ const About = () => {
                 <span id='aboutContainer'>
                     <article id='about-text' name='aboutText' style={{display: visible ? 'inline-block' : 'none'}}>
                         <p>
-                            I'm Sihaya Harris a dynamic UX designer and full-stack web developer with a background in art & design. I began my web development journey in elementary school. Back then, I was writing my first HTML, CSS, and JavaScript (with an egregious number of marquees and Lisa Frank color palettes) in a word processor, and hosting my webpages on GeoCities.     
+                        I'm Sihaya Harris, a Brooklyn-based user experience and product designer. With accessibility foremost in mind, I create user interfaces that are approachable, intuitive, and engaging. My design strategy has been shaped by previous customer service experience, web development endeavors, and my work as a visual artist. 
                         </p>
                         <p>
-                            I have managed to hone those nascent skills since. I still relish in the creative process of app building— pulling a new idea out of the air and seeing it through to completion, not to mention, handling the many side quests of debugging, testing, and iteration along the way.    
+                        Living and working in New York, the value of time and the scarcity of it burns at the tip of every tongue. In the service industry, it is necessary to systematize every process from collaboration to invention. I reflect on these attitudes, embodying users' needs and frustrations in my research insights, the generation of personas, and storyboarding.     
                         </p>
                         <p>
-                            I am also a visual artists and I find many satisfying parallels in creating patterns in algorithms and data structures. I delight in channeling my sense of aesthetics into creating beautiful web designs!
-                        </p>
-                        <p>
-                            I am based out of Brooklyn, NY, and I am currently seeking new endeavors.
+                        My design process involves exploring and analyzing a broad spectrum of solutions from the classic to the abstract. I approach design in a painterly fashion by applying layers of narrative, color theory, and gestalt composition. I seek to create products that feel natural, thrilling, and hopeful.   
                         </p>
 
                     </article>   
