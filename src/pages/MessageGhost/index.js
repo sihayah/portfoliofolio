@@ -23,7 +23,7 @@ const MessageGhost = () => {
                         My Role
                     </div>                  
                     <article className='p'>
-                        I read an article about data scraping and writers having their voices plagarized. I wanted to create a product that would turn the negative into a positive. The MessageGhost user can input their own writing and the App with recreate their vocie. 
+                        I read an article about data scraping and writers having their voices plagiarized. I wanted to create a product that would turn the negative into a positive. The MessageGhost user can input their own writing and the App with recreate their voice. 
                         I executed the entire process from ideation and research through testing. 
                     </article>    
                     <div className='heading-wrapper'>
