@@ -197,10 +197,6 @@ const MessageGhost = () => {
      
                     <div className='heading-wrapper'>
                         Prototype
-                    </div> 
-                    <div className='extra-room'> 
-                        <img className="design-system" src={require(`../../assets/ux/mg_design_system.webp`)}alt="design-system">
-                        </img> 
                     </div>   
                     <article className='p'>
                         After the first round of usability tests were run on a lo-fi prototype, I had quite a few insights to build on as iterated the initial layout. One of the criticisms of the first interaction was a feeling of inconsistency between the pages because the complex UI of the composition page made it feel much more "modern" to users. I sought to fix this by modularizing the content of the other pages in a way that reflected the composition page's UI.
@@ -232,20 +228,13 @@ const MessageGhost = () => {
                     <a href="https://xd.adobe.com/view/56238d7b-f7c9-44b5-a8e1-d63a64fd9d55-0370/" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
                     <a href="https://xd.adobe.com/view/7bdfdf34-7000-4c47-89bb-e1eefd843de0-2e8c/" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a>  
                     <article className="summary p">
-                        As I went through the design process for MessageGhost, I realized my approach was painterly. I would outline a rough idea of what I wanted to create and build layers upon that draft. I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together.
-                    </article>              
-                    {/* <h6>Testing + Iteration</h6>    
-                    <p>
-                        {project.testingIterationCopy}
-                    </p>  
-                    <div className="centerImg">
-                        {project.testingIteration}
-                    </div>            
-                    <h6>Final Design</h6>  
-                    <div className="centerImg">
-                        {project.revisedDesign}
-                    </div>     
-                    */}
+                        As I went through the design process for MessageGhost, my approach was painterly. I would outline a rough idea of what I wanted to create and build layers upon that draft. I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together.
+                    </article>      
+                    <div className='extra-room'> 
+                    
+                        <img className="design-system" src={require(`../../assets/ux/mg_design_system.webp`)}alt="design-system">
+                        </img> 
+                    </div>         
                 </div>
 
                     <br/>
