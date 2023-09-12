@@ -229,8 +229,8 @@ const MessageGhost = () => {
                         </div>
 
                     </div>  
-                    <a href="https://xd.adobe.com/view/dc68e5c7-57bf-4edb-af6b-1e7dbc578c45-893b/?fullscreen" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
-                    <a href="https://xd.adobe.com/view/7d5f631a-836a-4ee2-b79c-10c4ddcb30ff-280c/?fullscreen" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a>  
+                    <a href="https://xd.adobe.com/view/56238d7b-f7c9-44b5-a8e1-d63a64fd9d55-0370/" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
+                    <a href="https://xd.adobe.com/view/7bdfdf34-7000-4c47-89bb-e1eefd843de0-2e8c/" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a>  
                     <article className="summary p">
                         As I went through the design process for MessageGhost, I realized my approach was painterly. I would outline a rough idea of what I wanted to create and build layers upon that draft. I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together.
                     </article>              
