@@ -11,11 +11,11 @@ const Bbyy = () => {
                 <div className='logo-container'>
                             <img className="project-example logo" id="bbyy" src={require(`../../assets/ux/bbyy_logo.webp`)} alt="planting">
                             </img>  
-                            <h4>Planting</h4>
+                            <h4>Blahblahyaya</h4>
                             <h5>(UX/UI)</h5> 
                         </div>
                     <article>
-                        This is an online shop for handmade, functional and sculptural pottery and various other home goods.
+                    B2C Ecommerce app for a pottery and home goods shop.
                     </article>
                 </div>
 
@@ -63,25 +63,7 @@ const Bbyy = () => {
                                 <li>
                                     deal wifind creative storage solutionsth any hiccups like pests, fungal infections, and diseases
                                 </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    interior design
-                                </li>
-                                <li>
-                                    fine arts
-                                </li>
-                                <li>
-                                    film
-                                </li>
-                                <li>
-                                    photography
-                                </li>
-                                <li>
-                                    history
-                                </li>
-                            </ul>
+                            </ul>  
                         </div>                    
                     </div> 
 
@@ -115,23 +97,7 @@ const Bbyy = () => {
                                     collect interesting dinner ware for home                                </li>
                                 <li>
                                     find inspiring pieces                                </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    fashion
-                                </li>
-                                <li>
-                                    media
-                                </li>
-                                <li>
-                                   humor
-                                </li>
-                                <li>
-                                    entertaining
-                                </li>
-
-                            </ul>
+                            </ul> 
                         </div>                    
                     </div> 
 

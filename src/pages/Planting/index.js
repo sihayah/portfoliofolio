@@ -66,25 +66,7 @@ const Planting = () => {
                                 <li>
                                     learn about invasive species to grow responsibly
                                 </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    environmental responsibility
-                                </li>
-                                <li>
-                                    mental health
-                                </li>
-                                <li>
-                                    beauty in nature
-                                </li>
-                                <li>
-                                    cooking
-                                </li>
-                                <li>
-                                    personal fulfillment and mindfulness
-                                </li>
-                            </ul>
+                            </ul>  
                         </div>                    
                     </div> 
 
@@ -125,25 +107,7 @@ const Planting = () => {
                                 <li>
                                     develop knowledge of more advance botany techniques, like plant training or even how to set-up a greenhouse
                                 </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    biology
-                                </li>
-                                <li>
-                                    charity work
-                                </li>
-                                <li>
-                                    nature documentaries
-                                </li>
-                                <li>
-                                    travel
-                                </li>
-                                <li>
-                                    community
-                                </li>
-                            </ul>
+                            </ul>  
                         </div>                    
                     </div> 
 

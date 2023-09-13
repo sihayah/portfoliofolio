@@ -40,8 +40,15 @@ article {
   max-width: 15vh;
 }
 
+.top-container {
+  align-items: center;
+  justify-content: center;
+}
+
 .top-container article {
   font-style: italic;
+  min-width: 60vh;
+  text-align: left;
 }
 
 .emphasize {

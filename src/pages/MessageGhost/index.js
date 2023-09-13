@@ -66,21 +66,6 @@ const MessageGhost = () => {
                                 <li>
                                     connect with people efficiently
                                 </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    new technologies
-                                </li>
-                                <li>
-                                    spending time with family
-                                </li>
-                                <li>
-                                    video games
-                                </li>
-                                <li>
-                                    health and fitness
-                                </li>
                             </ul>
                         </div>                    
                     </div> 
@@ -119,22 +104,7 @@ const MessageGhost = () => {
                                 <li>
                                     devote more time composing messages that address sensitive issues
                                 </li>
-                            </ul>    <div className='list-title-wrapper'>  <h6>Interests</h6></div>
-                          
-                            <ul>
-                                <li>
-                                    investing
-                                </li>
-                                <li>
-                                    politics
-                                </li>
-                                <li>
-                                    meditation/mindfulness
-                                </li>
-                                <li>
-                                    social justice
-                                </li>
-                            </ul>
+                            </ul> 
                         </div>                    
                     </div> 
  
