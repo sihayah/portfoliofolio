@@ -23,7 +23,7 @@ const Bbyy = () => {
                     My Role
                 </div>
                 <article className='p'>
-                    I started this project to create an alternative means of selling pottery and other handmade objects. I performed research, planned the architecture and, and executed the design.
+                    I performed research, planned architecture, and executed design for branding and UI.
                 </article>    
                 <div className='heading-wrapper'>
                     Problem Statement

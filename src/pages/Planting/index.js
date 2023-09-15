@@ -15,7 +15,7 @@ const Planting = () => {
                             <h5>(UX/UI)</h5> 
                         </div>
                         <article>
-                            Planting is a concept project for a gardening app geared primarily towards newer gardeners. By design, it is a living farmer’s almanac, enriching the experience of growing plants with a wealth of tips and techniques. Thus, it eliminates hours spent planning and researching the plant cultivars and methods best suited for a given climate zone and garden type, as well as, the methods require to grow andt nurture them.
+                        Planting is a gardening app and farmer’s almanac.
                         </article> 
                     </div>
                    
@@ -23,11 +23,21 @@ const Planting = () => {
                         My Role
                     </div>                  
                     <article className='p'>
-                        To breath life into this new concept for a mobile gardening app, I started by conducting user research which fueled the ideation process. I tailored a logo to suit the direction of apps aesthetic, planned the site’s information architecture and user interaction, produced wireframes, and, finally, generated a prototype, and refined it with usability testing.
+                        I conducted user research and competitive analysis, planned the site’s user flows and information architecture, produced wireframes, generated prototypes, and refined them via usability testing.
+                    </article>    
+                    <div className='heading-wrapper'>
+                        Problem Statement
+                    </div>                  
+                    <article className='p'>
+                        Our user is a person who wants to grow plants either indoors or in a garden who needs to access care and gardening information as well as tools to help maintain their plants because plant maintenance is complex.
                     </article>    
                     <div className='heading-wrapper'>
                         Research
                     </div>
+
+                    <article className='p'>
+                        User interviews cast a wide net to gather information from plant owners and gardeners who shared their thoughts and feelings about their journey growing plants indoors and in larger gardening formats.
+                    </article>  
                     
                     {/* Persona 1 */}
                     <div className='extra-room persona'>
@@ -110,10 +120,6 @@ const Planting = () => {
                             </ul>  
                         </div>                    
                     </div> 
-
-                    <article className='p'>
-                        User interviews cast a wide net to gather information from plant parents and gardeners with regard to their thoughts and feelings on their personal experience with growing plants. The research conducted included surveys, a competitive audit, and a usablity study.
-                    </article>  
                     <div className="pain-point-wrapper">
                         <ul className="pain-point-ul">
                             <h6>Pain points:</h6>
@@ -133,7 +139,7 @@ const Planting = () => {
                     </div>
 
                     <article className='p'>
-                        I conducted a competitive audit  to compare the usefulness and usability of competing plant care apps. The key competitors examined were the Blossom and Planta mobile apps. The Blossom App is exceptionally visually engaging with motion graphics and beautiful photos. The features for adding plants and accessing care data are very easy to use and well-organized. Planta is a somewhat simpler, cleaner design with darker tones, and better contrast. It feels very modern and somewhat more direct. Similar to Blossom, the user can add plants and access care information, which is set-up in bullet points and, therefore, easy to scan quickly. Planta markets itself as an efficient solution to plant care for individuals who need reminders to keep their plants healthy with room for the customization of the user’s experience based on their goals and needs. Overall the point is simplifying care, so the user doesn’t have to worry. Blossom markets itself similarly– a glorified watering reminder app with more complex features for those who wish to go deeper. The user can create solutions for various goals through the Blossom app, including identification, diagnosis and treatment for sick plants, and reminders for watering and fertilization.I reached the conclusion that a new app could create location/climate customization options, provide recommendations instead of the user having to solely use the search function to discover plant cultivars, provide more language and audio tools, and create different modes for visibility.
+                        I conducted a competitive audit to compare the usefulness and usability of the plant care and farmer's almanac apps on the market. The key competitors examined were the Blossom and Planta mobile apps. The Blossom App is visually engaging, with motion graphics and attractive photos. The features for adding plants and accessing care data are well-organized and straightforward. Planta has a more direct and modern feeling UI with darker tones and higher contrast. Like Blossom, the user can add plants and access care information, which they've laid out in easily scannable bullet points. Both mobile apps include a camera feature for identifying and diagnosing plants. A new app could create location/climate customization options, provide recommendations instead of the user solely using the search function to discover plant cultivars, provide more language and audio tools, and create different modes for visibility.
                     </article> 
 
                     <div class="audit-link" >
@@ -148,7 +154,7 @@ const Planting = () => {
                         </img>
                     </div> 
                     <article className='p'>
-                        The navigation adheres to a very simple design that echoes familiar patterns. The Site Map provides an overview of the Planting app. The User Flow illustrates an example of how a user might use the search function in the Planting app.
+                        This app adheres to a hierarchical structure that allows the user to enter four primary user flows from the navigation bar. Some flows have similar endpoints, but each follows a unique task. The search lets the user find plants in the database to add to myGarden. From myGarden plant data is selectable, and tasks can be added or edited for each saved plant. The camera allows for identifying and diagnosing plants via photos matched to the database. The calendar stores tips and provides access to pre-set tasks by date.
                     </article>                          
                     <div>
                         <img className="project-example userflow" src={require(`../../assets/ux/userflow.webp`)}alt="userFlow">
@@ -156,10 +162,10 @@ const Planting = () => {
                     </div>   
 
                     <div className='heading-wrapper'>
-                        Wireframing
+                        Wireframes
                     </div>  
                     <article className='p'>
-                        With the help of the architecture set in place through the Site Map and User Flow, I create a set of wireframes that illustrate how the user can move through the core features in the Planting app. My initial design included bare bones navigation occurring solely through the hamburger menu. This later iteration includes buttons affixed to the bottom right to make it easier to hop from page to page in mobile.
+                        With the help of the architecture set in place through the Site Map and user flows, I created a set of wireframes that illustrate the core features. My initial design included bare-bones navigation occurring solely through the hamburger menu. The later iteration includes buttons affixed to the bottom of the screen to make it easier to hop from page to page in a mobile environment.
                     </article>  
                     <div className='extra-room'> 
                         <img className="wireframe" src={require(`../../assets/ux/wireframe.webp`)}alt="wireframe">
@@ -174,7 +180,9 @@ const Planting = () => {
                         </img> 
                     </div>   
                     <article className='p'>
-                        In the planting Home Screen, the user is presented with the most important information, their daily plant/garden care tasks, as well as a seasonal daily tip to get the gears turning. Upon navigating to the calendar, the user is present with a guide to gardening making recommendations, organized by date, as well as the forecast for their location. Their profile page contains the basic data the app uses to customize recommendations as well as link to alter setting and preferences. When the user navigates to the My Garden page, they can view the plants they have saved to their garden, plants recommended to them by the app, and their daily plant care tasks. If they select tasks, the user is present with checklist of items to complete for the care of their saved plants and general garden upkeep.
+                        I designed the overall appearance of this app, keeping in mind the prominence of the photos from the database. The subtle texture motifs of soil and flora comprise the primary visual interest, reinforcing the brand with an earthy color palette. The final product echoes the dynamic features explored in my research and introduces nuanced functionality. When I started this project, I underestimated the depth of plant care apps. Each feature that I fleshed out required careful consideration as to how it would be integrated into the structure and accessed by the user. The most challenging part was creating all these channels without overwhelming the UI.
+                        <br/>
+                        In the future, visual customization features such as dark mode and large text for accessibility will be explored.
                     </article>  
                     <div className='extra-room prototypes'>
                         <img className="project-example" src={require(`../../assets/ux/planting_prototype_home.webp`)}alt="prototype">
@@ -184,22 +192,7 @@ const Planting = () => {
                         <img className="project-example" src={require(`../../assets/ux/planting_prototype_search.webp`)}alt="prototype">
                         </img> 
                     </div>  
-                    <a href="https://www.figma.com/proto/kPOzAOly1UEYep7yPG9ne0/prototype?type=design&node-id=626-7028&t=nis7aBnZnprOG0s9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=626%3A7130" target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>  
-                    <article className="summary p">
-                    Working on the Planting app helped me hone the ability to translate thorough research into usability. I focused on the key features of the app thus far, but I plan to explore further features and more complex functionality like integrating smart phone cameras and notifications. This project helped to solidify my approach to UX. I always seek to create the most simple and efficient structures possible in an environment of inspiring and delightful design.
-                    </article>              
-                    {/* <h6>Testing + Iteration</h6>    
-                    <p>
-                        {project.testingIterationCopy}
-                    </p>  
-                    <div className="centerImg">
-                        {project.testingIteration}
-                    </div>            
-                    <h6>Final Design</h6>  
-                    <div className="centerImg">
-                        {project.revisedDesign}
-                    </div>     
-                    */}
+                    <a href="https://www.figma.com/proto/kPOzAOly1UEYep7yPG9ne0/prototype?type=design&node-id=626-7028&t=nis7aBnZnprOG0s9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=626%3A7130" target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>             
                 </div>
 
                     <br/>

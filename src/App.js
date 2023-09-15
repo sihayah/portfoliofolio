@@ -13,6 +13,7 @@ import Resume from '../src/pages/Resume';
 import Planting from '../src/pages/Planting';
 import Bbyy from '../src/pages/Bbyy';
 import MessageGhost from '../src/pages/MessageGhost';
+import CompAudit from '../src/pages/MGCompAudit';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
               <Route path="/planting" element={<Planting />} />
               <Route path="/bbyy" element={<Bbyy />} />
               <Route path="/messageghost" element={<MessageGhost />} />
+              <Route path="/competitiveaudit" element={<CompAudit />} />
               <Route path="*" element={<NotFound />} />         
           </Routes>
           </div>

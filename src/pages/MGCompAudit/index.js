@@ -7,7 +7,7 @@ const CompAudit = () => {
     return (
         <article id="mg-comp-audit">
             <h2>A Competitive Audit of AI Ghostwriting Tools</h2>
-
+            <br/> <br/>
             An audit was conducted to compare the usefulness and usability of competing ghostwriting and writing assistant apps. The key competitors based on the desired functionality are Ghostwriter AI and Grammarly. Other apps researched in the audit include Ulysses and Virtual Ghost Writer.
             <br/> <br/>
             The primary version of Ghostwriter AI, a mobile app, was examined for this study, but the company also offers several add-ins for word-processing software. The Ghostwriter AI app is exceedingly simple and intuitive to use. The UI is just a line of type that autocompletes based on the user's selections. The core function is content generation. Ghostwriter AI markets itself as a fix for writer's block.
