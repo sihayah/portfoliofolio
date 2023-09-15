@@ -15,7 +15,8 @@ const MessageGhost = () => {
                             <h5>(UX/UI)</h5> 
                         </div>
                         <article>
-                            MessageGhost is a responsive website for the purpose of message composition with an AI auto-complettion feature that mimics the voice of the user based on previous inputs.
+                            MMessageGhost is a message composition app with an AI auto-completion that works to capture voice and tone.
+
                         </article> 
                     </div>
                    
@@ -23,7 +24,7 @@ const MessageGhost = () => {
                         My Role
                     </div>                  
                     <article className='p'>
-                        I read an article about data scraping and writers having their voices plagiarized. I wanted to create a product that would turn the negative into a positive. The MessageGhost user can input their writing, and the App will recreate their voice. I executed the entire process, from ideation and research through testing. 
+                        I ran a competitive audit and user research via surveys. After synthesizing insights from that research, I outlined the architecture for the app and then created wireframes and prototypes. I also ran usability tests and iterated the prototype.
                     </article>    
                     <div className='heading-wrapper'>
                         Research
@@ -127,7 +128,7 @@ const MessageGhost = () => {
                     </div>
 
                     <article className='p'>
-                        I conducted a competitive audit and found a few comparable products. The most compelling were Grammarly and a deprecated App called GhostWriter AI. These two products lay on opposite ends of the spectrum regarding complexity. GhostWriter AI was reasonably bare bones, as Grammarly offers many features. Grammarly is most focused on improving an existing piece of writing. I decided to build a product that would go beyond that and aid content generation.
+                        An audit was conducted to compare the usefulness and usability of competing ghostwriting and writing assistant apps. The key competitors based on the desired functionality are Ghostwriter AI and Grammarly. Other apps researched in the audit include Ulysses and Virtual Ghost Writer... read more
 
                     </article> 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link as Linkit} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../Design/style.css';
 
 const Design = () => {
@@ -35,13 +35,13 @@ const Design = () => {
                 <div className="project-container">
                     {caseStudies.map ((project) => (     
                             <div className='link-outer-container'>   
-                                <Linkit to={project.location}>
+                                <Link to={project.location}>
                                     <div className='link-inner-container'>
                                         {project.title}
                                         <span>{project.role.join(", ")}</span> 
                                     </div>
                                         
-                                </Linkit>
+                                </Link>
                             </div>
                     ))}    
                 </div>
