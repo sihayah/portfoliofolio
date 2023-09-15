@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollTop from '../../components/ScrollTop';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const MessageGhost = () => {
@@ -113,7 +114,7 @@ const MessageGhost = () => {
                         <ul className="pain-point-ul">
                             <h6>Pain points:</h6>
                             <li>
-                                Limited resources to grow plants
+                                Limited resources to grow  plants
                             </li>
                             <li>
                                 Precious little free time
@@ -128,7 +129,8 @@ const MessageGhost = () => {
                     </div>
 
                     <article className='p'>
-                        An audit was conducted to compare the usefulness and usability of competing ghostwriting and writing assistant apps. The key competitors based on the desired functionality are Ghostwriter AI and Grammarly. Other apps researched in the audit include Ulysses and Virtual Ghost Writer... read more
+                        An audit was conducted to compare the usefulness and usability of competing ghostwriting and writing assistant apps. The key competitors based on the desired functionality are Ghostwriter AI and Grammarly. Other apps researched in the audit include Ulysses and Virtual Ghost Writer... 
+                        <Link to='/competitiveaudit'>read more</Link>
 
                     </article> 
 
@@ -144,7 +146,7 @@ const MessageGhost = () => {
                         </img>
                     </div> 
                     <article className='p'>
-                        The primary user flow ends at the composition page. The user is first onboarded via a "Get Started" button and can choose whether to sign up directly or through a Google or Facebook account. Once signed in, the user is directed to their dashboard, which contains their previous compositions. From here, they can create new files by entering the composition UI.
+                        The primary user flow brings the user to the composition page. The user begins with onboarding via a "Get Started" button and can choose whether to sign up directly or through a Google or Facebook account. Once signed in, the user reaches their dashboard which contains any previous compositions. From here, they can create new files by entering the composition UI.
                     </article>                          
                     <div>
                         <img className="project-example userflow" src={require(`../../assets/ux/mg_userflow.webp`)}alt="userFlow">
@@ -155,7 +157,7 @@ const MessageGhost = () => {
                         Wireframes
                     </div>  
                     <article className='p'>
-                        I planned the wireframes' layout of desktop, mobile, and tablet interfaces. The biggest challenge was making all the tools and features with the dashboard and composition appear consistent and intuitive. I compared the UI from many existing online dropboxes and word-processing tools to determine how to organize the desired features.
+                        I planned the wireframes' layout for desktop, mobile, and tablet interfaces. The biggest challenge was making all the tools and features with the dashboard and composition appear consistent and intuitive across devices. I compared the UI from many existing online dropboxes and word-processing tools to determine how to organize the desired features.
                     </article>  
                     <div className='extra-room'> 
                         <img className="wireframe" src={require(`../../assets/ux/mg_mobile_wireframes.webp`)}alt="wireframe">
@@ -174,7 +176,7 @@ const MessageGhost = () => {
                         <img className="design-system" src={require(`../../assets/ux/mg_design_system.webp`)}alt="design-system"></img> 
                     </div>   
                     <article className="summary p">
-                        As I went through the design process for MessageGhost, my approach was painterly. I would outline a rough idea of what I wanted to create and build layers upon that draft. I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together.
+                        As I went through the design process for MessageGhost, I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together. I customized icons to limit the dependence of functionality on text labels.
                     </article>        
                     <div className='extra-room prototypes'>
                         {/* mobile prototype */}
@@ -201,7 +203,7 @@ const MessageGhost = () => {
 
                     </div>  
                     <article className='p'>
-                        After the first round of usability tests were run on a lo-fi prototype, I had quite a few insights to build on as iterated the initial layout. One of the criticisms of the first interaction was a feeling of inconsistency between the pages because the complex UI of the composition page made it feel much more "modern" to users. I sought to fix this by modularizing the content of the other pages in a way that reflected the composition page's UI.
+                        After the first round of usability test on a lo-fi prototype, I had quite a few insights to build on as iterated the initial layout. One of the criticisms of the first interaction was a feeling of inconsistency between the pages because the complex UI of the composition page made it feel much more "modern" to users. I sought to fix this by modularizing the content of the other pages in a way that reflected the composition page's UI.
                     </article>
                     <a href="https://xd.adobe.com/view/56238d7b-f7c9-44b5-a8e1-d63a64fd9d55-0370/" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
                     <a href="https://xd.adobe.com/view/7bdfdf34-7000-4c47-89bb-e1eefd843de0-2e8c/" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a> 
