@@ -192,7 +192,7 @@ const Planting = () => {
                         <img className="project-example" src={require(`../../assets/ux/planting_prototype_search.webp`)}alt="prototype">
                         </img> 
                     </div>  
-                    <a href="https://www.figma.com/proto/kPOzAOly1UEYep7yPG9ne0/prototype?type=design&node-id=626-7028&t=nis7aBnZnprOG0s9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=626%3A7130" target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>             
+                    <a href="https://www.figma.com/proto/kPOzAOly1UEYep7yPG9ne0/prototype?type=design&node-id=715-185&t=xHqmOftBfgUXlz49-1&scaling=min-zoom&page-id=715%3A184&starting-point-node-id=715%3A247&mode=design" target= "_blank" rel= "noreferrer">Click here to interact with the live prototype.</a>             
                 </div>
 
                     <br/>
