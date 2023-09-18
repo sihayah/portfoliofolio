@@ -4,18 +4,13 @@ p {
   margin: 0;
 }
 
-.spot {
-  position: absolute;
-  z-index: -100;
-
-}
-
 .about {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 5vh 0  0 2vh;
-  max-width: 45vh;
+  margin: 0 -7vh;
+  max-width: 55vh;
 }
 
 .about h3 {
@@ -35,7 +30,6 @@ p {
   justify-content: center;
   align-items: baseline;
   max-height: 8vh;
-  margin-top: 2vh;
 }
 
 .intro-menu button {
@@ -82,14 +76,20 @@ p {
   text-align: left;
 }
 
+.intro h2 {
+  font-size: larger;
+  text-align: justify;
+  padding: 0 0 2vh 7vh;
+}
+
 #about-text {
   font-size: 2vh;
   margin-top: -7.5vh;
 }
 
 #about-text p {
-  padding: 2vh 2vh 0 2vh;
-  max-width: fit-content;
+  padding: 2vh 0 0 7vh;
+  max-width:fit-content;
 }
 
 .silhouette {
