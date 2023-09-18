@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import clickem from '../../assets/click-icon.webp';
 import silhouette from '../../assets/silhouette.jpg';
-import spot from '../../assets/yellow-spot-bkgrd.webp';
 import '../About/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -50,7 +49,6 @@ const About = () => {
 
     return (
         <section className="about">
-               <img alt="spot" className="spot" src={spot}/>
             <div className="intro-menu">
                 <Link to="/design">
                     <button>
@@ -60,6 +58,13 @@ const About = () => {
                     </button>
                                             
                 </Link>  
+                <a href='https://docs.google.com/document/d/1GIfZjPmqrDaK3gKBSS7m8bbbKSDsBA4i/edit?usp=sharing&ouid=110368676910301222653&rtpof=true&sd=true'>
+                    <button>
+                        resume 
+                        <span className='intro-menu-arrow'>{'\u2192'}</span>
+                       
+                    </button>               
+                </a>  
             </div> 
             <img alt="silhouette" className="silhouette" src={silhouette}/>
             <button className="arrow-btn">
@@ -78,7 +83,7 @@ const About = () => {
             <div className="intro">
                 <span className='hello-there-btn' onClick={toggleVisible}>
                     <h3>
-                    learn about my background...
+                    learn more about my background...
                     </h3> 
                     <button className="arrow-btn" onClick={toggleVisible}>
                         {toggleButton()}

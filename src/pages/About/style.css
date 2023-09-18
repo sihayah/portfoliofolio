@@ -52,12 +52,19 @@ p {
   -5px 10px 20px -8px var(--blue-grey-2);
 }
 
+.intro-menu button:nth-child(odd) {
+  margin-bottom: 2vh;
+}
+
+.resume {
+  margin-left: -8vh;
+}
+
 .intro-menu button:hover {
   font-style: italic;
 }
 
 .intro-menu-arrow {
-
   padding: 0 2vh 0 2vh;
 }
 
@@ -86,9 +93,10 @@ p {
 }
 
 .silhouette {
-  width: 45vh;
-  height: 45vh;
+  width: 75vh;
+  height: 75vh;
   align-self: center;
+  margin: -15vh 0;
   padding-bottom: 2vh;
 }
 
