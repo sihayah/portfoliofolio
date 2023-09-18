@@ -66,23 +66,15 @@ const About = () => {
                     </button>               
                 </a>  
             </div> 
-            <img alt="silhouette" className="silhouette" src={silhouette}/>
-            <button className="arrow-btn">
-                </button>
-            {/* <div className='intro-menu'>
-                <Link to="/develop">
-                    <button>
-                        
-                        full stack dev projects
-                        <span className='intro-menu-arrow'>{'\u2192'}</span>
-                        
-                    </button>                                  
-                </Link>
-                </div> */}
-            
+            <div className='hero'>
+                <img alt="silhouette" className="silhouette" src={silhouette}/>
+                <h2>
+                    I am a UX designer with a Google UX Certification and Full-stack coding certification from Columbia University. I am also an award-winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.
+                </h2>
+            </div>
+
             <div className="intro">
-                <h2>I am a UX designer with a Google UX Certification and Full-stack coding certification from Columbia University. I am also an award-winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.</h2>
-                <span className='hello-there-btn' onClick={toggleVisible}>
+                <span className='bio-btn' onClick={toggleVisible}>
                     <h3>
                     learn more about my background...
                     </h3> 

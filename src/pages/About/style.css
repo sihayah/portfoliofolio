@@ -6,11 +6,17 @@ p {
 
 .about {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-self: center;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 5vh 0  0 2vh;
   margin: 0 -7vh;
   max-width: 55vh;
+  overflow: hidden;
 }
 
 .about h3 {
@@ -29,13 +35,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: baseline;
+  margin-top: 4vh;
   max-height: 8vh;
 }
 
 .intro-menu button {
   opacity: 90%;
   height: 6vh;
-  width: 45vh;
+  width: 40vh;
   padding: 1vh 0 1vh 4vh;
   justify-content: center;
   text-decoration: none;
@@ -70,16 +77,33 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   font-size: 2vh;
   padding: 1vh 2vh 0 2vh;
   min-height: 80vh;
   text-align: left;
+  max-width: 60vh;
 }
 
-.intro h2 {
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.silhouette {
+  width: 75vh;
+  height: 75vh;
+  align-self: center;
+  margin: -17vh 0;
+  padding-bottom: 2vh;
+}
+
+.hero h2 {
   font-size: larger;
   text-align: justify;
-  padding: 0 0 2vh 7vh;
+  align-self: center;
+  padding: 0 7vh 2vh 7vh;
+  max-width: 55vh;
 }
 
 #about-text {
@@ -88,22 +112,14 @@ p {
 }
 
 #about-text p {
-  padding: 2vh 0 0 7vh;
+  padding: 2vh 7vh 0 7vh;
   max-width:fit-content;
 }
 
-.silhouette {
-  width: 75vh;
-  height: 75vh;
-  align-self: center;
-  margin: -15vh 0;
-  padding-bottom: 2vh;
-}
-
-.hello-there-btn{
+.bio-btn{
   display: flex;
   padding: 1.5vh 7vh .5vh 7vh;
-  margin: 0 0 8vh 0;
+  margin: -3vh 0 8vh 0;
   background: #fff;
   min-width: 30vh;
     
@@ -120,7 +136,7 @@ p {
     border-radius: .5vh;
 }
 
-.hello-there-btn:hover, .hello-there-btn:focus {
+.bio-btn:hover, .bio-btn:focus {
   outline: 0;
   box-shadow:
     -5px 5px 12px -8px var(--blue-grey-2);
@@ -128,7 +144,7 @@ p {
   transform: translate(1px, 1px);
 }
 
-.hello-there-btn:active {
+.bio-btn:active {
   outline: 0;
   box-shadow:
     -5px -2px 20px -8px var(--blue-grey-2);
@@ -166,41 +182,26 @@ p {
   .about {
     padding: 5vh 0 0 0;
     max-width: 200vh;
+    overflow: auto;
   }
 
   .intro-menu button {
     display: flex;
+    width: 60vh;
   }
+
+  .silhouette {
+    width: 90vh;
+    height: 90vh;
+    margin: -20vh 0;
+  }
+
+  .intro {
+    max-width: fit-content;
+  }
+
 
   #about-text p {
-    max-width: 9 
-  }
-
-  /* .hello-there-btn{
-    min-width: 45vh;
-    padding: 2vh 23vh 1vh 23vh;
-  } */
-/* 
-  .clickem {
-    max-width: 10vh;
-  }
-
-  .intro-menu button {
-    height: 10vh;
-    width: 81vh;
-    font-size: 3.5vh;
-    padding: 2vh;
-  } */
-
-  /* .about h3 {
-    font-size: 3vh;
-  } */
-
-  #about-text {
-    max-width: 81vh;
-  }
-
-  .spot {
-    transform: translateX(60vh);
+    max-width: 90vh;
   }
 }

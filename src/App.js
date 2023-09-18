@@ -20,28 +20,24 @@ function App() {
 
   return (
     <Router>
-      <div className="App" id='outer-container'>
-        <div id='page-wrap'>
-          <Header />  
-          <div className="container"> 
-          
-          <Routes>
-              <Route path="/" element={<About />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/Develop" element={<Develop />} />
-              <Route path="/Design" element={<Design />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/resume" element={<Resume />} />
-              <Route path="/planting" element={<Planting />} />
-              <Route path="/bbyy" element={<Bbyy />} />
-              <Route path="/messageghost" element={<MessageGhost />} />
-              <Route path="/competitiveaudit" element={<CompAudit />} />
-              <Route path="*" element={<NotFound />} />         
-          </Routes>
-          </div>
-          <Footer />  
-        </div>
-      </div>   
+      <Header />  
+      <div className="container"> 
+      
+      <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/Develop" element={<Develop />} />
+          <Route path="/Design" element={<Design />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/planting" element={<Planting />} />
+          <Route path="/bbyy" element={<Bbyy />} />
+          <Route path="/messageghost" element={<MessageGhost />} />
+          <Route path="/competitiveaudit" element={<CompAudit />} />
+          <Route path="*" element={<NotFound />} />         
+      </Routes>
+      </div>
+      <Footer />    
     </Router>
 
   );

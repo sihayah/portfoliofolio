@@ -16,13 +16,6 @@ const Header = () => {
                                 <Link to="/">
                                     sihaya harris
                                     </Link>
-                                    
-                                {/* <Link to="/design">
-                                    design
-                                </Link>/ 
-                                <Link to="/develop">
-                                    develop
-                                </Link> */}
                             </span>
                                 </h1>   
                             
