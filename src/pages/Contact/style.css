@@ -19,16 +19,16 @@ form {
     border: 1px solid var(--dark);
   }
   
-  .contact-btn {
+  .submit-btn {
     color: var(--pop);
     padding: 1vh;
     font-weight: 550;
     border-radius: 0 0 1vh 1vh;
     border: 2px solid var(--dark);
-    margin-top: 2vh;
+    margin-top: 6vh;
   }
   
-  .contact-btn:hover {
+  .submit-btn:hover {
     background-color: var(--warm-grey);
     background-image: url("https://64.media.tumblr.com/5442e442acf08a415003faae25bc5b03/tumblr_otrdwxiORG1w603yfo1_500.gifv");
     color: #fff;

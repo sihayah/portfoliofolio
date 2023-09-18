@@ -185,23 +185,45 @@ p {
     overflow: auto;
   }
 
+  .intro-menu{
+    margin-left: 5vh;
+  }
+
   .intro-menu button {
     display: flex;
-    width: 60vh;
+    width: 107vh;
+  }
+
+  .hero {
+    flex-direction: row;
   }
 
   .silhouette {
     width: 90vh;
     height: 90vh;
-    margin: -20vh 0;
+    margin: -20vh -14vh -20vh -14vh;
+  }
+
+  .hero h2 {
+    z-index: 7777;
+    padding: 0 2vh 0 0;
+    font-size: 1.5em;
+    background: rgba( 250, 250, 250, 0.5 );
   }
 
   .intro {
     max-width: fit-content;
   }
 
+  .bio-btn {
+    width: 50vh;
+    margin-top: .5vh;
+    margin-left: 63vh;
+
+  }
 
   #about-text p {
-    max-width: 90vh;
+    max-width: 120vh;
+    font-size: medium;
   }
 }

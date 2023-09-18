@@ -69,7 +69,7 @@ const About = () => {
             <div className='hero'>
                 <img alt="silhouette" className="silhouette" src={silhouette}/>
                 <h2>
-                    I am a UX designer with a Google UX Certification and Full-stack coding certification from Columbia University. I am also an award-winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.
+                    I am a user experience designer with a Google UX Certification and Full-stack coding certification from Columbia University. In additon, I'm also an award-winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.
                 </h2>
             </div>
 

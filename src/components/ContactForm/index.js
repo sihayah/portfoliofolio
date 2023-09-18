@@ -79,7 +79,7 @@ const ContactForm = () => {
                 </p>
             </div>  
         )}
-        <button type="submit" value="submit" onBlur={handleChange} className="contact-btn">Submit</button>
+        <button type="submit" value="submit" onBlur={handleChange} className="submit-btn">Submit</button>
         {submitted && (
             <div>
                 <p>
