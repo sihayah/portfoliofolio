@@ -81,7 +81,7 @@ const About = () => {
                 </div> */}
             
             <div className="intro">
-                <h2>I am a UX designer with a Google UX Certification and Full-stack coding certification from Columbia University. I am an award winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.</h2>
+                <h2>I am a UX designer with a Google UX Certification and Full-stack coding certification from Columbia University. I am also an award-winning artist with a bachelor's in painting with a customer service background. I am currently looking for work in the UX field.</h2>
                 <span className='hello-there-btn' onClick={toggleVisible}>
                     <h3>
                     learn more about my background...
