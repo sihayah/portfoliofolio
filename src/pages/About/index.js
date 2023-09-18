@@ -58,7 +58,7 @@ const About = () => {
                     </button>
                                             
                 </Link>  
-                <a href='https://docs.google.com/document/d/1GIfZjPmqrDaK3gKBSS7m8bbbKSDsBA4i/edit?usp=sharing&ouid=110368676910301222653&rtpof=true&sd=true'>
+                <a href='https://docs.google.com/document/d/1GIfZjPmqrDaK3gKBSS7m8bbbKSDsBA4i/edit?usp=sharing&ouid=110368676910301222653&rtpof=true&sd=true'  target='_blank' rel='noreferrer'>
                     <button>
                         resume 
                         <span className='intro-menu-arrow'>{'\u2192'}</span>

@@ -47,20 +47,16 @@ const RightNav = ({ open }) => {
             location: "/develop"
         },
         {
-            title: "About",
-            name: "about",
-            location: "/about "
+            title: "Home",
+            name: "home",
+            location: "/ "
         },
         {
             title: "Contact",
             name: "contact",
             location: "/contact"
-        },
-        {
-            title: "Resume",
-            name: "resume",
-            location: "/resume"
         }
+
     ];
 
     const scrollToTop = () => {
@@ -76,20 +72,20 @@ const RightNav = ({ open }) => {
         <>
             <Ul open={open}>
                 <li>
+                    <Link to='/'> Home </Link>     
+                </li>       
+                <li>
+                    <a href='https://docs.google.com/document/d/1GIfZjPmqrDaK3gKBSS7m8bbbKSDsBA4i/edit?usp=sharing&ouid=110368676910301222653&rtpof=true&sd=true' target='_blank' rel='noreferrer'> Resume </a>
+                </li>             
+                <li>
                     <Link to='/design'> Design </Link>     
                 </li>                   
                 <li>
                     <Link to='/develop'> Development </Link>     
                 </li>                   
                 <li>
-                    <Link to='/about'> About </Link>     
-                </li>                   
-                <li>
                     <Link to='/contact'> Contact </Link>     
-                </li>                   
-                <li>
-                    <Link to='/resume'> Resume </Link>     
-                </li>                   
+                </li>                                  
             </Ul> 
         </>
 
