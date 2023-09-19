@@ -173,7 +173,7 @@ const Planting = () => {
                         Prototype
                     </div> 
                     <div className='extra-room'> 
-                        <img className="design-system" src={require(`../../assets/ux/planting_design_system.webp`)}alt="design-system">
+                        <img className="project-example" src={require(`../../assets/ux/planting_design_system.webp`)}alt="design-system">
                         </img> 
                     </div>   
                     <article className='p'>

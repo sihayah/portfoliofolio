@@ -15,13 +15,6 @@ const Bbyy = () => {
                             <h5>(UX/UI)</h5> 
                         </div>
                 </div>
-
-                <div className='heading-wrapper my-role'>
-                    My Role
-                </div>
-                <article className='p'>
-                    I performed research, planned architecture, and executed design for branding and UI.
-                </article>    
                 <div className='heading-wrapper'>
                     Problem Statement
                 </div>
@@ -131,14 +124,14 @@ const Bbyy = () => {
                     Architecture
                 </div>
                 <div>
-                    <img className="project-example sitemap" src={require(`../../assets/ux/bbyy_sitemap.webp`)}alt="sitemap">
+                    <img className="project-example" src={require(`../../assets/ux/bbyy_sitemap.webp`)}alt="sitemap">
                     </img>
                 </div> 
                 <article className='p'>
                     The site's structure evolved around the main user flow, which takes the user from a product page through a checkout process. Mindwandering elements such as carousels and item recommendations add complexity to various pages to encourage the user to view as many products as possible.
                 </article>                          
                 <div>
-                    <img className="project-example userflow" src={require(`../../assets/ux/bbyy_userflow.webp`)}alt="userFlow">
+                    <img className="project-example" src={require(`../../assets/ux/bbyy_userflow.webp`)}alt="userFlow">
                     </img> 
                 </div>     
                 
@@ -156,7 +149,7 @@ const Bbyy = () => {
                        Prototype
                 </div> 
                 <div className='extra-room'> 
-                        <img className="design-system" src={require(`../../assets/ux/bbyy_design_system.webp`)}alt="design-system">
+                        <img className="project-example" src={require(`../../assets/ux/bbyy_design_system.webp`)}alt="design-system">
                         </img> 
                     </div>   
                 <article className='p'>

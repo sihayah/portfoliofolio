@@ -8,14 +8,24 @@ h5 {
 
 .heading-wrapper {
   color: var(--pop);
+  text-align: center;
   border: 1px solid var(--pop);
   border-radius: 5vh;
   margin: 3vh 0 1vh 0;
-  width: 95vh;
+  width: 45vh;
 }
 
 article {
   text-align: justify;
+}
+
+.logo {
+  max-width: 15vh;
+}
+
+.logo-container {
+  align-self: center;
+  text-align: center;
 }
 
 .project-details {
@@ -24,29 +34,30 @@ article {
   align-items: center;
 }
 
+.project-details article {
+  width: 45vh;
+}
+
+.project-details a {
+  text-align: center;
+}
+
 .p {
   padding: 0 4vh;
 }
 
 .project-example {
-  max-width: 50vh;
+  width: 45vh;
+  padding: 5vh 0;
 }
 
 .wireframe {
   padding: 2vh;
-  max-width: 60vh;
+  width: 45vh;
 }
 
 .audit-link {
   padding: 3vh 0 5vh 0;
-}
-
-.logo {
-  max-width: 15vh;
-}
-
-.top-container article {
-  font-style: italic;
 }
 
 .emphasize {
@@ -152,20 +163,6 @@ article {
   padding: .5vh;
 }
 
-.sitemap {
-  padding-top: 4vh;
-}
-
-.userflow {
-  padding-bottom: 4vh;
-}
-
-.design-system {
-  max-width: 50vh;
-  padding: 3vh 0;
-
-}
-
 .prototypes img {
   max-width: 30vh;
   padding: 2vh;
@@ -178,33 +175,17 @@ article {
 
 @media screen and (min-width: 700px) {
 
-  .top-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0 10vh;
-    transform: translateX(8vh);
-    border-radius: 5vh;
-  }
-
-  .top-container article {
-    font-size: smaller;
-  }
-
-  .logo-container {
-    align-self: center;
+  .heading-wrapper {
+    width: 100vh;
   }
 
   .project-details article {
-    padding: 5vh 15vh;
-    max-width: 130vh;
+    padding: 1vh 15vh;
+    width: 130vh;
   }
 
   .project-example {
-    max-width: 70vh;
-  }
-
-  .logo {
-    max-width: 13vh;
+    width: 90vh;
   }
 
   .persona {

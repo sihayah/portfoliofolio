@@ -8,20 +8,12 @@ const MessageGhost = () => {
     return (
         <section>
                 <div className='project-details'>
-                    <div className='top-container'>
                         <div className='logo-container'>
-                            <img className="project-example logo" id="MessageGhost" src={require(`../../assets/ux/mg_logo.webp`)} alt="MessageGhost">
+                            <img className="logo" id="MessageGhost" src={require(`../../assets/ux/mg_logo.webp`)} alt="MessageGhost">
                             </img>  
                             <h4>MessageGhost</h4>
-                        </div>
-                    </div>
-                   
-                    <div className='heading-wrapper'>
-                        My Role
-                    </div>                  
-                    <article className='p'>
-                        I ran a competitive audit and user research via surveys. After synthesizing insights from that research, I outlined the architecture for the app and then created wireframes and prototypes. I also ran usability tests and iterated the prototype.
-                    </article>    
+                         </div>
+                     
                     <div className='heading-wrapper'>
                         Research
                     </div>
@@ -155,11 +147,11 @@ const MessageGhost = () => {
                         I planned the wireframes' layout for desktop, mobile, and tablet interfaces. The biggest challenge was making all the tools and features with the dashboard and composition appear consistent and intuitive across devices. I compared the UI from many existing online dropboxes and word-processing tools to determine how to organize the desired features.
                     </article>  
                     <div className='extra-room'> 
-                        <img className="wireframe" src={require(`../../assets/ux/mg_mobile_wireframes.webp`)}alt="wireframe">
+                        <img className="project-example" src={require(`../../assets/ux/mg_mobile_wireframes.webp`)}alt="wireframe">
                         </img> 
                     </div>   
                     <div className='extra-room'> 
-                        <img className="wireframe" src={require(`../../assets/ux/mg_desktop_wireframes.webp`)}alt="wireframe">
+                        <img className="project-example" src={require(`../../assets/ux/mg_desktop_wireframes.webp`)}alt="wireframe">
                         </img> 
                     </div>   
      
@@ -168,7 +160,7 @@ const MessageGhost = () => {
                     </div>   
                     <div className='extra-room'> 
                     
-                        <img className="design-system" src={require(`../../assets/ux/mg_design_system.webp`)}alt="design-system"></img> 
+                        <img className="project-example" src={require(`../../assets/ux/mg_design_system.webp`)}alt="design-system"></img> 
                     </div>   
                     <article className="summary p">
                         As I went through the design process for MessageGhost, I use a lot of transparency and analogous colors to create dimensionality and interest. Soft ellipses of color create a subtle background but also tie the palette together. I customized icons to limit the dependence of functionality on text labels.
@@ -200,7 +192,9 @@ const MessageGhost = () => {
                     <article className='p'>
                         After the first round of usability test on a lo-fi prototype, I had quite a few insights to build on as iterated the initial layout. One of the criticisms of the first interaction was a feeling of inconsistency between the pages because the complex UI of the composition page made it feel much more "modern" to users. I sought to fix this by modularizing the content of the other pages in a way that reflected the composition page's UI.
                     </article>
+                    <br/>
                     <a href="https://xd.adobe.com/view/56238d7b-f7c9-44b5-a8e1-d63a64fd9d55-0370/" target= "_blank" rel= "noreferrer">Click here to interact with the live prototyp desktop flow.</a>  
+                    <br/>
                     <a href="https://xd.adobe.com/view/7bdfdf34-7000-4c47-89bb-e1eefd843de0-2e8c/" target= "_blank" rel= "noreferrer">Click here to view the mobile flow.</a> 
                            
                 </div>
