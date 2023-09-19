@@ -14,9 +14,6 @@ const Bbyy = () => {
                             <h4>Blahblahyaya</h4>
                             <h5>(UX/UI)</h5> 
                         </div>
-                    <article>
-                    B2C Ecommerce app for a pottery and home goods shop.
-                    </article>
                 </div>
 
                 <div className='heading-wrapper my-role'>

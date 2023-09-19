@@ -14,9 +14,6 @@ const Planting = () => {
                             <h4>Planting</h4>
                             <h5>(UX/UI)</h5> 
                         </div>
-                        <article>
-                        Planting is a gardening app and farmer’s almanac.
-                        </article> 
                     </div>
                    
                     <div className='heading-wrapper'>

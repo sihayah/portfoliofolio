@@ -13,12 +13,7 @@ const MessageGhost = () => {
                             <img className="project-example logo" id="MessageGhost" src={require(`../../assets/ux/mg_logo.webp`)} alt="MessageGhost">
                             </img>  
                             <h4>MessageGhost</h4>
-                            <h5>(UX/UI)</h5> 
                         </div>
-                        <article>
-                            MMessageGhost is a message composition app with an AI auto-completion that works to capture voice and tone.
-
-                        </article> 
                     </div>
                    
                     <div className='heading-wrapper'>

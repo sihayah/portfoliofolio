@@ -100,10 +100,16 @@ p {
 
 .hero h2 {
   font-size: larger;
+  font-weight: lighter;
   text-align: justify;
   align-self: center;
   padding: 0 7vh 2vh 7vh;
   max-width: 55vh;
+}
+
+.highlight {
+  font-family: 'Poly sans neutral';
+  color: var(--pop);
 }
 
 #about-text {
@@ -112,7 +118,7 @@ p {
 }
 
 #about-text p {
-  padding: 2vh 7vh 0 7vh;
+  padding-top: 2vh;
   max-width:fit-content;
 }
 
@@ -216,9 +222,9 @@ p {
   }
 
   .bio-btn {
-    width: 50vh;
+    width: 47vh;
     margin-top: .5vh;
-    margin-left: 63vh;
+    margin-right: 55vh;
 
   }
 

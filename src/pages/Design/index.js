@@ -7,18 +7,21 @@ const Design = () => {
         {
             title: "MessageGhost",
             role: ['UX/UI', 'UX Research'],
+            description:"MessageGhost is a message composition app with an AI auto-completion that works to capture voice and tone.",
             location:"/messageghost",
             id: "messageghost"
         },
         {
             title: "Planting",
             role: ['UX/UI', 'UX Research'],
+            description: "Planting is a gardening app and farmer’s almanac.",
             location:"/planting",
             id: "planting"
         },
         {
             title: "Blahblahyaya",
             role: ['UX/UI', 'UX Research'],
+            description: "B2C Ecommerce app for a pottery and home goods shop.",
             location: "/bbyy",
             id: "bbyy"
         },
