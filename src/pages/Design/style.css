@@ -11,20 +11,17 @@
 
 .project-inner-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 4vh 0;
 }
 
-.project-inner-container:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
 .project-image img {
   max-width: 25vh;
+  padding-bottom: 2vh;
 }
 
 .project-content {
-  padding: 0 5vh;
   max-width: 75vh;
 }
 
@@ -80,6 +77,19 @@
   .portfolio {
     padding-top: 3vh;
   }
+  
+  .project-inner-container {
+    flex-direction: row;
+  }
+
+  .project-content {
+    padding: 0 5vh;
+  }
+
+  .project-inner-container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
 
   .link-inner-container {
     margin: 7vh 0;
