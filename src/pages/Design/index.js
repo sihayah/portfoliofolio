@@ -40,8 +40,6 @@ const Design = () => {
                     Case Studies:
                 </div>    
                 
-            
-                
                 <div className="project-container">
                     {caseStudies.map ((project) => (     
                         <div className='project-inner-container'>
