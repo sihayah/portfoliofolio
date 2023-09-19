@@ -32,6 +32,12 @@
   font-weight: bold;
 }
 
+.myrole {
+  font-weight: bold;
+  font-size: smaller;
+  margin: 0;
+}
+
 .link-container {
   background: #fff;
   margin: 4vh 0;
