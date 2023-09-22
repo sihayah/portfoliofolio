@@ -58,7 +58,7 @@ const About = () => {
                     </button>
                                             
                 </Link>  
-                <a href='https://docs.google.com/document/d/1GIfZjPmqrDaK3gKBSS7m8bbbKSDsBA4i/edit?usp=sharing&ouid=110368676910301222653&rtpof=true&sd=true'  target='_blank' rel='noreferrer'>
+                <a href='https://www.canva.com/design/DAFvJe5p2kw/OAfr2HqgNgBif7UgkzOkzA/view?utm_content=DAFvJe5p2kw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'  target='_blank' rel='noreferrer'>
                     <button>
                         resume 
                         <span className='intro-menu-arrow'>{'\u2192'}</span>
